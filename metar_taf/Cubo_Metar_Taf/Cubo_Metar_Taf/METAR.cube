@@ -1,0 +1,306 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="cc5e1bf6-f1da-4252-b3ad-75f0da6b4bf3" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>i FI Spruebas</ID>
+  <Name>METAR</Name>
+  <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="11" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-7351" scrolltop="-4180" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="23045" y="12779" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="metar_ifis" left="-3526" top="-3017" logicalid="4" controlid="1" masterid="0" hint1="0" hint2="0" width="3122" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000320c000043110000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_metar_ifis" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DIMTIME" left="3439" top="-1932" logicalid="5" controlid="2" masterid="0" hint1="0" hint2="0" width="3810" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000e20e000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DIMTIME" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-704" top="-2031" logicalid="8" controlid="5" masterid="0" hint1="0" hint2="0" width="4443" height="973" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[metar_ifis-DIMTIME]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="14" destattachpoint="15" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="3439" y="-1632" />
+              <point x="1518" y="-1632" />
+              <point x="1518" y="-1358" />
+              <point x="-404" y="-1358" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-7351</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-4180</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-3526</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-3017</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T05:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="3bb6fcf0-1c96-44e7-ad43-b74072e8bdb5">
+      <ID>Metar Ifis</ID>
+      <Name>Metar Ifis</Name>
+      <DimensionID>Metar Ifis</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="ee945651-728e-476a-982d-44b14da1db3a">
+          <AttributeID>Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ec9f46fd-9093-4909-949e-6504cc3581fd">
+          <AttributeID>Fir</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d4cd23d7-ebd7-4406-ae1b-01c08ae51329">
+          <AttributeID>Hora</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ed913b4c-b9c0-43b0-89e4-6bddff89761f">
+          <AttributeID>Glosa Varchar</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f12ff95b-cba0-4dea-b466-b7424f62ed7b">
+          <AttributeID>Fecha</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8887fad0-42e1-4c04-b560-a7e75722522f">
+          <AttributeID>Fecha Mensaje</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="ccede183-2ad4-45bc-87a0-c01dc670dd38">
+      <ID>DIMTIME</ID>
+      <Name>DIMTIME</Name>
+      <DimensionID>DIMTIME</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="394976bb-ffba-438c-9d56-8d1c927ae9c5">
+          <AttributeID>FECHA</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8d8e721a-f9e0-47b3-8629-9cb5500e27e6">
+          <AttributeID>DATAKEY</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ecf4a5cb-21ae-411c-af71-96223d8e1206">
+          <AttributeID>FECHAHORA</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="dd522bfb-d467-4b41-b2fc-f828b3d16e60">
+          <AttributeID>ANIO</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6d26800b-b204-41e3-a350-bb52c5d451fb">
+          <AttributeID>TRIMESTRE</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="acd398e4-0f0a-47f9-a5b2-74b9bb64033e">
+          <AttributeID>YEARTRIMESTRE</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fef456ec-3294-4c32-87b6-651cd2b65486">
+          <AttributeID>QUARTER</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8c97758a-1dc8-431f-b7ba-8fa620a2e87c">
+          <AttributeID>YEARQUARTER</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="640ac2e4-5c7c-4839-97a5-740ba3f95947">
+          <AttributeID>MES</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="859c43fd-1e47-40b1-9d16-553ce8c0251c">
+          <AttributeID>YEARMONTH</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8bc7ee13-5103-496c-86ad-3d0d1db5c92e">
+          <AttributeID>MONTHNAME</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cbe51e95-6182-4ba8-bef1-704d712168b8">
+          <AttributeID>SHORTMONTHNAME</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0fbdea19-d85d-40e0-8d37-8d9a03478d71">
+          <AttributeID>WEEK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b5416ccf-6de1-469f-bff0-205c93736b11">
+          <AttributeID>DAYINYEAR</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="35ce8476-f131-481a-a5ef-615442d8cde0">
+          <AttributeID>DAYINMONTH</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="459c8fe6-5f4d-4bc4-9b54-1c71524e83a4">
+          <AttributeID>DAYNAME</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cdfc59b4-4987-4478-be66-310bb8a4f9c7">
+          <AttributeID>SHORTDAYNAME</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="85d59dc3-a7c4-4915-b20b-c5845c72e50a">
+          <AttributeID>LASTDAYINMONTH</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="dfbfda63-b24f-40b7-89c5-cfbddc956e25">
+          <AttributeID>MONTHYEAR</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e89e0c39-2503-47cd-a0b8-71c01cfb28d8">
+          <AttributeID>HOLIDAY</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="86ab71cf-48bf-4947-bcd0-803298ff132a">
+          <AttributeID>DAYINMONTH ORD</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="09024bf7-35ad-42f7-956f-2397f176bc2f">
+          <AttributeID>MES ORD</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3915b899-87c6-4e02-9ef5-f0b1ccd57acf">
+          <AttributeID>SEMANA ORD</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="75c42044-bfcf-417c-8e7e-264f176fe467">
+      <ID>Metar Ifis</ID>
+      <Name>Metar Ifis</Name>
+      <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T05:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="2597ab3e-af9d-4b17-ace0-511829870194">
+          <ID>Estado</ID>
+          <Name>Estado</Name>
+          <Source dwd:design-time-name="ef47fe5a-e26c-4671-8d39-4bafa0a92183">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="0773079c-9c6b-4a76-95cd-cf09742862f8">
+              <TableID>dbo_metar_ifis</TableID>
+              <ColumnID>estado</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="28ef9805-e7da-4f1f-8308-0969bd5383a8">
+          <ID>Csn</ID>
+          <Name>Csn</Name>
+          <Source dwd:design-time-name="6385511e-6a79-465d-b322-32e2cd3610a6">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="1b2a9088-bdc5-4e48-b6e0-3f7bb7ae212f">
+              <TableID>dbo_metar_ifis</TableID>
+              <ColumnID>csn</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="e55053c6-c0b4-4ad6-bd4e-9eb068891cda">
+          <ID>Categoria</ID>
+          <Name>Categoria</Name>
+          <Source dwd:design-time-name="0c1d9c1f-9b00-4036-a09a-c5c70eff493f">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="292ebc2d-f117-47f9-b102-1ad2e064c6da">
+              <TableID>dbo_metar_ifis</TableID>
+              <ColumnID>categoria</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="4cd7216e-f01c-4790-8d36-d68d3cc3bd12">
+          <ID>Metar Ifis Count</ID>
+          <Name>Metar Ifis Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="57d14862-24a6-42b3-9d13-62c73c4d29f5">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="817860ec-5ef2-4dc6-89a4-9a0d229c1333">
+              <TableID>dbo_metar_ifis</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="26539799-b448-4dd3-914c-7084985c1b23">
+          <CubeDimensionID>Metar Ifis</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="0359ab50-fbb5-45e1-bf1f-e4f9fb3a2379">
+              <AttributeID>Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="a6515871-1ed6-4ffd-9209-6f762039a68d">
+                  <DataType>BigInt</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="bab5d519-21df-4baa-bfe9-5186d6e37144">
+                    <TableID>dbo_metar_ifis</TableID>
+                    <ColumnID>id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b7f8c8f0-3fd3-4253-ba10-28d1e5b199ad">
+          <CubeDimensionID>DIMTIME</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="d3c3e65a-2dff-4448-aa48-0609d90bd7a1">
+              <AttributeID>FECHA</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="52366dd1-83b3-49ff-b4d6-94fd8a3b1cc4">
+                  <DataType>Date</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f9d4f0fa-fb6e-4be4-ad40-b25e97ddaceb">
+                    <TableID>dbo_metar_ifis</TableID>
+                    <ColumnID>fecha</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="3757c02e-19f5-498d-ab3f-9f4ccbf76aec">
+    <DataSourceViewID>i FI Spruebas</DataSourceViewID>
+  </Source>
+</Cube>

@@ -1,0 +1,156 @@
+﻿<MiningStructure xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="21ad3a8c-87b2-431e-b16f-ab91407aa9be" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Lugaraterrizaje 1</ID>
+  <Name>Lugaraterrizaje 1</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>MDXFilterComponent</Name>
+      <Value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;Filter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/SQLServer/reporting/QuerySpecification"&gt;&lt;FilterItems xmlns="http://schemas.microsoft.com/AnalysisServices/QueryDefinition" /&gt;&lt;/Filter&gt;</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="CubeDimensionBinding" dwd:design-time-name="79fb10f4-25e9-45ef-bb46-5f4340630bdf">
+    <DataSourceID>.</DataSourceID>
+    <CubeID>i FIS</CubeID>
+    <CubeDimensionID>Lugaraterrizaje</CubeDimensionID>
+    <Filter></Filter>
+  </Source>
+  <Columns>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="fd9373aa-9fb9-4711-acf6-a538e1c93b01">
+      <ID>CODIGO</ID>
+      <Name>CODIGO</Name>
+      <IsKey>true</IsKey>
+      <Type>Text</Type>
+      <Source xsi:type="CubeAttributeBinding" dwd:design-time-name="114c09a4-054b-4308-8497-623ed6f89934">
+        <CubeID>i FIS</CubeID>
+        <CubeDimensionID>Lugaraterrizaje</CubeDimensionID>
+        <AttributeID>CODIGO</AttributeID>
+        <Type>All</Type>
+      </Source>
+      <Content>Key</Content>
+    </Column>
+    <Column xsi:type="TableMiningStructureColumn" dwd:design-time-name="00474813-ae27-49aa-8f5d-246e2d763165">
+      <Annotations>
+        <Annotation>
+          <Name>MDXFilterComponent</Name>
+          <Value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;Filter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/SQLServer/reporting/QuerySpecification"&gt;&lt;FilterItems xmlns="http://schemas.microsoft.com/AnalysisServices/QueryDefinition" /&gt;&lt;/Filter&gt;</Value>
+        </Annotation>
+      </Annotations>
+      <ID>DIMTIME</ID>
+      <Name>DIMTIME</Name>
+      <SourceMeasureGroup dwd:design-time-name="51ce39e6-7c4b-4a24-a4ec-b114e68b731e">
+        <DataSourceID>.</DataSourceID>
+        <CubeID>i FIS</CubeID>
+        <MeasureGroupID>Operation</MeasureGroupID>
+        <RefreshInterval>PT1S</RefreshInterval>
+        <Filter></Filter>
+      </SourceMeasureGroup>
+      <Columns>
+        <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="3f01c1b2-cbf0-49c9-9cec-a0acd9640729">
+          <ID>FECHA</ID>
+          <Name>FECHA</Name>
+          <IsKey>true</IsKey>
+          <Type>Date</Type>
+          <Source xsi:type="CubeAttributeBinding" dwd:design-time-name="8036dd0a-d0ee-41a7-948f-5b9297518c04">
+            <CubeID>i FIS</CubeID>
+            <CubeDimensionID>DIMTIME</CubeDimensionID>
+            <AttributeID>FECHA</AttributeID>
+            <Type>All</Type>
+          </Source>
+          <Content>Key Time</Content>
+        </Column>
+        <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="a2d70852-f42f-405d-9ece-bbd4c4cb6921">
+          <ID>Recuento Operation</ID>
+          <Name>Recuento Operation</Name>
+          <Type>Long</Type>
+          <Source xsi:type="MeasureBinding" dwd:design-time-name="3beda5a5-30a5-4ea7-9b9d-509d8e5eaefa">
+            <MeasureID>Recuento Operation</MeasureID>
+          </Source>
+          <Content>Continuous</Content>
+        </Column>
+      </Columns>
+    </Column>
+  </Columns>
+  <MiningModels>
+    <MiningModel dwd:design-time-name="76d93f37-b945-4ac3-8c8f-5b8db86a91c0">
+      <ID>Lugaraterrizaje 1</ID>
+      <Name>Lugaraterrizaje 1</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Algorithm>Microsoft_Time_Series</Algorithm>
+      <AlgorithmParameters>
+        <AlgorithmParameter>
+          <Name>MISSING_VALUE_SUBSTITUTION</Name>
+          <Value xsi:type="xsd:string">MEAN</Value>
+        </AlgorithmParameter>
+      </AlgorithmParameters>
+      <Columns>
+        <Column dwd:design-time-name="c482f086-83f2-419c-876b-909ff977719f">
+          <ID>CODIGO</ID>
+          <Name>CODIGO</Name>
+          <SourceColumnID>CODIGO</SourceColumnID>
+          <Usage>Key</Usage>
+        </Column>
+        <Column dwd:design-time-name="74128e9e-e1ab-4834-9e96-0030113fe65e">
+          <ID>DIMTIME</ID>
+          <Name>DIMTIME</Name>
+          <SourceColumnID>DIMTIME</SourceColumnID>
+          <Columns>
+            <Column dwd:design-time-name="fc5028ad-8498-4e73-bc1b-ec966eb82449">
+              <ID>FECHA</ID>
+              <Name>FECHA</Name>
+              <SourceColumnID>FECHA</SourceColumnID>
+              <Usage>Key</Usage>
+            </Column>
+            <Column dwd:design-time-name="cef7bf90-527c-4bf0-89ca-82342a0de23a">
+              <ID>Recuento Operation</ID>
+              <Name>Recuento Operation</Name>
+              <SourceColumnID>Recuento Operation</SourceColumnID>
+              <Usage>PredictOnly</Usage>
+            </Column>
+          </Columns>
+        </Column>
+      </Columns>
+      <AllowDrillThrough>true</AllowDrillThrough>
+    </MiningModel>
+  </MiningModels>
+</MiningStructure>

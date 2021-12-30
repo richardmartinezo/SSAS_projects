@@ -1,0 +1,263 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="c56fa237-cf2b-4df6-8b3e-d2dbd00eb37c" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Vista Aeropuertos</ID>
+  <Name>Vista Aeropuertos</Name>
+  <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4266" scrolltop="-7647" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="12409" y="20294" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Vista_aeropuertos" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3836" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000fc0e000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Vista_aeropuertos" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-4266</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-7647</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T05:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="427e2a7a-b32d-43df-ad03-1f64b9eb524c">
+    <DataSourceViewID>i FIS_estdistica</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="72f87d1b-8df1-4a6f-86f3-0a126605963e">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <DimensionPermissions>
+    <DimensionPermission dwd:design-time-name="d5ec9532-4cc6-4478-86b7-0c9068d1cd90">
+      <ID>DimensionPermission</ID>
+      <Name>DimensionPermission</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <RoleID>Role</RoleID>
+      <Read>Allowed</Read>
+    </DimensionPermission>
+    <DimensionPermission dwd:design-time-name="5d415cc3-6a38-469e-aeed-1544e97c87f1">
+      <ID>DimensionPermission 1</ID>
+      <Name>DimensionPermission 1</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <RoleID>Role 1</RoleID>
+      <Process>true</Process>
+      <ReadDefinition>Allowed</ReadDefinition>
+      <Read>Allowed</Read>
+    </DimensionPermission>
+  </DimensionPermissions>
+  <Attributes>
+    <Attribute dwd:design-time-name="2cea9d5f-b9c7-4715-b060-425c1d366bb9">
+      <ID>PUNTORUTA OACI</ID>
+      <Name>DESIGNADOR_OACI</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="674c6c1e-d576-4da6-a25b-93b784a2ac7a">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="62e88f44-de2a-4444-97e1-00e95378ce8c">
+            <TableID>dbo_Vista_aeropuertos</TableID>
+            <ColumnID>PUNTORUTA_OACI</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="0836119a-9a7d-44f9-9a2f-de342591bba5">
+          <AttributeID>PUNTORUTA IATA</AttributeID>
+          <Name>DESIGNADOR_IATA</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9fe4830d-c04c-4de4-823b-8bd3948baeb9">
+          <AttributeID>CIUDAD</AttributeID>
+          <Name>CIUDAD</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ad3a3ad9-ae37-4429-b4dd-098d5993747b">
+          <AttributeID>PAIS</AttributeID>
+          <Name>PAIS</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ac244617-68f7-4d71-a7aa-fb9a974e10a4">
+          <AttributeID>AEROPUERTO</AttributeID>
+          <Name>AEROPUERTO</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c4608750-b737-4201-8f45-023dfc30c136">
+          <AttributeID>Latitud</AttributeID>
+          <Name>LATITUD</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e3a99a82-9269-465f-a1ea-70f4742df2f0">
+          <AttributeID>Longitud</AttributeID>
+          <Name>LONGITUD</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ba6c2869-0ef8-46bf-9d3c-40520558837a">
+          <AttributeID>Aerodromo</AttributeID>
+          <Name>AERODROMO</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1b2c323b-4a1a-49f3-b1ba-42a2603cd5ea">
+      <ID>PUNTORUTA IATA</ID>
+      <Name>DESIGNADOR_IATA</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b0d855c5-e71a-429f-a791-4d9a2b3029b8">
+          <DataType>WChar</DataType>
+          <DataSize>5</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="22bc2899-9599-46d0-94c1-b76982b5ac16">
+            <TableID>dbo_Vista_aeropuertos</TableID>
+            <ColumnID>PUNTORUTA_IATA</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2da6f56a-b893-4a76-a22b-fb92539735b5">
+      <ID>CIUDAD</ID>
+      <Name>CIUDAD</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="532ff2ea-533f-4ac3-b763-3ddcc7ef0412">
+          <DataType>WChar</DataType>
+          <DataSize>130</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5763474c-5f93-4918-b8fe-81d0870df776">
+            <TableID>dbo_Vista_aeropuertos</TableID>
+            <ColumnID>CIUDAD</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2ee040c9-e564-42ee-9e91-a3a6594a8698">
+      <ID>PAIS</ID>
+      <Name>PAIS</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4f9df31a-e99a-479c-b910-0fe976ca10b0">
+          <DataType>WChar</DataType>
+          <DataSize>130</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3c747b7a-d528-4244-aa52-d3cf957f36ab">
+            <TableID>dbo_Vista_aeropuertos</TableID>
+            <ColumnID>PAIS</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4ba1dddd-cebe-4b7f-82b0-5b9751b6c12e">
+      <ID>AEROPUERTO</ID>
+      <Name>AEROPUERTO</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2cdfa149-76a6-462b-a467-47de4754d339">
+          <DataType>WChar</DataType>
+          <DataSize>160</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ea83420d-b2c4-411b-b96b-0485cc8b023f">
+            <TableID>dbo_Vista_aeropuertos</TableID>
+            <ColumnID>AEROPUERTO</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c27cf26b-e95b-460f-95be-63b478c3adf4">
+      <ID>Latitud</ID>
+      <Name>LATITUD</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="56aadcef-c9d3-47e5-9b2c-f38113578b48">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bacc0c94-7117-43cd-aa15-01075177a1de">
+            <TableID>dbo_Vista_aeropuertos</TableID>
+            <ColumnID>latitud</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1ce73e9e-7990-4b17-bdb6-3a0aed996c53">
+      <ID>Longitud</ID>
+      <Name>LONGITUD</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6f039c41-1532-4851-8234-4084b6a2e3df">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="25b41509-f8b2-4d3b-9d60-fa6418f4a1f6">
+            <TableID>dbo_Vista_aeropuertos</TableID>
+            <ColumnID>longitud</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5591bee3-ce0a-477a-9ace-b74c2dd1489c">
+      <ID>Aerodromo</ID>
+      <Name>AERODROMO</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e69e147e-e54f-492f-aab9-ad8de0dc744a">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="67553f9c-4672-4729-aa41-c3956e99e449">
+            <TableID>dbo_Vista_aeropuertos</TableID>
+            <ColumnID>aerodromo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

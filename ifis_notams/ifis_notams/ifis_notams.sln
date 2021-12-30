@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "ifis_notams", "ifis_notams\ifis_notams.dwproj", "{C3F28918-7898-454D-B74F-69B011AD996B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3F28918-7898-454D-B74F-69B011AD996B}.Development|Default.ActiveCfg = Development
+		{C3F28918-7898-454D-B74F-69B011AD996B}.Development|Default.Build.0 = Development
+		{C3F28918-7898-454D-B74F-69B011AD996B}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

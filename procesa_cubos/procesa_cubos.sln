@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "procesa_cubos", "procesa_cubos\procesa_cubos.dtproj", "{82199CDF-014B-434B-8CBC-79504E55CB44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82199CDF-014B-434B-8CBC-79504E55CB44}.Development|Default.ActiveCfg = Development
+		{82199CDF-014B-434B-8CBC-79504E55CB44}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

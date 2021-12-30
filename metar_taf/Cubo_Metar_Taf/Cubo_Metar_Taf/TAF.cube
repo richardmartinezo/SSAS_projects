@@ -1,0 +1,296 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="4a5d35e1-f38c-453f-b497-624f84cf1824" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>i FI Spruebas 2</ID>
+  <Name>TAF</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="11" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-9584" scrolltop="-6508" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="23045" y="12779" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="taf" left="-8261" top="-3916" logicalid="4" controlid="1" masterid="0" hint1="0" hint2="0" width="3836" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000fc0e000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_taf" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DIMTIME_Nativo" left="1820" top="-3148" logicalid="8" controlid="5" masterid="0" hint1="0" hint2="0" width="3810" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000e20e000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="DIMTIME_Nativo" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-4725" top="-3465" logicalid="10" controlid="7" masterid="0" hint1="0" hint2="0" width="6845" height="917" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[DIMTIME-taf]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="5" sourceattachpoint="17" destattachpoint="14" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="-4425" y="-3066" />
+              <point x="-1303" y="-3066" />
+              <point x="-1303" y="-2848" />
+              <point x="1820" y="-2848" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-9584</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-6508</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-8261</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-3916</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="e7236c93-2d90-4bb1-8323-df029ab2c057">
+      <ID>Taf</ID>
+      <Name>Taf</Name>
+      <DimensionID>Taf</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="7fce3021-daa3-4fe1-b38f-f1105b4dff8c">
+          <AttributeID>Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b62fd313-fba9-4be8-98f9-668e9625c8fa">
+          <AttributeID>Fir</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f892c550-247f-4392-a6e9-264098bba90b">
+          <AttributeID>Fecha Inicio Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b372076e-8e9c-44a3-a0ae-934b19553735">
+          <AttributeID>Fecha Termino Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="97b99214-4295-4ca3-bd4a-44102d845f7e">
+          <AttributeID>Fecha Mensaje Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ca987b17-b0ed-47fc-846d-4e53344ef9db">
+          <AttributeID>Glosa Varchar</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="faa20f5d-708c-42b6-a3e9-adec5ca3c25b">
+      <ID>DIMTIME Nativo</ID>
+      <Name>DIMTIME Nativo</Name>
+      <DimensionID>DIMTIME Nativo</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="06a17765-9884-4b5f-9532-dc33ef040a34">
+          <AttributeID>FECHA</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d8380cc6-74ca-4aa1-92c0-74252cc4f46d">
+          <AttributeID>DATAKEY</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3f35f2ca-ddd3-40ae-9095-3fc9219daf81">
+          <AttributeID>FECHAHORA</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3f26cbb2-189d-43cc-aa7c-530dfcd919d4">
+          <AttributeID>ANIO</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0c597904-693e-4fc6-b335-e5a95bcaf0f0">
+          <AttributeID>TRIMESTRE</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="129246fd-0ec9-488f-8296-f487bd7bd68b">
+          <AttributeID>YEARTRIMESTRE</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="57cca901-da6f-46a9-9aef-5860c58d6387">
+          <AttributeID>QUARTER</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="00925a19-f9c4-4b82-8e66-54ac82a2f365">
+          <AttributeID>YEARQUARTER</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6c90abbe-7890-4862-a723-af0264638da4">
+          <AttributeID>MES</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ed37bb38-7ce1-443e-9a59-78db24937fec">
+          <AttributeID>YEARMONTH</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c6e906d0-a4cd-474a-a8ac-f34d7958b0d8">
+          <AttributeID>MONTHNAME</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8f7125c3-cc63-42b2-a481-f1e89ea7c8e1">
+          <AttributeID>SHORTMONTHNAME</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6fee7a29-9d0b-41ec-8876-755a290e5399">
+          <AttributeID>WEEK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="35b23a24-28cf-4cdd-ba75-a4df42534827">
+          <AttributeID>DAYINYEAR</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ff181582-1d92-48f6-a7f7-7e4abf6a7804">
+          <AttributeID>DAYINMONTH</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0bbcdd8f-1842-4d65-8538-ba3f50dfdbf5">
+          <AttributeID>DAYNAME</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3b69b5b4-61a1-4cbb-b2e5-8f509b167bfc">
+          <AttributeID>SHORTDAYNAME</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3ed60908-f177-4ece-a0a0-eabaeafc3d07">
+          <AttributeID>LASTDAYINMONTH</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="afcb059e-f7eb-444e-9979-6037140bd362">
+          <AttributeID>MONTHYEAR</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d2da3138-b138-42e0-afeb-2106021bc73d">
+          <AttributeID>HOLIDAY</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="386e5445-3102-4019-94b2-be8a83046deb">
+          <AttributeID>DAYINMONTH ORD</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1b50630b-a526-42c8-bc8a-0e05546d3a39">
+          <AttributeID>MES ORD</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e477dfa0-53eb-440a-a9ef-71843162ba39">
+          <AttributeID>SEMANA ORD</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="380446fc-230a-4611-bdb3-dc6a8ad2b875">
+      <ID>Taf</ID>
+      <Name>Taf</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="ebace898-b286-4050-963e-3dfbbe385ea4">
+          <ID>Estado</ID>
+          <Name>Estado</Name>
+          <Source dwd:design-time-name="3b049853-b279-42b7-8cc2-9cea9a400541">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="47477065-db3e-4477-82cd-75b29b6ed3fc">
+              <TableID>dbo_taf</TableID>
+              <ColumnID>estado</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="78b7af01-6397-49d8-a870-c0f7940d968e">
+          <ID>Csn</ID>
+          <Name>Csn</Name>
+          <Source dwd:design-time-name="74ff4a31-a069-4ce6-8b98-7d0096e38a18">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="98eac8b4-51ad-4877-ada6-b0f1e571f221">
+              <TableID>dbo_taf</TableID>
+              <ColumnID>csn</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="7ccf01ce-bd53-4df8-bb15-5e7b85b73725">
+          <ID>Taf Count</ID>
+          <Name>Taf Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="1bcd2cf4-73d2-482b-ae65-5ac312e6c06f">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="6eb790fc-41c1-4a63-9f08-79b5311bdc58">
+              <TableID>dbo_taf</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="dcb3a03a-baea-41ba-abb9-ce480b74c492">
+          <CubeDimensionID>Taf</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="ef6dd911-a7c0-4512-a4ad-d8ad1ec5e788">
+              <AttributeID>Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="8533a1bb-be25-4db2-b721-7012cc17a52b">
+                  <DataType>BigInt</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="fbb2bf43-58f7-4c04-81f4-1a31ef12b7f1">
+                    <TableID>dbo_taf</TableID>
+                    <ColumnID>id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5f407544-71d1-428b-b52e-fa00141cf36d">
+          <CubeDimensionID>DIMTIME Nativo</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="eae11c97-5c2d-4dc6-84c4-9487e5a8c42a">
+              <AttributeID>FECHA</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="9a8e2ccb-53b9-4440-be38-15bd83561aad">
+                  <DataType>Date</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3ffaa5e2-86ea-41ac-9f3e-0088e136f91a">
+                    <TableID>dbo_taf</TableID>
+                    <ColumnID>fecha_mensaje_date</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="451c2fd5-bcb1-4e13-8d72-693f7553e88b">
+    <DataSourceViewID>i FI Spruebas 2</DataSourceViewID>
+  </Source>
+</Cube>

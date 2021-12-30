@@ -1,0 +1,580 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="e6c4fe11-eaa0-4f36-8502-cadd06a332c9" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>WIN-SQLSERV-01</ID>
+  <Name>WIN-SQLSERV-01</Name>
+  <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="20" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-6330" scrolltop="-3190" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="91" x="17754" y="12118" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="vista_cabecera_dta" left="-4992" top="-465" logicalid="10" controlid="1" masterid="0" hint1="0" hint2="0" width="3889" height="9449" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000310f0000e9240000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_vista_cabecera_dta" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="vista_compania" left="7055" top="7047" logicalid="11" controlid="2" masterid="0" hint1="0" hint2="0" width="4077" height="5210" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000ed0f00005a140000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_vista_compania" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DIMTIME" left="979" top="8359" logicalid="12" controlid="3" masterid="0" hint1="0" hint2="0" width="4101" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a00000510000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DIMTIME" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-1403" top="3959" logicalid="13" controlid="4" masterid="0" hint1="0" hint2="0" width="2682" height="5100" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[vista_cabecera_dta-DIMTIME]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="1" sourceattachpoint="14" destattachpoint="31" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="979" y="8659" />
+              <point x="-671" y="8659" />
+              <point x="-671" y="4259" />
+              <point x="-1103" y="4259" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-1403" top="1759" logicalid="14" controlid="5" masterid="0" hint1="0" hint2="0" width="8758" height="6093" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[vista_cabecera_dta-vista_compania]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="14" destattachpoint="23" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7055" y="7452" />
+              <point x="-295" y="7452" />
+              <point x="-295" y="2059" />
+              <point x="-1103" y="2059" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Vista_aeropuertos" left="5619" top="-1402" logicalid="15" controlid="6" masterid="0" hint1="0" hint2="0" width="3954" height="7763" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000720f0000531e0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Vista_aeropuertos" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-1403" top="-1220" logicalid="16" controlid="7" masterid="0" hint1="0" hint2="0" width="7322" height="2479" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="2" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[vista_cabecera_dta-Vista_aeropuertos]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="1" sourceattachpoint="14" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="5619" y="-821" />
+              <point x="-551" y="-821" />
+              <point x="-551" y="959" />
+              <point x="-1103" y="959" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="vista_detalledtae" left="1360" top="747" logicalid="17" controlid="8" masterid="0" hint1="0" hint2="0" width="3518" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000be0d000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_vista_reportes" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-1403" top="747" logicalid="18" controlid="9" masterid="0" hint1="0" hint2="0" width="3063" height="1162" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[vista_reportes-vista_cabecera_dta]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="8" sourceattachpoint="21" destattachpoint="14" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="-1103" y="1509" />
+              <point x="-61" y="1509" />
+              <point x="-61" y="1047" />
+              <point x="1360" y="1047" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-6330</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-3190</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-4992</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-1402</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>91</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T05:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="d876d5b5-5826-42ae-858f-04c45217ccaa">
+      <ID>Vista Cabecera Dta</ID>
+      <Name>MOVIMIENTOS</Name>
+      <DimensionID>Vista Cabecera Dta</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="3cec4d35-cb4c-4cb8-ac5a-eaafc854ea0c">
+          <AttributeID>Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d4d6b279-10d1-4470-8de3-f24b63ac69d9">
+          <AttributeID>Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3c1bcf7b-5180-45b1-ad46-e307ff13ebe5">
+          <AttributeID>Company</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d37bc26d-b27d-4e50-bdd4-477361f30709">
+          <AttributeID>Type</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2d4dbe5e-6071-4804-92ca-2198eeef95ef">
+          <AttributeID>Latitud</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="846aad22-70ed-45df-ba6c-1bee59a6e7a7">
+          <AttributeID>Longitud</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4a0d8a0c-f921-4851-9075-34d389572f6e">
+          <AttributeID>Aerodrome</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="432c528c-55cb-46f1-a907-bcf08fb08f97">
+          <AttributeID>Nacionality</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="8a3da00b-816a-444f-87f7-8e6166286eac">
+      <ID>DIMTIME</ID>
+      <Name>TIEMPO</Name>
+      <DimensionID>DIMTIME</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="4556a70e-4c6f-4ef8-a4a1-8ba661a4c428">
+          <AttributeID>FECHA</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="905794c7-2e1d-4048-99a1-98472be5885f">
+          <AttributeID>ANIO</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="04d988a5-6698-480f-83bd-b3b75c4d8260">
+          <AttributeID>MES</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4f1212db-8200-4511-b890-7f7b56b02b94">
+          <AttributeID>MES ORD</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6886cb31-4f12-44aa-bc33-6b4d425dd867">
+          <AttributeID>SEMANA ORD</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="92cf3a99-3ec8-4b63-9d1b-8d32f615219f">
+          <AttributeID>MONTHNAME</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="7dd46314-df17-467e-b310-efb8ac887669">
+      <ID>Vista Compania</ID>
+      <Name>COMPAÑIA</Name>
+      <DimensionID>Vista Compania</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="d87fb00a-f683-47cc-afe5-6429b4f4e181">
+          <AttributeID>CODIGO OACI</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9fcc2d06-fde9-457b-a4c6-3ab8c82ef8a0">
+          <AttributeID>NOMBRE</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0ddba6e7-236b-4d83-9607-818241f136a0">
+          <AttributeID>CIA DESCRIPCION</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="7dd22a86-8cc0-4399-9a11-83deafedff7c">
+      <ID>Vista Aeropuertos</ID>
+      <Name>AEROPUERTOS</Name>
+      <DimensionID>Vista Aeropuertos</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="55a869e2-3f34-4a25-977e-5197322936a8">
+          <AttributeID>PUNTORUTA OACI</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e675c464-69f8-4b0e-8fd3-937c8c11c6b7">
+          <AttributeID>CIUDAD</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="50c83315-22c2-4095-b025-dd8bdc9fbf1a">
+          <AttributeID>PAIS</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d42d79be-5d68-4a77-8185-b740f86c48f4">
+          <AttributeID>Latitud</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5a54758e-b5bd-45e4-a8a4-59aaac50f477">
+          <AttributeID>Longitud</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f7a75f6e-4ef2-47fa-be05-c3937a538589">
+          <AttributeID>Verificable</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="35591372-b961-4dbb-9fe4-7313cee81ddf">
+      <ID>Vista Detalledtae</ID>
+      <Name>Vista Detalledtae</Name>
+      <DimensionID>Vista Detalledtae</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="21b9e507-3ef4-44cc-b0dd-1c849d4be923">
+          <AttributeID>Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="efe7e532-febe-409b-b63f-6855ba37e9fb">
+          <AttributeID>Id Compania</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2599c67e-902b-459e-acac-a70595bb97c4">
+          <AttributeID>Aerodrome</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="909f5b06-ccd3-4f4f-ad3a-1d762ab484d8">
+      <ID>Vista Cabecera Dta</ID>
+      <Name>Vista Cabecera Dta</Name>
+      <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T05:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="f64a40a0-a483-421c-81eb-34b987e7f34a">
+          <ID>Vista Cabecera Dta Count</ID>
+          <Name>Vista Cabecera Dta Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="91dc6753-f2c9-46b6-af6f-6fc9b093808e">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="70698341-8994-4023-a4ee-f62b98b7e8b1">
+              <TableID>dbo_vista_cabecera_dta</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ErrorConfiguration dwd:design-time-name="48f8fd49-9c64-4f7c-91ea-de0b6696b464">
+        <KeyErrorLimitAction>StopLogging</KeyErrorLimitAction>
+      </ErrorConfiguration>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="b949a4a8-793a-4830-afe6-7353a4524a00">
+          <CubeDimensionID>Vista Cabecera Dta</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="e2a10cb0-f491-46c7-865e-74c321a91ee5">
+              <AttributeID>Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="0dda9837-06b0-4103-b12e-461587402dd7">
+                  <DataType>BigInt</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="7c5c21b5-af57-41bb-8a34-b115d4b4f722">
+                    <TableID>dbo_vista_cabecera_dta</TableID>
+                    <ColumnID>id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="57f4b45a-b7aa-415b-bae5-d21f512ad454">
+          <CubeDimensionID>DIMTIME</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="6ee5836d-5106-4486-8446-7da6c2721271">
+              <AttributeID>FECHA</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="acf51c34-20fe-4e28-8444-7a78e5008353">
+                  <DataType>Date</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3a0eeb2e-8d03-4522-8faf-f07497984727">
+                    <TableID>dbo_vista_cabecera_dta</TableID>
+                    <ColumnID>date</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5a99a0b1-53b3-44cd-a913-e2dde77ec6bb">
+          <CubeDimensionID>Vista Compania</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="6f2bb754-67f9-4d24-b06b-d07bec3de9a6">
+              <AttributeID>CODIGO OACI</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="d0f48270-fb04-43f6-a2f3-248e9dd7fbca">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="63d26720-e312-46b0-8a93-69614695905b">
+                    <TableID>dbo_vista_cabecera_dta</TableID>
+                    <ColumnID>company</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="343fe553-6903-456a-9ae4-e473c8836b63">
+          <CubeDimensionID>Vista Aeropuertos</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="6335d885-89d8-4efe-8a5c-4d4784ca12be">
+              <AttributeID>PUNTORUTA OACI</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="f594c5ca-3ebf-4a62-b9d4-0de312c2dbb1">
+                  <DataType>WChar</DataType>
+                  <DataSize>100</DataSize>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="efc422b9-0cb1-498d-9631-4e99cbe40cd9">
+                    <TableID>dbo_vista_cabecera_dta</TableID>
+                    <ColumnID>aerodrome</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="9b6e9936-84b3-435d-b419-9be95e0c3d93">
+          <CubeDimensionID>Vista Detalledtae</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="783cb4e0-ec51-4c04-b946-7ca863ec8c04">
+              <AttributeID>Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="ac818bda-b44c-4b6c-9f54-c7e55f50f70e">
+                  <DataType>BigInt</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f99a2774-0d7b-45cc-8483-93b078ed95f4">
+                    <TableID>dbo_vista_cabecera_dta</TableID>
+                    <ColumnID>id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="7ecf7359-ed6e-4fdf-9f5d-d72bae45c0ac">
+      <ID>Vista Detalledtae</ID>
+      <Name>Vista Detalledtae</Name>
+      <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T05:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="82040879-5b94-4c21-ba95-71d007cb2ef1">
+          <ID>Pax FF</ID>
+          <Name>Pax FF</Name>
+          <Source dwd:design-time-name="3a8f8700-dd0f-4a17-9609-f0d1c72e65b0">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="571de445-53aa-429f-b850-d52f4ee0ccc7">
+              <TableID>dbo_vista_reportes</TableID>
+              <ColumnID>Pax_FF</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="70959530-78ac-4101-97fa-461d9f846063">
+          <ID>Pax HF</ID>
+          <Name>Pax HF</Name>
+          <Source dwd:design-time-name="2bdecfd0-c633-4fbd-9483-fb019012dbf8">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="7fd019cd-6582-4247-a070-ed065ed8cfc1">
+              <TableID>dbo_vista_reportes</TableID>
+              <ColumnID>Pax_HF</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="379f3d1c-8d4b-4100-9450-08f385367ffc">
+          <ID>Pax INF</ID>
+          <Name>Pax INF</Name>
+          <Source dwd:design-time-name="f75c799e-aacc-4ce8-8e8e-4ac14bba0263">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="4fceacbe-2881-480b-adbb-315751039a9f">
+              <TableID>dbo_vista_reportes</TableID>
+              <ColumnID>Pax_INF</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="9c416820-06af-42bb-b785-025779aee2ad">
+          <ID>Total Pax</ID>
+          <Name>Total Pax</Name>
+          <Source dwd:design-time-name="3e377d26-e4c1-4b78-a9cc-8800d40afb88">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="0073cc73-fbe0-43ac-a225-cbe64a82f442">
+              <TableID>dbo_vista_reportes</TableID>
+              <ColumnID>Total_pax</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ErrorConfiguration dwd:design-time-name="dde49d32-8bc1-48c6-a2a1-fddb31ead3d6">
+        <KeyErrorLimitAction>StopLogging</KeyErrorLimitAction>
+      </ErrorConfiguration>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="a2e155a7-3048-460e-960a-b0573b4bf217">
+          <CubeDimensionID>Vista Detalledtae</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="7f0be48e-41be-4745-a283-9b5aa7910e8d">
+              <AttributeID>Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="ee4b2b25-e3a1-4eba-8519-f286ef54062b">
+                  <DataType>BigInt</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="328f6bbd-618e-442c-bdd4-96e96e34e1c1">
+                    <TableID>dbo_vista_reportes</TableID>
+                    <ColumnID>id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="3b1f4edf-372d-4625-bd92-7c93639afa5f">
+          <CubeDimensionID>Vista Cabecera Dta</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="d3eff0c5-67b0-4245-8c45-cf87815ae48c">
+              <AttributeID>Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="9c68286f-5a0c-4e04-994b-fb038ac9e031">
+                  <DataType>BigInt</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="6d53a1cb-77c1-4005-8f4e-71cc9cf2b033">
+                    <TableID>dbo_vista_reportes</TableID>
+                    <ColumnID>id_operation</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="378a06be-4898-4759-8dbc-b3db6f720737">
+          <CubeDimensionID>DIMTIME</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="d8c69e62-8048-46cf-86bb-c8d4abdf7c2d">
+              <AttributeID>FECHA</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Vista Cabecera Dta</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>Date</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="d6221140-8104-4bbc-8fcb-21ad48bcebd7">
+          <CubeDimensionID>Vista Compania</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="e98339f8-fb51-431e-b413-68f19bf2e763">
+              <AttributeID>CODIGO OACI</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Vista Cabecera Dta</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>Company</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="363774fb-e2e6-4efe-aa2e-0884022caa8e">
+          <CubeDimensionID>Vista Aeropuertos</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="cf3eba36-51e0-4c80-b0ef-9f66d8e7298a">
+              <AttributeID>PUNTORUTA OACI</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Vista Cabecera Dta</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>Aerodrome</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="cdd6e1c0-9d1f-4a1e-97cd-255df519e04b">
+    <DataSourceViewID>WIN-SQLSERV-01</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="72a9cd80-b96a-464e-964b-17f429510987">
+    <KeyErrorLimitAction>StopLogging</KeyErrorLimitAction>
+  </ErrorConfiguration>
+</Cube>

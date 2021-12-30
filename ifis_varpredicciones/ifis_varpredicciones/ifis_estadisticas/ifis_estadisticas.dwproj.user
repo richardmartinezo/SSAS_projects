@@ -1,0 +1,29 @@
+<AnalysisServicesUserConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <UserIDs>
+          <ConfigurationSetting>
+            <Id>i FIS</Id>
+            <Name>i FIS</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEjzItQYzpEiRdxUdcYghgwAAAAAMAAAAaQAgAEYASQBTAAAAA2YAAMAAAAAQAAAAazXJP7WntJUEL+9/bqH0RQAAAAAEgAAAoAAAABAAAAAv5/cPE8KlQOVK+dB5lIEaGAAAAJ6BIuFa4Sub6MurhQTVHAJeKS1nmAcHEhQAAADqt7AKrUKw1Qx8V3H0Q++puTFPaA==</Value>
+          </ConfigurationSetting>
+        </UserIDs>
+        <UserPasswords>
+          <ConfigurationSetting>
+            <Id>i FIS</Id>
+            <Name>i FIS</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEjzItQYzpEiRdxUdcYghgwAAAAAMAAAAaQAgAEYASQBTAAAAA2YAAMAAAAAQAAAAdGyiDI+ga5blScI0uv7pNgAAAAAEgAAAoAAAABAAAACim0YHzmA5XeHoM2haOPmFGAAAAIIgVOLLewo9bHu0hTj4AbTMVRPtdmVq7xQAAAC8El+aw4+4NaYwH7qd+/CZygM8ng==</Value>
+          </ConfigurationSetting>
+        </UserPasswords>
+        <TargetServer>win-sqlserv-01</TargetServer>
+        <TargetDatabase>ifis_estadisticas</TargetDatabase>
+        <StartObject>
+          <ObjectId></ObjectId>
+          <ObjectType>Current</ObjectType>
+        </StartObject>
+      </Options>
+    </Configuration>
+  </Configurations>
+</AnalysisServicesUserConfiguration>

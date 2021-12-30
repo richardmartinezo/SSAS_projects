@@ -1,0 +1,75 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Cubo_Meteo</Database>
+    <Server>win-sqlserv-01</Server>
+    <ConnectionString>DataSource=win-sqlserv-01;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>31ov2dqpRLhIeym9kd/cmmldrGU=07/11/2016 12:06:0206/11/2016 12:18:57</TimeStamp>
+        <ID>
+          <String>Meteo Dgac</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>nkOKSx8xXGCxwdfjRkCDrvFVIsY=07/11/2016 12:06:1506/11/2016 12:19:45</TimeStamp>
+        <ID>
+          <String>i FIS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>kymb1hY4jWpndcBJJHE0WSlgyws=06/11/2016 12:34:0206/11/2016 12:20:43</TimeStamp>
+        <ID>
+          <String>Meteo Dgac</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>IxOzuZrtrwbe8JSkxFSSGe9lVSA=06/11/2016 14:14:5906/11/2016 12:30:58</TimeStamp>
+        <ID>
+          <String>DIMTIME</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>1MFpniPcOqyGNPEFRML13UZ5O78=06/11/2016 14:15:3106/11/2016 13:02:28</TimeStamp>
+        <ID>
+          <String>Vista Meteo</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>Z9nk6Vg5TvBD9hFgfHo273EsPHU=06/11/2016 14:14:5906/11/2016 12:30:585m610xVc12X2Lrd9T25SPGDvQjE=06/11/2016 12:30:5906/11/2016 12:30:58</TimeStamp>
+        <ID>
+          <String>Meteo Dgac</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>cSq5AQVUcWMvwW18tQMDxc1Va6I=06/11/2016 12:18:1006/11/2016 12:18:10</TimeStamp>
+      <ID>
+        <String>Cubo_Meteo</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2016-11-07T17:06:33.723333Z</LastDeployed>
+</DeploymentSnapshot>

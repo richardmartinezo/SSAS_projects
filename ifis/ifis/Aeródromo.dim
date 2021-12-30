@@ -1,0 +1,517 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="3525cdbd-ef6f-43ad-9259-948ca197b4c1" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Aerodrome</ID>
+  <Name>Aeródromo</Name>
+  <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1051" scrolltop="-3479" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="6879" y="11959" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Aerodrome" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="4736" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000800008012000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Aerodrome" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1051</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-3479</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T05:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="862b7514-5872-4dc9-adf4-4dd7eb73f4af">
+    <DataSourceViewID>i FIS</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="5d954492-1d63-4f18-92aa-6fa23680c69f">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="0fada5e9-105b-4220-8b48-656f03293904">
+      <ID>Id</ID>
+      <Name>Id</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e799bc23-b403-4bc4-9db6-3276b1a6f20f">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1456b74b-500a-4253-963e-a05ffe0311ba">
+            <TableID>dbo_Aerodrome</TableID>
+            <ColumnID>id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="2fb93bfd-a9fb-473a-8402-5b702b483922">
+          <AttributeID>Designador Oaci</AttributeID>
+          <Name>Designador Oaci</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="49a69197-1ed9-4340-a3c7-e4162ce8560b">
+          <AttributeID>Latitud</AttributeID>
+          <Name>Latitud</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="7f97df59-c7fa-4f67-bddc-525c10dd2c2d">
+          <AttributeID>Longitud</AttributeID>
+          <Name>Longitud</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="923e5505-d21e-4df3-9d62-53a410eb812d">
+          <AttributeID>Direcciones Aftn</AttributeID>
+          <Name>Direcciones Aftn</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b551b6e0-e45d-4b23-913b-38050b7bd5b3">
+          <AttributeID>Elevacion</AttributeID>
+          <Name>Elevacion</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5f03acac-09bc-41e7-8a7e-a1f48df6dfe3">
+          <AttributeID>Largo</AttributeID>
+          <Name>Largo</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a28de667-99ac-47cc-9b9b-67068e5f5426">
+          <AttributeID>Iluminacion</AttributeID>
+          <Name>Iluminacion</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c5114d89-de92-4f3f-a2ec-72f83c4d6619">
+          <AttributeID>Publico</AttributeID>
+          <Name>Publico</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="11e30462-371f-460d-a423-b9306842f82d">
+          <AttributeID>Aerodromo Tipo Id</AttributeID>
+          <Name>Aerodromo Tipo Id</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="57a642c7-14a7-4eff-a286-a48f04ac7745">
+          <AttributeID>Fir Id</AttributeID>
+          <Name>Fir Id</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d4af36fe-2082-4f96-9646-4096977442d3">
+          <AttributeID>Procedimiento Publicado</AttributeID>
+          <Name>Procedimiento Publicado</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9b4be12e-717c-4c1d-9c04-fb41db0a0d88">
+          <AttributeID>Met</AttributeID>
+          <Name>Met</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d000bcd8-383c-4ffb-91da-3a54af7e7ca5">
+          <AttributeID>Pais Id</AttributeID>
+          <Name>Pais Id</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8fede2a9-4894-4549-904c-7cd9c652fa17">
+          <AttributeID>Iluminacion Othr</AttributeID>
+          <Name>Iluminacion Othr</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="138f765d-9431-466d-bab9-9e4450e780c4">
+          <AttributeID>Horas Operacion</AttributeID>
+          <Name>Horas Operacion</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="84c3e5c2-4e74-417f-ad59-83b9363b4d21">
+          <AttributeID>Observaciones</AttributeID>
+          <Name>Observaciones</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8ccbbc97-2f3a-422e-867a-539f54c7c52b">
+          <AttributeID>Modulo Prediccion</AttributeID>
+          <Name>Modulo Prediccion</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e2554bf5-2ad8-495c-a0a0-e3389c04ccba">
+          <AttributeID>Luz</AttributeID>
+          <Name>Luz</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b870ccee-e915-409f-95c5-ea25c532c948">
+          <AttributeID>Ils</AttributeID>
+          <Name>Ils</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="cb83e67f-8b04-4306-b57f-710faeac1017">
+          <AttributeID>Punto</AttributeID>
+          <Name>Punto</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="271d349a-74c4-453e-a4e8-d9c1d516f511">
+      <ID>Designador Oaci</ID>
+      <Name>Designador Oaci</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0dfe8f4e-d0f3-40de-a702-b44a6c0f4da6">
+          <DataType>WChar</DataType>
+          <DataSize>8</DataSize>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="62b99863-24ba-4f17-99b6-14d903a4396a">
+            <TableID>dbo_Aerodrome</TableID>
+            <ColumnID>designador_oaci</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2cbd3e95-dd44-4e62-8528-a9d8b347561b">
+      <ID>Latitud</ID>
+      <Name>Latitud</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b0a10deb-171c-454a-9ec7-b1065ed80848">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7ca9a7e1-0fc1-4a1c-8794-bb553dd58568">
+            <TableID>dbo_Aerodrome</TableID>
+            <ColumnID>latitud</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b5df8577-3ae1-4b29-afce-ea16788810eb">
+      <ID>Longitud</ID>
+      <Name>Longitud</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b9f84345-3b16-4d2c-9bb7-2be9881cecc7">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b4b415ca-ae1d-4d9e-94d3-40702fcd8dcf">
+            <TableID>dbo_Aerodrome</TableID>
+            <ColumnID>longitud</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="7f7b3cf9-ee67-4dd0-915f-fa8e08ec1e77">
+      <ID>Direcciones Aftn</ID>
+      <Name>Direcciones AFTN</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b9c5b7ac-24f7-48ee-8dd3-1eb1ca6c1e34">
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="45bbd4d4-d0f9-4e21-a975-4fc110f75037">
+            <TableID>dbo_Aerodrome</TableID>
+            <ColumnID>direcciones_aftn</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c05d0b68-c760-4a5d-b02c-4e3ee593d7c2">
+      <ID>Elevacion</ID>
+      <Name>Elevación</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1b120a59-bf3d-4e03-ade0-ff96530fde06">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4a2fd862-92d7-4a87-b538-9f73d965f117">
+            <TableID>dbo_Aerodrome</TableID>
+            <ColumnID>elevacion</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2cd0e01a-ea6d-4f78-b55b-ccc752ab5de5">
+      <ID>Largo</ID>
+      <Name>Largo</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="92973f59-07ff-45e9-ab8d-b5ae17b90434">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="cdab6fc7-4f87-4f2a-88e9-91124f6e040f">
+            <TableID>dbo_Aerodrome</TableID>
+            <ColumnID>largo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1f099626-784a-4424-9e7b-2a5e76d7bf2e">
+      <ID>Iluminacion</ID>
+      <Name>Iluminación</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ab332dd9-ac83-4407-a2bd-bc2035c98423">
+          <DataType>WChar</DataType>
+          <DataSize>5</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6d3e3548-f0aa-4ed4-bede-ad41295cde32">
+            <TableID>dbo_Aerodrome</TableID>
+            <ColumnID>iluminacion</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5a636a5c-2c88-4090-9eec-6bba1e8d7808">
+      <ID>Publico</ID>
+      <Name>Público</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b3b0cf4a-5cf5-431d-be06-bae632776843">
+          <DataType>WChar</DataType>
+          <DataSize>5</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="49386f4d-7448-4da5-b5c4-575d27876161">
+            <TableID>dbo_Aerodrome</TableID>
+            <ColumnID>publico</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ca26094c-9d04-4b7a-84b4-bd517bd52529">
+      <ID>Aerodromo Tipo Id</ID>
+      <Name>Aeródromo Tipo Id</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a0db18d2-8635-49c2-a62e-88aa7acb0f6b">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a56b198c-7c57-4838-8bce-da709dfbb562">
+            <TableID>dbo_Aerodrome</TableID>
+            <ColumnID>aerodromo_tipo_id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d61c323b-6b29-4334-bad3-5e281ad3b2cc">
+      <ID>Fir Id</ID>
+      <Name>Fir Id</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ec93835e-3432-45ff-b87f-548fc8fa708c">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b0f93370-dff4-440f-9740-02b43e3620f3">
+            <TableID>dbo_Aerodrome</TableID>
+            <ColumnID>fir_id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="64baf882-23c6-4cce-b491-cbf007f340f9">
+      <ID>Procedimiento Publicado</ID>
+      <Name>Procedimiento Publicado</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c31808f4-a566-4853-a7b6-e778233c146e">
+          <DataType>WChar</DataType>
+          <DataSize>5</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="68428b8e-ba18-444f-8f38-a83267d4ba09">
+            <TableID>dbo_Aerodrome</TableID>
+            <ColumnID>procedimiento_publicado</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="7ff0f425-55f9-4fae-bedf-a8a8d853dcae">
+      <ID>Met</ID>
+      <Name>Meteorología</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6570b11b-5f35-4f2d-bd61-87a0c71d6aa9">
+          <DataType>WChar</DataType>
+          <DataSize>5</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a454139a-e12d-4c15-9cd1-99c762d462ad">
+            <TableID>dbo_Aerodrome</TableID>
+            <ColumnID>met</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="253a7c2b-5bdb-411c-9039-d57b8dfd13b9">
+      <ID>Pais Id</ID>
+      <Name>País Id</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="914911bc-b30b-4fac-b324-8e4cab9c0f5b">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="63b58dfb-11a9-407a-b84b-eb3bf485399f">
+            <TableID>dbo_Aerodrome</TableID>
+            <ColumnID>pais_id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="cff37ee4-bdd0-441a-bbbc-8cdc653cafcc">
+      <ID>Iluminacion Othr</ID>
+      <Name>Iluminación Othr</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="aad1bbed-6d49-4bbc-8b22-e614b7703129">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7747d163-e9a4-41ee-827a-e99aa9677f2a">
+            <TableID>dbo_Aerodrome</TableID>
+            <ColumnID>iluminacion_othr</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f02e60d2-8a16-438c-a8cb-8fa953a7e5bd">
+      <ID>Horas Operacion</ID>
+      <Name>Horas Operación</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d9a97768-5334-493a-847c-ff07d6a0a14a">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8a4927d1-1855-49b7-b583-c54a982ba23d">
+            <TableID>dbo_Aerodrome</TableID>
+            <ColumnID>horas_operacion</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="7b87db55-754b-4eec-a173-4bc5a7e024fe">
+      <ID>Observaciones</ID>
+      <Name>Observaciones</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b7a66a1f-c781-45d7-88e1-c807cc99c2e3">
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="54ebf59c-45f5-4a32-b748-e90867ae2b21">
+            <TableID>dbo_Aerodrome</TableID>
+            <ColumnID>observaciones</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8bbb4db1-eff7-457f-8600-556c846cee6a">
+      <ID>Modulo Prediccion</ID>
+      <Name>Módulo Predicción</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6b950466-57a0-4610-a7ba-8d5a4019ef28">
+          <DataType>WChar</DataType>
+          <DataSize>5</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bd004609-a88b-4b93-9bb2-6c96e3ba1a4e">
+            <TableID>dbo_Aerodrome</TableID>
+            <ColumnID>modulo_prediccion</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="6af9c29d-ef10-4636-b863-236ec7ccd350">
+      <ID>Luz</ID>
+      <Name>Luz</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="41d87c61-6295-4d8a-9141-242bab10c551">
+          <DataType>WChar</DataType>
+          <DataSize>5</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="81f6bad2-13ee-4c31-a7b2-ee9d01361cba">
+            <TableID>dbo_Aerodrome</TableID>
+            <ColumnID>luz</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c06e6de0-9696-4d52-bf2c-81b74fb57374">
+      <ID>Ils</ID>
+      <Name>Ils</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9af833fd-5105-4736-b145-a1431700f2f7">
+          <DataType>WChar</DataType>
+          <DataSize>5</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="de128cd3-0cb4-4cb9-8d7f-abb7fcb97754">
+            <TableID>dbo_Aerodrome</TableID>
+            <ColumnID>ils</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3d805a26-32e7-4dc8-94f8-21789530882b">
+      <ID>Punto</ID>
+      <Name>Punto</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8546f0c4-7c69-45e8-aa2f-220b34a527da">
+          <DataType>WChar</DataType>
+          <DataSize>40</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f12bb92a-58c4-44e6-9039-08196dc1056c">
+            <TableID>dbo_Aerodrome</TableID>
+            <ColumnID>punto</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

@@ -1,0 +1,411 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="7103b9e6-012e-4361-85e0-3be36c6e2c0b" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>i FIS</ID>
+  <Name>i FIS</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="6" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-15630" scrolltop="-3722" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="36169" y="20294" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Vista_detalle_Dta" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4419" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a00004311000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Vista_detalle_Dta" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="vista_cabecera_dta" left="457" top="7400" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3545" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000d90d000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_vista_cabecera_dta" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="180" top="4700" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Vista_detalle_Dta-vista_cabecera_dta]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="0" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="579" y="7400" />
+              <point x="579" y="5000" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-15630</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-3722</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="80386276-d51a-4571-ad8c-0df2182b4c53">
+      <ID>Vista Detalle Dta</ID>
+      <Name>Vista Detalle Dta</Name>
+      <DimensionID>Vista Detalle Dta</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="49e16142-e388-406e-88da-f044bf42b22a">
+          <AttributeID>Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="006a2ec0-5208-423f-b546-5df621ded677">
+          <AttributeID>Id Operation</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="aea45504-57df-4ff0-92c1-4317778c0126">
+          <AttributeID>Id Ruta</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="33bc4405-af2d-40bb-a5bc-50c726d2a3dd">
+          <AttributeID>Id Compania</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f4c47e1e-2254-415b-8a66-52249c2fed51">
+          <AttributeID>Id Puntorealdes</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="69cc7e22-6cf2-4625-bb77-fbf8a9f314b5">
+      <ID>Vista Cabecera Dta</ID>
+      <Name>Vista Cabecera Dta</Name>
+      <DimensionID>Vista Cabecera Dta</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="83f123a3-970e-4fa3-80c0-4306dbb89131">
+          <AttributeID>Id</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="3c37ce17-8ae0-4c8f-8de3-3344f9c2dd5b">
+      <ID>Vista Detalle Dta</ID>
+      <Name>Vista Detalle Dta</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="0d308640-2f9f-4ef7-839b-507ae9599239">
+          <ID>Pax FF</ID>
+          <Name>Pax FF</Name>
+          <Source dwd:design-time-name="86c000b8-c29f-4fa8-b0c6-e499a0bf968d">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="54af7d5b-bc82-4872-8975-0090c83a4b7c">
+              <TableID>dbo_Vista_detalle_Dta</TableID>
+              <ColumnID>Pax_FF</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="3142cb3d-560e-4032-97da-55630916fc71">
+          <ID>Pax HF</ID>
+          <Name>Pax HF</Name>
+          <Source dwd:design-time-name="c4b8860d-82a5-4330-94bd-8ca74fc25917">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="6a20b302-0593-4268-b6c3-d984163ee022">
+              <TableID>dbo_Vista_detalle_Dta</TableID>
+              <ColumnID>Pax_HF</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="1c2eb38b-0aa5-4cfd-bd4d-e4febb6be91c">
+          <ID>Pax INF</ID>
+          <Name>Pax INF</Name>
+          <Source dwd:design-time-name="0294349c-708d-4e2d-a9eb-eb4ad77991a0">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="68775c75-ad67-4742-9bf9-8d2cc5819a1a">
+              <TableID>dbo_Vista_detalle_Dta</TableID>
+              <ColumnID>Pax_INF</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="d1ce183c-0560-4d02-8a84-1eb54743bd2c">
+          <ID>Pax Pcd</ID>
+          <Name>Pax Pcd</Name>
+          <Source dwd:design-time-name="0c51e3fe-28e1-4f2d-8386-db7c6781cf15">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="4b74c4b8-a48f-4da2-907a-7cb352fd2795">
+              <TableID>dbo_Vista_detalle_Dta</TableID>
+              <ColumnID>Pax_pcd</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="755177a4-b850-4617-befc-670dccabc060">
+          <ID>Pax 3era</ID>
+          <Name>Pax 3era</Name>
+          <Source dwd:design-time-name="1f9204b4-21df-4e54-9f99-772f40d39bca">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="21f0882c-4acb-4338-ae2f-f5b5c3a8ee4f">
+              <TableID>dbo_Vista_detalle_Dta</TableID>
+              <ColumnID>Pax_3era</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="406268dc-c1f0-4ca7-a604-164e06cfd1ec">
+          <ID>Pax Trs</ID>
+          <Name>Pax Trs</Name>
+          <Source dwd:design-time-name="383c5235-250a-4343-bd6a-2ad904ca97a2">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="3d144268-60a5-4058-8ea0-3c7163900453">
+              <TableID>dbo_Vista_detalle_Dta</TableID>
+              <ColumnID>Pax_trs</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="87f863de-282d-435a-a95c-fdc889b54af9">
+          <ID>Pax Gps</ID>
+          <Name>Pax Gps</Name>
+          <Source dwd:design-time-name="1ee66fb3-9656-408f-a7e4-2eccaf052189">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="9120c1a6-7afd-466e-af02-d7a58f5cb0b0">
+              <TableID>dbo_Vista_detalle_Dta</TableID>
+              <ColumnID>Pax_gps</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="31d03578-9213-41fb-9520-413c51085d48">
+          <ID>Pax Trs 24</ID>
+          <Name>Pax Trs 24</Name>
+          <Source dwd:design-time-name="18454bea-08c8-4b8c-bc4c-dbce141b658a">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="677aacfe-1cc4-4268-8c18-cb5e64cb103f">
+              <TableID>dbo_Vista_detalle_Dta</TableID>
+              <ColumnID>Pax_trs_24</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="5098add8-6c86-41ab-9117-2edaf4a6de3b">
+          <ID>Pax Trf</ID>
+          <Name>Pax Trf</Name>
+          <Source dwd:design-time-name="47a2a846-346b-4465-b4a5-8894eaef55d8">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="39c19ef4-398a-4aa9-ad6a-207be9b7c682">
+              <TableID>dbo_Vista_detalle_Dta</TableID>
+              <ColumnID>Pax_trf</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="2d5ce119-58d7-41b5-9de5-8c02038dfb9b">
+          <ID>Pax Nad</ID>
+          <Name>Pax Nad</Name>
+          <Source dwd:design-time-name="211ff891-3195-4235-b079-218b3dd502bf">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="746a0392-84d5-48b8-be64-bd8cdd6490c0">
+              <TableID>dbo_Vista_detalle_Dta</TableID>
+              <ColumnID>Pax_nad</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="74d1aa93-cfd3-4784-9f08-3fa18fc23832">
+          <ID>Pax Cia</ID>
+          <Name>Pax Cia</Name>
+          <Source dwd:design-time-name="449166fe-9237-4c12-bd3c-4c7cb5c25bef">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="3919ccb2-5784-4c72-90a0-2d501bced930">
+              <TableID>dbo_Vista_detalle_Dta</TableID>
+              <ColumnID>Pax_cia</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="acfd0687-e565-4f70-8ab4-87a0f7f70c5f">
+          <ID>Pax Ec</ID>
+          <Name>Pax Ec</Name>
+          <Source dwd:design-time-name="7a359223-023f-4212-b7e0-4aa14730d0cb">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="1d38eafd-5bfc-4e98-bfef-9b9ae6afc97a">
+              <TableID>dbo_Vista_detalle_Dta</TableID>
+              <ColumnID>Pax_ec</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="c340547c-9bcb-4ffd-9a6d-4597ba78de28">
+          <ID>CG Pe</ID>
+          <Name>CG Pe</Name>
+          <Source dwd:design-time-name="67a11712-44d2-48a2-bb6a-6df7e1ba402c">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="6e0044e7-cf6d-43f6-a966-59b02bb07abd">
+              <TableID>dbo_Vista_detalle_Dta</TableID>
+              <ColumnID>CG_pe</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="7bbb9c51-77de-489d-a878-6c7b0989fdea">
+          <ID>CG Se</ID>
+          <Name>CG Se</Name>
+          <Source dwd:design-time-name="7db47e43-ae05-48be-87a9-e1a1cd9ab922">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="423f36bb-448f-42b9-bc5c-4675c7fe1be1">
+              <TableID>dbo_Vista_detalle_Dta</TableID>
+              <ColumnID>CG_se</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="8c3414cd-8f0a-4f82-9e85-86f18e34dd03">
+          <ID>CG Fl</ID>
+          <Name>CG Fl</Name>
+          <Source dwd:design-time-name="a9ef0fc8-7e8c-4f94-8c54-3d075ff133d4">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="843d23b9-cc52-4d6a-9bbf-da9c52448927">
+              <TableID>dbo_Vista_detalle_Dta</TableID>
+              <ColumnID>CG_fl</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="35dfde93-604f-4f8d-a0eb-e903980a3136">
+          <ID>CG Cor</ID>
+          <Name>CG Cor</Name>
+          <Source dwd:design-time-name="956cddda-f171-4c87-9048-6747d34d1ef9">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="dd273f70-f756-4fb3-9bbb-6a07448959c6">
+              <TableID>dbo_Vista_detalle_Dta</TableID>
+              <ColumnID>CG_cor</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="4bab71a9-b89e-4831-8b4f-7f213cf3861b">
+          <ID>CG Equ</ID>
+          <Name>CG Equ</Name>
+          <Source dwd:design-time-name="71483431-c220-4ef7-895a-5fea75896cf8">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="26978c05-47d4-4056-aa61-ff5fca83997d">
+              <TableID>dbo_Vista_detalle_Dta</TableID>
+              <ColumnID>CG_equ</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="87055a5e-6c61-4613-a6fb-91b039481e57">
+          <ID>Total Pax</ID>
+          <Name>Total Pax</Name>
+          <Source dwd:design-time-name="d05fe7ab-15d0-4c3e-ab91-dad0fabd9a28">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="e06a3ffb-c48a-4ab3-a52a-055077b721dc">
+              <TableID>dbo_Vista_detalle_Dta</TableID>
+              <ColumnID>Total_pax</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="9cf9c43c-1af2-4204-b960-b6a5c89b81e5">
+          <ID>Total CG</ID>
+          <Name>Total CG</Name>
+          <Source dwd:design-time-name="1fbd2d94-5aef-4708-8536-87dacfd082b6">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="be9caa3d-de1c-49b6-a24b-50667b8c6ef5">
+              <TableID>dbo_Vista_detalle_Dta</TableID>
+              <ColumnID>Total_CG</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="c41b378d-af74-41f3-acee-4a24e44703ab">
+          <ID>Vista Detalle Dta Count</ID>
+          <Name>Vista Detalle Dta Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="8fb4c24d-b802-42b7-937b-065af67ad8b4">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="ddb01c39-673e-4463-997b-27c8aef58150">
+              <TableID>dbo_Vista_detalle_Dta</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="69df21b7-49d1-495b-9b1c-0a79f0bb6976">
+          <CubeDimensionID>Vista Detalle Dta</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="85de2b1b-f1d0-47a2-842e-2871fffd48d5">
+              <AttributeID>Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="9a547240-0035-4d11-8895-444d395d753d">
+                  <DataType>BigInt</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="7e700110-1327-4e2e-920b-0b3d916fc94b">
+                    <TableID>dbo_Vista_detalle_Dta</TableID>
+                    <ColumnID>id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b5d654e8-d81f-42a0-96d3-db199b693bea">
+          <CubeDimensionID>Vista Cabecera Dta</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="88cae9b3-9939-4508-9a81-ad77a703c5c0">
+              <AttributeID>Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="97044cc3-e87c-4d14-a4aa-e5a68caec234">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f0f7cfc4-e5da-40aa-bc4d-9a2c2938b4b3">
+                    <TableID>dbo_Vista_detalle_Dta</TableID>
+                    <ColumnID>id_operation</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="591cfa7e-de2b-4ba4-b69a-3af4b09dcfa9">
+    <DataSourceViewID>i FIS</DataSourceViewID>
+  </Source>
+</Cube>

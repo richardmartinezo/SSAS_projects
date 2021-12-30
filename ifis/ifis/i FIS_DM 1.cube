@@ -1,0 +1,341 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="e3470193-6479-4b04-9b6a-e778a36891f1" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>i FIS_DM 1</ID>
+  <Name>i FIS_DM 1</Name>
+  <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T05:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="5c091b2e-9ddb-40c7-888d-df2e6392e571">
+      <ID>Operation</ID>
+      <Name>Operation</Name>
+      <DimensionID>Operation</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="d4a6f35c-372c-45e9-82ff-ea31f1c44c98">
+          <AttributeID>Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9072f770-7869-48d7-a540-ab849f531e9e">
+          <AttributeID>Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="70b19ad4-9f62-4200-8482-26c517fc9c79">
+          <AttributeID>Fpl Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b41ed8e4-cc63-483a-b5af-a43d89c84b60">
+          <AttributeID>Type</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8bb1dd19-f059-4e07-a048-eff344eaafca">
+          <AttributeID>Callsign</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="03d9bab6-ee2f-42cc-8f56-b0f396535e6b">
+          <AttributeID>Company</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9365c6bb-03ac-439f-a68f-a7933069dec6">
+          <AttributeID>Number</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d7c79d11-9cbe-4a95-a370-4d19ae13d2a2">
+          <AttributeID>Nacionality</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9097ba47-c9ac-4ca2-b6ee-a39652c263be">
+          <AttributeID>Aircraft</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="55c8716c-cba7-4c42-8c30-0ef3eccdd1c4">
+          <AttributeID>Aerodrome</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0e69771b-d5e8-4dc3-8d76-9c22a878c5dd">
+          <AttributeID>Aerodrome2</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="157d5068-27b2-4d27-bf1f-d024a13e20a3">
+      <ID>Fpl</ID>
+      <Name>Fpl</Name>
+      <DimensionID>Fpl</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="ac2d06ba-e012-48bd-91ac-c6599c560470">
+          <AttributeID>Ifis Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ceea1979-0dd6-4dc9-b4a1-ca51e3af7180">
+          <AttributeID>Matricula</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5741e294-2aa9-42de-b383-50f57b557d62">
+          <AttributeID>Tipo Vuelo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4d3bc07e-b1a5-47e1-9871-1ef7948e0930">
+          <AttributeID>Tipo Aeronave</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a51d5fde-88e9-4f70-bfc9-0e372ef3f983">
+          <AttributeID>Salida</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2e138ce1-5eac-4c64-9221-85e756d4d394">
+          <AttributeID>Fecha Etd</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5fc310a6-e1a4-41e7-b5ad-b1d8408e3c3f">
+          <AttributeID>Fecha Arribo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="46c7a6a2-f5fc-4515-9dc3-2804f28ae44d">
+          <AttributeID>Hora Etd</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1e98a487-29ae-45d2-ac97-29607f6b16c5">
+          <AttributeID>Destino</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8a028cd7-bd08-44f8-9289-53b366cbf5ca">
+          <AttributeID>Sin Hora Etd</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="7e5f7dea-366e-49a9-aa74-a530f88c0e55">
+      <ID>DIMTIME</ID>
+      <Name>DIMTIME</Name>
+      <DimensionID>DIMTIME</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="3460c8c0-59eb-4b2c-8df5-3db0a5c4cddf">
+          <AttributeID>FECHA</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="790b248e-4512-43ac-974b-4075d46ea31c">
+          <AttributeID>LASTDAYINMONTH</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="78eaeab3-8157-409e-addc-16838502ae5e">
+          <AttributeID>FECHAHORA</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4e76d0ba-3bf0-4fc5-9253-91e1ac205965">
+          <AttributeID>ANIO</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4819dbaf-9513-436e-80f9-6e1fc397cca4">
+          <AttributeID>TRIMESTRE</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="63334aa8-4027-484b-8d7f-ba6f54f2dd49">
+          <AttributeID>QUARTER</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0494b6a4-63e8-4dc6-9e8c-3b14e71801fb">
+          <AttributeID>YEARQUARTER</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6276b4d6-3f01-44f5-9290-d17ce52803f6">
+          <AttributeID>MES</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a9cee730-2d4d-4f72-ae48-9a411995be96">
+          <AttributeID>MONTHNAME</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4be70c64-d262-40c9-96f3-585073455fd1">
+          <AttributeID>WEEK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ddfcdd44-6c2e-410b-9bc8-67136c07c17c">
+          <AttributeID>DAYINMONTH</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9066799a-18f0-48d6-bcf1-2487d5de0ab9">
+          <AttributeID>YEARMONTH</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="d3176899-eedd-47ad-9e7d-07c2867a038c">
+      <ID>Lugaraterrizaje</ID>
+      <Name>Lugaraterrizaje</Name>
+      <DimensionID>Lugaraterrizaje</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="3f48957a-3bd4-4acf-bc9d-9da52ca7e2d8">
+          <AttributeID>CODIGO</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c131bcd6-e756-435e-baa9-f03943bd7096">
+          <AttributeID>NOMBRE</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4a3b59e9-a2eb-4f4a-af9e-7dbe937390a4">
+          <AttributeID>PROPIETARIO</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="558019b3-c998-429e-8a1e-ee23e91bcab5">
+      <ID>Lugaraterrizaje 1_DMDim</ID>
+      <Name>Lugaraterrizaje 1_DMDim</Name>
+      <DimensionID>Lugaraterrizaje 1_DMDim</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="32de4f51-50cd-46d2-885f-fd7651acf19b">
+          <AttributeID>ATTRIBUTE_NAME</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="da503f40-57f2-467a-8c25-17b1635dacb1">
+          <AttributeID>PARENT_UNIQUE_NAME</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5d8595ed-ec5f-4b95-acb9-37a281ffd9df">
+          <AttributeID>NODE_RULE</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cf4ffb73-678c-455b-98e1-d05875d5c8fa">
+          <AttributeID>NODE_SUPPORT</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7367d2c9-1918-4a3b-b1fb-3d330947ee0c">
+          <AttributeID>NODE_UNIQUE_NAME</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="11999c07-728f-448a-9f3d-f560eaa90339">
+      <ID>Operation</ID>
+      <Name>Operation</Name>
+      <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T05:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="dc2c4ef8-8243-43c4-862e-1e69b6ec089c">
+          <ID>Recuento Operation</ID>
+          <Name>Recuento Operation</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="be511144-b82d-4856-834e-0c7e31155a17">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="f4d7c3c9-43d1-4dcf-89c3-323da8385a0e">
+              <TableID>dbo_operation</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <Source dwd:design-time-name="57132ae9-9036-443e-b5fd-6ca558c09d52">
+        <DataSourceID>.</DataSourceID>
+        <CubeID>i FIS</CubeID>
+        <MeasureGroupID>Operation</MeasureGroupID>
+        <Persistence>Metadata</Persistence>
+        <RefreshInterval>PT1S</RefreshInterval>
+      </Source>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="27a73df9-f67e-4f4f-8fda-d514c3b79044">
+          <CubeDimensionID>Operation</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="73d53e45-4511-49ec-9122-86b420a55826">
+              <AttributeID>Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="bec96513-b791-42bc-8261-327c8561b0a0">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2d79e590-7557-4a50-8a0c-3c5cd08d49aa">
+                    <TableID>dbo_operation</TableID>
+                    <ColumnID>id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="eaa0e64a-3d2b-4e6f-877e-0cf9494222dc">
+          <CubeDimensionID>DIMTIME</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="88abf9e7-387c-432b-b85f-2d703cd0f2b7">
+              <AttributeID>FECHA</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="04cd3454-c558-420b-8919-196c7309986d">
+                  <DataType>Date</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8f0311b0-5b33-4ddc-a930-703c0e39af64">
+                    <TableID>dbo_operation</TableID>
+                    <ColumnID>date</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="1ae5f7e1-9abb-4256-9d04-5e9e6ab675ef">
+          <CubeDimensionID>Fpl</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="15504ad2-a334-4572-be34-25c1e1277b01">
+              <AttributeID>Ifis Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="8daa662b-c755-4e04-8996-bc4ec3a57565">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ddaab935-68a6-433e-9ef9-62b37924fa28">
+                    <TableID>dbo_operation</TableID>
+                    <ColumnID>fpl_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="bf4f6b35-f42b-4cc1-9e10-74797e3e8734">
+          <CubeDimensionID>Lugaraterrizaje</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="80207458-19fc-4b27-a4c5-0b594c6d7d4e">
+              <AttributeID>CODIGO</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="017d4730-d3d9-400e-b4f3-c5a06d48b644">
+                  <DataType>WChar</DataType>
+                  <DataSize>5</DataSize>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="49333d8f-6d97-4a15-adbe-1a99c226070b">
+                    <TableID>dbo_operation</TableID>
+                    <ColumnID>aerodrome</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="DataMiningMeasureGroupDimension" dwd:design-time-name="b5787a1f-55c6-4a71-98ea-d7cdac01b7bb">
+          <CubeDimensionID>Lugaraterrizaje 1_DMDim</CubeDimensionID>
+          <CaseCubeDimensionID>Lugaraterrizaje</CaseCubeDimensionID>
+        </Dimension>
+      </Dimensions>
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="727b3032-d912-444b-80d3-56c8028fcd6e">
+    <DataSourceViewID>i FIS</DataSourceViewID>
+  </Source>
+  <MdxScripts>
+    <MdxScript dwd:design-time-name="862a80db-648a-4300-9020-73dc69521eb4">
+      <ID>MdxScript</ID>
+      <Name>MdxScript</Name>
+      <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
+      <Commands>
+        <Command>
+          <Text>/*
+El comando CALCULATE controla la agregación de celdas hoja en el cubo.
+Si se elimina o modifica el comando CALCULATE, se ven afectados los datos del cubo.
+Sólo debe editar este comando si especifica manualmente cómo se agrega el cubo.
+*/
+CALCULATE; </Text>
+        </Command>
+      </Commands>
+    </MdxScript>
+  </MdxScripts>
+</Cube>

@@ -1,0 +1,69 @@
+﻿<ConfigurationSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Database>
+    <DataSources>
+      <DataSource>
+        <ID>i FIS</ID>
+        <ConnectionString>Provider=SQLNCLI11.1;Data Source=win-sqlserv-01;Persist Security Info=True;Password=;User ID=;Initial Catalog=iFIS</ConnectionString>
+        <ImpersonationInfo>
+          <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Default</ImpersonationMode>
+          <ImpersonationInfoSecurity xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Unchanged</ImpersonationInfoSecurity>
+        </ImpersonationInfo>
+      </DataSource>
+    </DataSources>
+    <Dimensions>
+      <Dimension>
+        <ID>DIMTIME</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Fpl</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Operation</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Lugaraterrizaje</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Lugaraterrizaje 1</ID>
+      </Dimension>
+      <Dimension>
+        <ID>DIMTIME 1</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Aerodrome</ID>
+      </Dimension>
+    </Dimensions>
+    <Cubes>
+      <Cube>
+        <ID>i FIS</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Operation</ID>
+            <Partitions>
+              <Partition>
+                <ID>Operation</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>i FIS 1_pronostico_operaciones</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Vista Pronostico Operaciones</ID>
+            <Partitions>
+              <Partition>
+                <ID>Vista Pronostico Operaciones</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+    </Cubes>
+    <DataSourceImpersonationInfo>
+      <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Default</ImpersonationMode>
+      <ImpersonationInfoSecurity xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Unchanged</ImpersonationInfoSecurity>
+    </DataSourceImpersonationInfo>
+  </Database>
+</ConfigurationSettings>

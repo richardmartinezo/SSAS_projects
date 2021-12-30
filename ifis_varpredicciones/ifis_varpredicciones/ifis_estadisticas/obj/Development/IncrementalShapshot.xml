@@ -1,0 +1,103 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>ifis_varpredicciones</Database>
+    <Server>win-sqlserv-01</Server>
+    <ConnectionString>DataSource=win-sqlserv-01;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>gw5whEN+Pps/0Ej/ZoSTc+vXyhU=19/01/2015 20:35:0819/01/2015 20:31:57</TimeStamp>
+        <ID>
+          <String>i FIS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>YjVleO4P3mUVi0/NlZ1A8dlDfic=21/01/2015 13:37:4219/01/2015 20:31:57</TimeStamp>
+        <ID>
+          <String>i FIS_estdistica</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>WgNO2/SkHeoISPgnhZSPbRVEC+w=17/01/2015 18:00:0619/01/2015 20:31:57</TimeStamp>
+        <ID>
+          <String>DIMTIME</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>P3wMjRLdDfLPvpOQpW3oNzB2NWA=17/01/2015 18:00:0619/01/2015 20:31:57</TimeStamp>
+        <ID>
+          <String>Vista Aeropuertos</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>HsvF0QksYy5UW7cZ194oVJZ/cV4=21/01/2015 10:40:0319/01/2015 20:31:57</TimeStamp>
+        <ID>
+          <String>Vista Cabecera Dta</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>GZuCqNGpblQzg0Ek3t1dA69PGIY=18/01/2015 21:28:5219/01/2015 20:31:57</TimeStamp>
+        <ID>
+          <String>Vista Detalle Dta</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>mubX3dvqNxsvx8RQRXf0SgV75Jo=21/01/2015 10:40:0219/01/2015 20:31:57E2Qu+SlQ9Y/ZZ1ishaEhtvA/9f4=10/11/2014 21:54:2019/01/2015 20:31:57</TimeStamp>
+        <ID>
+          <String>i FIS_estadistica</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Role</Type>
+        <TimeStamp>NPTCYBSJo0PN2S6y9OeZMQ8+ZsE=17/01/2015 18:06:5219/01/2015 20:31:57</TimeStamp>
+        <ID>
+          <String>Role</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Role</Type>
+        <TimeStamp>/yWxK3P1L7qJJhspPv4nabf4VBc=17/01/2015 14:30:1619/01/2015 20:31:57</TimeStamp>
+        <ID>
+          <String>Role 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.MiningStructure</Type>
+        <TimeStamp>d+r1RCFdNoEcrz8x5Xjx3kfNKns=20/01/2015 19:50:1419/01/2015 20:31:57</TimeStamp>
+        <ID>
+          <String>MOVIMIENTO AERONAVE</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>eogLqnsiFCEEzqFp/4aU9uQtJD8=19/01/2015 20:34:5919/01/2015 20:31:57</TimeStamp>
+      <ID>
+        <String>ifis_varpredicciones</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2015-05-14T13:44:23.146667Z</LastDeployed>
+</DeploymentSnapshot>

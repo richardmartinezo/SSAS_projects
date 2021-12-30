@@ -1,0 +1,65 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="e805c3eb-de4b-495a-8317-6fa4fe092f74" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>i FIS_estadistica 1</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>DIMTIME</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="34ed9ae2-754c-4137-9931-b3ae501955c9">
+          <ID>DIMTIME</ID>
+          <Name>DIMTIME</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="1acadda2-9c28-47e6-bfac-618172623bac">
+            <DataSourceViewID>i FIS_estdistica</DataSourceViewID>
+            <TableID>dbo_DIMTIME</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Vista Cabecera Dta</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="810463f5-3948-4fb3-a4e5-7af036b560da">
+          <ID>Vista Cabecera Dta</ID>
+          <Name>Vista Cabecera Dta</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="ad81a0ad-d93f-4218-8833-843f0859c384">
+            <DataSourceViewID>i FIS_estdistica</DataSourceViewID>
+            <TableID>dbo_vista_cabecera_dta</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Vista Detalle Dta</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="284c3bc1-8c63-4e91-a97a-142f7f749611">
+          <ID>Vista Detalle Dta</ID>
+          <Name>Vista Detalle Dta</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="c60235d2-c32d-46d2-b527-3a19be075141">
+            <DataSourceViewID>i FIS_estdistica</DataSourceViewID>
+            <TableID>dbo_Vista_detalle_Dta</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

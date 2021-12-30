@@ -1,0 +1,45 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="37054be2-df64-40b9-84be-8c22c66b071f" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>WIN-SQLSERV-01</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Vista Cabecera Dta</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="080052e5-45cb-4b3d-9d0d-5725cfb5944b">
+          <ID>Vista Cabecera Dta</ID>
+          <Name>Vista Cabecera Dta</Name>
+          <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T05:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="fc09630b-61a7-4d55-ad43-cd88a8b55122">
+            <DataSourceViewID>WIN-SQLSERV-01</DataSourceViewID>
+            <TableID>dbo_vista_cabecera_dta</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Vista Detalledtae</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="7a3a73e8-1f44-4bbb-8dd9-049db1ba5132">
+          <ID>Vista Detalledtae</ID>
+          <Name>Vista Detalledtae</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="69ec3337-669e-4137-8a54-3fcbd1ae6bdf">
+            <DataSourceViewID>WIN-SQLSERV-01</DataSourceViewID>
+            <TableID>dbo_vista_reportes</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

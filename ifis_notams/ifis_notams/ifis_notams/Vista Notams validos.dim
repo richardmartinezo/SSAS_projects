@@ -1,0 +1,260 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="3d129e81-45ce-46c3-9f44-70cc2f26e43b" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Vista Notams 1</ID>
+  <Name>Vista Notams validos</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1885" scrolltop="-3479" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7541" y="11959" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Vista_notams" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3731" height="6667" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000930e00000b1a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Vista_notams" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1885</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-3479</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="adfe5fae-b920-4255-9996-c55274c92ac5">
+    <DataSourceViewID>i FIS_notams_validos</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="b631b46c-c294-4fe8-a41e-d8a00e400f60">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="edcd8df9-b2bb-42c7-9681-94537bb53cf8">
+      <ID>Vistaid</ID>
+      <Name>Vistaid</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0d497726-16c6-434f-91be-0f63a9f600cc">
+          <DataType>BigInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="225fcb19-152f-4f1d-a13c-5ce2fbb91779">
+            <TableID>dbo_Vista_notams</TableID>
+            <ColumnID>vistaid</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="eb9b1c53-6604-4403-b38d-0c58021f9fb0">
+          <AttributeID>Fecha Inicio Utc Sh</AttributeID>
+          <Name>Fecha Inicio Utc Sh</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="aed985a0-f7a0-4781-b65b-273bd3e909d4">
+          <AttributeID>Codigo Not 1</AttributeID>
+          <Name>Codigo Not 1</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="17ea25f5-ab18-4f6d-8a93-aeaedeb49cd8">
+          <AttributeID>Codigo Not 2</AttributeID>
+          <Name>Codigo Not 2</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="dfbeeb3c-7525-49d9-8972-27bf3de71fe4">
+          <AttributeID>Fecha Inicio Utc</AttributeID>
+          <Name>Fecha Inicio Utc</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="4713df1a-dd74-4599-8dd3-e4e3b3909be7">
+          <AttributeID>Fecha Fin Utc</AttributeID>
+          <Name>Fecha Fin Utc</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="3c767ab9-8bd7-49a4-9414-bb6bbe7c29c7">
+          <AttributeID>Area Influencia</AttributeID>
+          <Name>Area Influencia</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="1c127799-3fa1-456e-99d4-eb8ce61caf59">
+          <AttributeID>Casilla E</AttributeID>
+          <Name>Descripcion</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="354a5d94-0490-47f5-b93c-75e5f1de2240">
+          <AttributeID>Casilla A</AttributeID>
+          <Name>Origen</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2f01161c-f141-4ec1-a6f4-1e1292033b62">
+      <ID>Fecha Inicio Utc Sh</ID>
+      <Name>Fecha Inicio Utc Sh</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ac46745c-3da1-4085-834c-c0772c5b33d4">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9f4d691f-5293-4407-b611-8e87f18c769f">
+            <TableID>dbo_Vista_notams</TableID>
+            <ColumnID>fecha_inicio_utc_sh</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3ae2e94f-39cd-4a12-abe7-266268ead65f">
+      <ID>Codigo Not 1</ID>
+      <Name>Codigo Not 1</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="31bc83a3-6e4b-4313-8084-26aa27e83d84">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1912cafb-9a8f-4ee1-a752-dd4917c4f513">
+            <TableID>dbo_Vista_notams</TableID>
+            <ColumnID>codigo_not_1</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d3bbc35b-88ed-44ba-884c-4624760042df">
+      <ID>Codigo Not 2</ID>
+      <Name>Codigo Not 2</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="fa9aeb1d-024b-45ea-9637-4852e2ff6ba7">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="af16ab6b-661b-47da-a680-485ea5067cf9">
+            <TableID>dbo_Vista_notams</TableID>
+            <ColumnID>codigo_not_2</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="196cb91c-6bd5-4fa7-9c7d-9e9150d492ee">
+      <ID>Fecha Inicio Utc</ID>
+      <Name>Fecha Inicio Utc</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a41d54d7-b383-4a10-a80c-c8946748496c">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0fee9c3b-c9ee-4d99-b41e-79e3048635ef">
+            <TableID>dbo_Vista_notams</TableID>
+            <ColumnID>fecha_inicio_utc</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="230e5996-b12b-4045-8a53-c6d0d04a4c1f">
+      <ID>Fecha Fin Utc</ID>
+      <Name>Fecha Fin Utc</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ea4957fb-5fd7-4f50-9a0b-498f4b072965">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0ec1e125-3818-48b9-a88f-62c7f54b784d">
+            <TableID>dbo_Vista_notams</TableID>
+            <ColumnID>fecha_fin_utc</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c6a76d1f-4643-486c-8c23-cdcd39318f33">
+      <ID>Area Influencia</ID>
+      <Name>Area Influencia</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1f77b5c2-190e-4ac2-aa01-deb8b4d85346">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ad16f6e6-4944-4394-8504-339b914e1d62">
+            <TableID>dbo_Vista_notams</TableID>
+            <ColumnID>Area_influencia</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f296b9d2-c8ca-412f-8e1b-b657474a49f8">
+      <ID>Casilla E</ID>
+      <Name>Descripcion</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1805ad28-8d77-4c6c-8c1a-f07ba359effc">
+          <DataType>WChar</DataType>
+          <DataSize>1024</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5a7b9985-b4d8-43b6-82d9-471dff71d4be">
+            <TableID>dbo_Vista_notams</TableID>
+            <ColumnID>casilla_e</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="fd9f84c6-7d50-4c92-830e-880567464836">
+      <ID>Casilla A</ID>
+      <Name>Origen</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="496bda22-0eb7-47d0-b6c0-d6b6450ea225">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4c7ce0c3-d174-42ba-bdaf-0f896830cfd0">
+            <TableID>dbo_Vista_notams</TableID>
+            <ColumnID>casilla_a</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

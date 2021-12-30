@@ -1,0 +1,747 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="240bda48-43a7-4b95-921f-3757ce4872f4" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Meteo Dgac</ID>
+  <Name>Meteo Dgac</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="4" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-8848" scrolltop="-26" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="16007" y="8440" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DIMTIME" left="-8271" top="1130" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4101" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a00000510000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DIMTIME" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Vista_Meteo" left="-3261" top="979" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="5583" height="7364" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000cf150000c41c0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Vista_Meteo" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-4470" top="1031" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="1509" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Vista_Meteo-DIMTIME]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="2" sourceattachpoint="15" destattachpoint="18" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="-4170" y="1430" />
+              <point x="-3716" y="1430" />
+              <point x="-3716" y="1361" />
+              <point x="-3261" y="1361" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-8848</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-26</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-8271</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>979</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>75</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="553f1ae8-d499-41db-9f44-4fa2dfe0d22b">
+      <ID>DIMTIME</ID>
+      <Name>DIMTIME</Name>
+      <DimensionID>DIMTIME</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="676a2e58-498a-4105-9d3d-36fb1c4d6c0e">
+          <AttributeID>FECHA</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8d75c46a-e38c-440b-b629-f5dd115c9609">
+          <AttributeID>ANIO</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a1762a20-f9d7-449b-bfd0-5a0d8977f118">
+          <AttributeID>TRIMESTRE</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="43310ffc-9b04-42b4-8bfb-6ae9696eb24d">
+          <AttributeID>YEARTRIMESTRE</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4f36014e-ab31-4071-91df-efa331f4d9ce">
+          <AttributeID>QUARTER</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0e5c2c7f-5393-4ed2-9ced-4c00fc049e1b">
+          <AttributeID>YEARQUARTER</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="dccd72b4-eb05-4596-8945-e7f218c3b62b">
+          <AttributeID>MES</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4b3b363d-6db2-4e2d-8438-e441fcc2b46a">
+          <AttributeID>YEARMONTH</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4899b5d5-2626-4e0a-97ee-1c63614425fc">
+          <AttributeID>MONTHNAME</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ada57d3c-f2c7-4d05-af97-51de88614c85">
+          <AttributeID>SHORTMONTHNAME</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3de5fbfe-ee44-43fe-b03e-4cfec84f8ab7">
+          <AttributeID>WEEK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="038437c1-830e-4ce5-aa50-6a7371c12711">
+          <AttributeID>DAYINYEAR</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d7a19bd5-dac7-4ad8-b500-67523dd898b3">
+          <AttributeID>DAYINMONTH</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="46179b5e-5326-4642-b485-6b0afb1e4213">
+          <AttributeID>DAYNAME</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="62b84247-99ca-474e-a9b2-def355d54035">
+          <AttributeID>SHORTDAYNAME</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7883b50b-3d86-4361-9ac8-def8ae5a357b">
+          <AttributeID>MONTHYEAR</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d85599a4-0c15-47fb-b6c2-86c661090c1b">
+          <AttributeID>DAYINMONTH ORD</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c07f1424-17c1-4714-80c7-6fd3cf506ac1">
+          <AttributeID>MES ORD</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3dd1c19e-1804-42c4-8fe4-7942ee8a72aa">
+          <AttributeID>SEMANA ORD</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="9f5fd004-9fc2-4b06-844e-b1b313a0fdbf">
+      <ID>Vista Meteo</ID>
+      <Name>Vista Meteo</Name>
+      <DimensionID>Vista Meteo</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="dd7b7531-8300-486c-9921-9b33fdfbca3f">
+          <AttributeID>Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="02a3994d-3a15-4aaf-8eee-c1aa53713806">
+          <AttributeID>Designador Iata</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6d90822b-324d-4df3-963d-2a7dbc250fa9">
+          <AttributeID>FECHA</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e4799d7d-66c2-4f3f-baee-8960f16f6422">
+          <AttributeID>Designador Oaci</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="db48e36c-f40d-4635-82ef-c8bec4682239">
+          <AttributeID>Tiempo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c600e8c0-6882-49dc-9570-8e7152de4c76">
+          <AttributeID>Hora</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="52f343e4-5524-44e5-89cf-21d37fc3e22d">
+      <ID>Vista Meteo</ID>
+      <Name>Vista Meteo</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="30856a1b-fda3-451f-9dc6-a16597d16465">
+          <ID>Termometro Adjunto</ID>
+          <Name>Termometro Adjunto</Name>
+          <Source dwd:design-time-name="4b053c9d-75e4-42eb-8bb5-67046b3824bc">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="016b4129-5f66-4641-b54b-722b3d0aaee9">
+              <TableID>dbo_Vista_Meteo</TableID>
+              <ColumnID>termometro_adjunto</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="006635d2-59a1-4b29-8cbf-564b73b5301e">
+          <ID>Vista Meteo Count</ID>
+          <Name>Vista Meteo Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="0ab07723-9f9e-4740-8053-4437567975dd">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="593cc3b3-4861-4e01-816c-074712caed10">
+              <TableID>dbo_Vista_Meteo</TableID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="8ac7f0a3-6bec-4394-a036-5ca409090768">
+          <ID>Lectura Del Barometro</ID>
+          <Name>Lectura Del Barometro</Name>
+          <Source dwd:design-time-name="beb7f03c-f34f-44dc-bbb8-90322827f06f">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="c8d4767f-1eb0-483d-87a4-e274062bceb7">
+              <TableID>dbo_Vista_Meteo</TableID>
+              <ColumnID>lectura_del_barometro</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="38c4ff18-2162-4420-9cd4-31d602fa18ae">
+          <ID>Lectura Corregida</ID>
+          <Name>Lectura Corregida</Name>
+          <Source dwd:design-time-name="025c01e6-3ce0-415d-9caa-55743f0d41ee">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="ae1672ea-1ad7-4e87-b995-f6037dfc61ec">
+              <TableID>dbo_Vista_Meteo</TableID>
+              <ColumnID>lectura_corregida</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="e1cf0c92-4a0d-45d6-abe6-e0abba0148c5">
+          <ID>Variacion 24h</ID>
+          <Name>Variacion 24h</Name>
+          <Source dwd:design-time-name="2d60f92c-38f0-4de2-8a2a-f713cb8eeef2">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="bf9eb329-ea4a-4adb-a8a4-8ad77c56f1c8">
+              <TableID>dbo_Vista_Meteo</TableID>
+              <ColumnID>variacion_24h</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="7eb8a7d4-c1d0-4c92-90a6-bc74f5ab253d">
+          <ID>Reducida Estacion</ID>
+          <Name>Reducida Estacion</Name>
+          <Source dwd:design-time-name="45defeeb-7aeb-4327-8564-6db9dace7a95">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="ea5887fe-0b15-4da6-af32-7a74166fe812">
+              <TableID>dbo_Vista_Meteo</TableID>
+              <ColumnID>reducida_estacion</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="a6356fe1-7552-49ed-8e1b-88a8c82fd608">
+          <ID>Reducida Nmm</ID>
+          <Name>Reducida Nmm</Name>
+          <Source dwd:design-time-name="d5acd446-5858-4a8c-84d3-ed9d5667c706">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="642dd914-43b7-4d55-97c9-29b8841cc99b">
+              <TableID>dbo_Vista_Meteo</TableID>
+              <ColumnID>reducida_nmm</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="f261ac0a-e591-464b-ab09-34e5218e1b8a">
+          <ID>Reducida Qnh</ID>
+          <Name>Reducida Qnh</Name>
+          <Source dwd:design-time-name="902db724-45ba-4c57-a7a9-ed4750492683">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="c6ea785c-c6a3-4357-8384-881d01c5a9a6">
+              <TableID>dbo_Vista_Meteo</TableID>
+              <ColumnID>reducida_qnh</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="15ae12f1-95d3-495e-8166-b6ad90911982">
+          <ID>Microbarografo</ID>
+          <Name>Microbarografo</Name>
+          <Source dwd:design-time-name="cde0ce6d-80a2-4e83-a902-149e352b8af2">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="3dd29363-7e31-4174-aab2-2581c49526af">
+              <TableID>dbo_Vista_Meteo</TableID>
+              <ColumnID>microbarografo</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="9f568ded-600e-44ef-926c-f0d7a9a1b918">
+          <ID>Termometro Seco</ID>
+          <Name>Termometro Seco</Name>
+          <Source dwd:design-time-name="d98b9e85-c9c9-4209-a5d7-1a4a7b55e581">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="e870d312-411c-4d50-a13f-7798d9fbe669">
+              <TableID>dbo_Vista_Meteo</TableID>
+              <ColumnID>termometro_seco</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="705ceb3c-6804-4e3c-8ca2-e679c3ba792d">
+          <ID>Termometro Humedo</ID>
+          <Name>Termometro Humedo</Name>
+          <Source dwd:design-time-name="c2c1b957-458e-4708-a8d6-7cafe9e52b2a">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="87a36c3a-23d4-414c-84f7-ea186fdac0e5">
+              <TableID>dbo_Vista_Meteo</TableID>
+              <ColumnID>termometro_humedo</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="ae286a1d-5bc6-4cd0-a13c-097f22fe7ff1">
+          <ID>Humedad Relativa</ID>
+          <Name>Humedad Relativa</Name>
+          <Source dwd:design-time-name="1a8c935c-9fb2-4fdf-8eb2-bcd5e77d381d">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="627e98bb-9754-4559-bd0e-e0a6d0971c2d">
+              <TableID>dbo_Vista_Meteo</TableID>
+              <ColumnID>humedad_relativa</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="a61b1567-def5-4091-85bc-b1a3eff5efb8">
+          <ID>Tension Vapor</ID>
+          <Name>Tension Vapor</Name>
+          <Source dwd:design-time-name="236679a4-4da4-4e74-afb3-5e5e78e62971">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="0016ed7e-19ad-4cdc-b782-21d5fadb083f">
+              <TableID>dbo_Vista_Meteo</TableID>
+              <ColumnID>tension_vapor</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="0f628d5a-b274-4a76-afb4-75ad5257de22">
+          <ID>Temperatura Rocio</ID>
+          <Name>Temperatura Rocio</Name>
+          <Source dwd:design-time-name="b06b9d1d-0597-4d0d-8c8f-62c1a5f7a6b5">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="822a9b89-9b06-4d0f-a1fb-be72fc879b2b">
+              <TableID>dbo_Vista_Meteo</TableID>
+              <ColumnID>temperatura_rocio</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="b4ed900a-2e7c-4e8c-b686-9a08d65e3b88">
+          <ID>Termografo</ID>
+          <Name>Termografo</Name>
+          <Source dwd:design-time-name="630c4066-58b2-4f80-848b-ff1d3a81c3d6">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b0c0c345-d0d6-4420-9018-bb6385949100">
+              <TableID>dbo_Vista_Meteo</TableID>
+              <ColumnID>termografo</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="e351bfb9-82bd-4700-9822-080a66328d99">
+          <ID>Hidrografo</ID>
+          <Name>Hidrografo</Name>
+          <Source dwd:design-time-name="3056e0e2-c0be-4831-afdd-650251e594a4">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="28bd1ca0-d67c-4224-84d4-79e2477c53d0">
+              <TableID>dbo_Vista_Meteo</TableID>
+              <ColumnID>hidrografo</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="2b7859e2-e040-459a-9f36-4506bbc8f01a">
+          <ID>Viento Direccion Media</ID>
+          <Name>Viento Direccion Media</Name>
+          <Source dwd:design-time-name="8f8db52c-4589-43e7-a276-7079de487d8c">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="65c013fb-cafd-4d04-8383-b2884162dc90">
+              <TableID>dbo_Vista_Meteo</TableID>
+              <ColumnID>viento_direccion_media</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="1c178caf-14f3-4515-af6b-170713af5db9">
+          <ID>Viento Velocidad Media</ID>
+          <Name>Viento Velocidad Media</Name>
+          <Source dwd:design-time-name="bfbb8509-0209-4b8b-9858-be2eeca09da2">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b57a3ec3-dcde-4d45-8735-743f9d403517">
+              <TableID>dbo_Vista_Meteo</TableID>
+              <ColumnID>viento_velocidad_media</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="1dee1123-06fb-4a86-8cc1-c446c63da05d">
+          <ID>Viento Velocidad Maxima</ID>
+          <Name>Viento Velocidad Maxima</Name>
+          <Source dwd:design-time-name="f37afc0b-c79d-4329-a12d-db37f650ba01">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="4e14773f-bd19-4309-829d-2bcd527d4ecb">
+              <TableID>dbo_Vista_Meteo</TableID>
+              <ColumnID>viento_velocidad_maxima</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="b700eb57-24cc-4705-a4d9-cfe20f150b42">
+          <ID>Visibilidad Reinante</ID>
+          <Name>Visibilidad Reinante</Name>
+          <Source dwd:design-time-name="b79baf0a-08f3-4e48-a015-67d4a1b5cc4f">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="5961140b-a87a-4ab5-a00c-df8f1677bea3">
+              <TableID>dbo_Vista_Meteo</TableID>
+              <ColumnID>visibilidad_reinante</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="d1e79e0f-88cb-4cf1-9234-50f554d6a3c5">
+          <ID>Visibilidad Minima</ID>
+          <Name>Visibilidad Minima</Name>
+          <Source dwd:design-time-name="589612c9-f2df-4bf6-80e5-3f1dad5915be">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="00110bed-b73c-4cb4-9063-3753687132c4">
+              <TableID>dbo_Vista_Meteo</TableID>
+              <ColumnID>visibilidad_minima</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="ab4c960a-0fb8-4daa-990c-f90efe313e35">
+          <ID>Pluviogrado</ID>
+          <Name>Pluviogrado</Name>
+          <Source dwd:design-time-name="2074c111-09ab-4d86-ad88-2c82a4143cc3">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="5d4f5289-6281-4c13-8418-0cb10ae936b9">
+              <TableID>dbo_Vista_Meteo</TableID>
+              <ColumnID>pluviogrado</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="cf7ad9d4-734e-4923-b993-dfa86568638f">
+          <ID>Tiempo Presente</ID>
+          <Name>Tiempo Presente</Name>
+          <Source dwd:design-time-name="4e5293a7-ea19-469d-b516-162913ef0e33">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="4f757a16-d858-472f-9d6e-61c5e099d808">
+              <TableID>dbo_Vista_Meteo</TableID>
+              <ColumnID>tiempo_presente</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="cf4040e2-ab29-41f0-b135-07264baf4c48">
+          <ID>Capa1 Cantidad</ID>
+          <Name>Capa1 Cantidad</Name>
+          <Source dwd:design-time-name="9dc9d8db-2fa5-45a9-b840-c3d5d4fcbc22">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="a6f23449-bafb-4284-ac9f-c39c540e3f2f">
+              <TableID>dbo_Vista_Meteo</TableID>
+              <ColumnID>capa1_cantidad</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="1a4e0ebd-6ff5-4538-8a2e-ff32176cc317">
+          <ID>Capa1 Altura</ID>
+          <Name>Capa1 Altura</Name>
+          <Source dwd:design-time-name="8de9fca7-f427-438b-b170-cba3182b5440">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="5d9be6e0-05c0-4988-ac6e-1d6f15340646">
+              <TableID>dbo_Vista_Meteo</TableID>
+              <ColumnID>capa1_altura</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="fbcb52d4-a290-4bf9-a253-4a2a4010828d">
+          <ID>Capa2 Cantidad</ID>
+          <Name>Capa2 Cantidad</Name>
+          <Source dwd:design-time-name="2cd5e7cd-a16e-4e97-b3dd-f4bd7070c2b8">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="74c9fae9-b1f0-46a3-9798-ce7d8461dbe2">
+              <TableID>dbo_Vista_Meteo</TableID>
+              <ColumnID>capa2_cantidad</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="f8aae33b-2447-456b-9671-3e77117806fd">
+          <ID>Capa2 Altura</ID>
+          <Name>Capa2 Altura</Name>
+          <Source dwd:design-time-name="ddc1fcff-2fde-452d-8b71-7c5b533eedba">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="466ad086-0e96-40f7-8cff-3b05f17a331c">
+              <TableID>dbo_Vista_Meteo</TableID>
+              <ColumnID>capa2_altura</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="33f7b096-bd8a-45da-94f2-addd9f5246c2">
+          <ID>Nubosidad Parcial1</ID>
+          <Name>Nubosidad Parcial1</Name>
+          <Source dwd:design-time-name="9c56fd92-9087-45e6-ae8b-b554e106dffb">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f912b364-c5c0-40f0-bae3-f8048d430877">
+              <TableID>dbo_Vista_Meteo</TableID>
+              <ColumnID>nubosidad_parcial1</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="f227ab65-3111-4578-be6e-cc87c746f55b">
+          <ID>Capa3 Cantidad</ID>
+          <Name>Capa3 Cantidad</Name>
+          <Source dwd:design-time-name="0d61d763-d9d2-4c3b-b488-15cd4ae16268">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="61fd4611-f598-4886-a849-ad69e43adbf2">
+              <TableID>dbo_Vista_Meteo</TableID>
+              <ColumnID>capa3_cantidad</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="929f9420-7c08-48ea-b2cf-ad1cd90f752d">
+          <ID>Capa3 Altura</ID>
+          <Name>Capa3 Altura</Name>
+          <Source dwd:design-time-name="a94b2422-092e-41b2-a970-66492e2fb134">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="cbdeb05b-243c-4eb3-9110-223fd9333922">
+              <TableID>dbo_Vista_Meteo</TableID>
+              <ColumnID>capa3_altura</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="99841692-b3b1-410f-ac1f-c264d53ec97b">
+          <ID>Nubosidad Parcial2</ID>
+          <Name>Nubosidad Parcial2</Name>
+          <Source dwd:design-time-name="9b37b394-1650-4bc4-a4ef-d767f42969f8">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="eb92c4e1-bd7d-44f3-99e6-3ba216743431">
+              <TableID>dbo_Vista_Meteo</TableID>
+              <ColumnID>nubosidad_parcial2</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="4bf55c98-96e5-41a4-8a18-5d193160ed32">
+          <ID>Capa4 Cantidad</ID>
+          <Name>Capa4 Cantidad</Name>
+          <Source dwd:design-time-name="7bd3818a-789d-4e81-83be-2c2ed78af7bb">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="88937b0f-95b2-4884-b952-5dae091854ae">
+              <TableID>dbo_Vista_Meteo</TableID>
+              <ColumnID>capa4_cantidad</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="ed1ce290-c45a-4242-b16f-a8517107d36f">
+          <ID>Capa4 Altura</ID>
+          <Name>Capa4 Altura</Name>
+          <Source dwd:design-time-name="fe61ae94-2104-4db3-90d8-0337ec4cd271">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b5fb26f0-9fca-4b73-ba6a-9fc20330da0e">
+              <TableID>dbo_Vista_Meteo</TableID>
+              <ColumnID>capa4_altura</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="056876a3-df61-4b10-bd9d-412901fb4047">
+          <ID>Capa5 Cantidad</ID>
+          <Name>Capa5 Cantidad</Name>
+          <Source dwd:design-time-name="5ee7e5e0-e600-4ad0-bfbf-80b70480efb5">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="cc293107-4158-4c66-872f-0b1adffe58ce">
+              <TableID>dbo_Vista_Meteo</TableID>
+              <ColumnID>capa5_cantidad</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="36f1acf8-b069-4bfa-9e27-8b42fc620f2b">
+          <ID>Nubosidad Parcial3</ID>
+          <Name>Nubosidad Parcial3</Name>
+          <Source dwd:design-time-name="077e3ccb-c0ab-4c13-989e-4c262c79cb8a">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="367705fe-18ed-4fe0-8135-2dff530173b8">
+              <TableID>dbo_Vista_Meteo</TableID>
+              <ColumnID>nubosidad_parcial3</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="f4b41513-62d7-47a6-b804-e43cc39bf108">
+          <ID>Capa5 Altura</ID>
+          <Name>Capa5 Altura</Name>
+          <Source dwd:design-time-name="a0c4a812-62e4-4a7e-b50b-4b1bad8ab76e">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="5fe20fe5-ff6b-4fb8-b42a-c04a32907a13">
+              <TableID>dbo_Vista_Meteo</TableID>
+              <ColumnID>capa5_altura</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="e0984748-b911-471d-9cdd-8ba793a74888">
+          <ID>Nubosidad Total</ID>
+          <Name>Nubosidad Total</Name>
+          <Source dwd:design-time-name="f004b8e2-cee8-44a6-81e1-ebc1d7fc9e76">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="86aa30aa-b153-4db4-ab54-13b025017c05">
+              <TableID>dbo_Vista_Meteo</TableID>
+              <ColumnID>nubosidad_total</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="01f1edb2-e545-4f26-b808-4bcbfea1257c">
+          <ID>Extrema Temperatura Minima</ID>
+          <Name>Extrema Temperatura Minima</Name>
+          <Source dwd:design-time-name="7e3b6c48-6ce7-46bf-900b-b0f3283b0cb9">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="a482f889-56f0-481a-85fb-2ffdb5eb4ae5">
+              <TableID>dbo_Vista_Meteo</TableID>
+              <ColumnID>extrema_temperatura_minima</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="83eb1397-394c-4da9-b6bf-ca1070cdecc0">
+          <ID>Extrema Temperatura Maxima</ID>
+          <Name>Extrema Temperatura Maxima</Name>
+          <Source dwd:design-time-name="d273b3f4-8e44-468b-941d-e4c792763aac">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="1556e668-4ff2-4b33-89ee-6125c4908f70">
+              <TableID>dbo_Vista_Meteo</TableID>
+              <ColumnID>extrema_temperatura_maxima</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="14e66f1a-d6c6-4030-8fd6-a5ccaaf70e00">
+          <ID>Extrema Humedad Minima</ID>
+          <Name>Extrema Humedad Minima</Name>
+          <Source dwd:design-time-name="024c996b-4752-40ed-88e0-a5a912ffbe56">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="0c91ca36-dfa0-40b4-bc73-b011fff4b2c6">
+              <TableID>dbo_Vista_Meteo</TableID>
+              <ColumnID>extrema_humedad_minima</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="1d6a63b8-0554-4c44-9bc7-a03a9b50a3e9">
+          <ID>Extrema Humedad Maxima</ID>
+          <Name>Extrema Humedad Maxima</Name>
+          <Source dwd:design-time-name="d1c2f165-c5e6-453c-9b13-1a7c251b1ad0">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="eb726ac6-b8b7-4872-a8b9-9751e05a83a8">
+              <TableID>dbo_Vista_Meteo</TableID>
+              <ColumnID>extrema_humedad_maxima</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="90691673-1e1f-4992-b95a-17de38a466be">
+          <ID>Extrema Presion Minima</ID>
+          <Name>Extrema Presion Minima</Name>
+          <Source dwd:design-time-name="f3ff5804-3329-4165-9495-f73ec9d5aa73">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="7af7bc82-a79b-42ab-8586-3d9a423a4452">
+              <TableID>dbo_Vista_Meteo</TableID>
+              <ColumnID>extrema_presion_minima</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="a5d6056b-7450-455b-a0d0-f9aa7681bd5a">
+          <ID>Extrema Presion Maxima</ID>
+          <Name>Extrema Presion Maxima</Name>
+          <Source dwd:design-time-name="6f8c5b87-9fc3-4eaa-b791-be0fdb139fd2">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="af297431-27a6-4909-be59-9cd2f44c52a5">
+              <TableID>dbo_Vista_Meteo</TableID>
+              <ColumnID>extrema_presion_maxima</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="b48e0d6b-ebc5-4fa0-933d-f05217032697">
+          <ID>Extrema Viento Direccion</ID>
+          <Name>Extrema Viento Direccion</Name>
+          <Source dwd:design-time-name="266c74fb-3727-4b16-9c9a-ffd09f640cd9">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f4c1cf8f-6d2d-45ec-9a2a-32df2b1b34df">
+              <TableID>dbo_Vista_Meteo</TableID>
+              <ColumnID>extrema_viento_direccion</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="99ed1152-f198-4001-a20e-327da16f48fd">
+          <ID>Extrema Viento Velocidad Maxima</ID>
+          <Name>Extrema Viento Velocidad Maxima</Name>
+          <Source dwd:design-time-name="1cba470d-a51e-45d1-a14e-3eebecdc1ac1">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="fb76568f-e409-425c-a2d2-d6f27086d1dd">
+              <TableID>dbo_Vista_Meteo</TableID>
+              <ColumnID>extrema_viento_velocidad_maxima</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5f16932c-a842-4ec2-975c-fc207a863c04">
+          <CubeDimensionID>DIMTIME</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="f1000957-d6e6-4801-87b1-87f22321ad53">
+              <AttributeID>FECHA</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="f9fb9ab1-9b89-4544-981b-4d33219adf8a">
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <DataType>Date</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="abc0bfef-99b3-4efa-8582-3b413fd7ef89">
+                    <TableID>dbo_Vista_Meteo</TableID>
+                    <ColumnID>fecha</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="ac90de63-60ba-4af0-a0b1-5468ab1a97b4">
+          <CubeDimensionID>Vista Meteo</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="8865809f-0550-4424-90d5-b6afb4dfbded">
+              <AttributeID>Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="760533b8-9938-4b71-9f60-b392cddaa65b">
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="438e4616-8ad4-43dc-b073-90373e857994">
+                    <TableID>dbo_Vista_Meteo</TableID>
+                    <ColumnID>id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="4f3cc3c4-e61b-4ecf-95e3-4c601a3f3fea">
+    <DataSourceViewID>Meteo Dgac</DataSourceViewID>
+  </Source>
+</Cube>

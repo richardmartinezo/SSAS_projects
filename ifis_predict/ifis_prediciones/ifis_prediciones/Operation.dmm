@@ -1,0 +1,149 @@
+﻿<MiningStructure xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="7a996861-565c-4df5-9596-75b0ffe5e261" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Operation</ID>
+  <Name>Operation</Name>
+  <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>MDXFilterComponent</Name>
+      <Value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;Filter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/SQLServer/reporting/QuerySpecification"&gt;&lt;FilterItems xmlns="http://schemas.microsoft.com/AnalysisServices/QueryDefinition" /&gt;&lt;/Filter&gt;</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T05:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="CubeDimensionBinding" dwd:design-time-name="2122cec0-7be6-4a70-9bcf-18d37c8c1b33">
+    <DataSourceID>.</DataSourceID>
+    <CubeID>i FIS</CubeID>
+    <CubeDimensionID>Operation</CubeDimensionID>
+    <Filter></Filter>
+  </Source>
+  <Columns>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="a4afbbe7-65da-4784-9f25-55008a05a7d7">
+      <ID>Aerodrome</ID>
+      <Name>Aerodrome</Name>
+      <IsKey>true</IsKey>
+      <Type>Text</Type>
+      <Source xsi:type="CubeAttributeBinding" dwd:design-time-name="2886a9a3-aac1-4ae5-918e-390264cc871c">
+        <CubeID>i FIS</CubeID>
+        <CubeDimensionID>Operation</CubeDimensionID>
+        <AttributeID>Aerodrome</AttributeID>
+        <Type>All</Type>
+      </Source>
+      <Content>Key</Content>
+    </Column>
+    <Column xsi:type="TableMiningStructureColumn" dwd:design-time-name="e3d61c93-6b98-4408-9696-c86a0f01fc6a">
+      <ID>Operation</ID>
+      <Name>DIMTIME</Name>
+      <SourceMeasureGroup dwd:design-time-name="352418cb-7f4f-41d1-bbb3-2e5d3ada290f">
+        <DataSourceID>.</DataSourceID>
+        <CubeID>i FIS</CubeID>
+        <MeasureGroupID>Operation</MeasureGroupID>
+        <RefreshInterval>PT1S</RefreshInterval>
+      </SourceMeasureGroup>
+      <Columns>
+        <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="dad403b8-4984-4501-a3b7-0eec5e2eb1b5">
+          <ID>FECHA</ID>
+          <Name>FECHA</Name>
+          <IsKey>true</IsKey>
+          <Type>Date</Type>
+          <Source xsi:type="CubeAttributeBinding" dwd:design-time-name="fead3070-f8ae-4b66-8048-31d645e7143e">
+            <CubeID>i FIS</CubeID>
+            <CubeDimensionID>DIMTIME</CubeDimensionID>
+            <AttributeID>FECHA</AttributeID>
+            <Type>All</Type>
+          </Source>
+          <Content>Key Time</Content>
+        </Column>
+        <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="c299572c-c97d-4380-9993-46cf745385d2">
+          <ID>Recuento Operation</ID>
+          <Name>Recuento Operation</Name>
+          <Type>Long</Type>
+          <Source xsi:type="MeasureBinding" dwd:design-time-name="b960ea57-7a80-42e8-b8de-5cc0115db50e">
+            <MeasureID>Recuento Operation</MeasureID>
+          </Source>
+          <Content>Continuous</Content>
+        </Column>
+      </Columns>
+    </Column>
+  </Columns>
+  <MiningModels>
+    <MiningModel dwd:design-time-name="63600848-6a5f-43b6-8231-c5e854469f3b">
+      <ID>Operation</ID>
+      <Name>Operation</Name>
+      <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T05:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Algorithm>Microsoft_Time_Series</Algorithm>
+      <AlgorithmParameters>
+        <AlgorithmParameter>
+          <Name>MISSING_VALUE_SUBSTITUTION</Name>
+          <Value xsi:type="xsd:string">Mean</Value>
+        </AlgorithmParameter>
+      </AlgorithmParameters>
+      <Columns>
+        <Column dwd:design-time-name="03682a11-952c-4401-9b07-6b21398b081a">
+          <ID>Aerodrome</ID>
+          <Name>Aerodrome</Name>
+          <SourceColumnID>Aerodrome</SourceColumnID>
+          <Usage>Key</Usage>
+        </Column>
+        <Column dwd:design-time-name="5bbd716d-0b8f-4661-9518-517c6d90f634">
+          <ID>DIMTIME</ID>
+          <Name>DIMTIME</Name>
+          <SourceColumnID>Operation</SourceColumnID>
+          <Columns>
+            <Column dwd:design-time-name="9abc2a69-453f-48c4-bbd1-d392b97d7b66">
+              <ID>FECHA</ID>
+              <Name>FECHA</Name>
+              <SourceColumnID>FECHA</SourceColumnID>
+              <Usage>Key</Usage>
+            </Column>
+            <Column dwd:design-time-name="c385c043-bf63-4d19-a247-89c9e4ce4c77">
+              <ID>Recuento Operation</ID>
+              <Name>Recuento Operation</Name>
+              <SourceColumnID>Recuento Operation</SourceColumnID>
+              <Usage>Predict</Usage>
+            </Column>
+          </Columns>
+        </Column>
+      </Columns>
+      <AllowDrillThrough>true</AllowDrillThrough>
+    </MiningModel>
+  </MiningModels>
+</MiningStructure>

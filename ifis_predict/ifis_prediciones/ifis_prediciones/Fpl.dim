@@ -1,0 +1,409 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="6b3babfb-0f84-4bf5-8525-e2c3f6fbebc5" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Fpl</ID>
+  <Name>Fpl</Name>
+  <CreatedTimestamp>2014-07-07T02:43:53.016667Z</CreatedTimestamp>
+  <LastSchemaUpdate>2014-07-08T13:59:18.7Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="8" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2824" scrolltop="-5490" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="10663" y="15981" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="fpl" left="20" top="0" logicalid="4" controlid="1" masterid="0" hint1="0" hint2="0" width="4974" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000800006e13000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_fpl" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="operation" left="5220" top="-2990" logicalid="5" controlid="2" masterid="0" hint1="0" hint2="0" width="4022" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000b60f000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_operation" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-92" top="-790" logicalid="6" controlid="3" masterid="0" hint1="0" hint2="0" width="5612" height="1290" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[operation-fpl]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="2" sourceattachpoint="0" destattachpoint="22" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="307" y="0" />
+              <point x="307" y="-490" />
+              <point x="5220" y="-490" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2824</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-5490</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-2990</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>2014-07-08T14:00:34.026667Z</LastProcessed>
+  <State>Processed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="f77aaf12-967b-416d-a928-45ddf5bee380">
+    <DataSourceViewID>i FIS</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="defcbadc-12e0-48a1-9200-f5f1447e3ad9">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <DimensionPermissions>
+    <DimensionPermission dwd:design-time-name="611a1bd1-3a7b-42cf-a9f9-fa29cedb3a3d">
+      <ID>DimensionPermission</ID>
+      <Name>DimensionPermission</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <RoleID>Role 1</RoleID>
+      <Read>Allowed</Read>
+      <Write>Allowed</Write>
+    </DimensionPermission>
+  </DimensionPermissions>
+  <Language>3082</Language>
+  <Collation>Modern_Spanish_CI_AS</Collation>
+  <UnknownMemberName>Unknown</UnknownMemberName>
+  <Attributes>
+    <Attribute dwd:design-time-name="fcabf5da-5f9c-47b3-98bd-814db1016b74">
+      <ID>Ifis Id</ID>
+      <Name>Ifis Id</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2e85f45d-3545-42ab-b612-5d4e4072e86b">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b3228722-374c-4353-a492-f7f113c26a38">
+            <TableID>dbo_fpl</TableID>
+            <ColumnID>ifis_id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="047fc7e7-7c35-4bd2-b75a-64f0b6e92d69">
+        <DataType>WChar</DataType>
+        <NullProcessing>ZeroOrBlank</NullProcessing>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="972ae108-b827-4026-ba2a-681bf76e6f06">
+          <TableID>dbo_fpl</TableID>
+          <ColumnID>ifis_id</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="6226bbaf-9e0f-4ea7-a6a1-d3070c2ef261">
+          <AttributeID>Matricula</AttributeID>
+          <Name>Matricula</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b0b499fd-8ebb-4bff-b641-3a7a9a4e48db">
+          <AttributeID>Tipo Vuelo</AttributeID>
+          <Name>Tipo Vuelo</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="bd9cdd28-3f93-405b-8688-8b4715e238f4">
+          <AttributeID>Tipo Aeronave</AttributeID>
+          <Name>Tipo Aeronave</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="960ba34b-74ff-483a-b7a4-625639cbc01b">
+          <AttributeID>Salida</AttributeID>
+          <Name>Salida</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="84ea4ffc-9f08-4944-9642-5b36fa4d89bb">
+          <AttributeID>Fecha Etd</AttributeID>
+          <Name>Fecha Etd</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a07d6ade-785c-4f85-8179-1148c306fb8d">
+          <AttributeID>Fecha Arribo</AttributeID>
+          <Name>Fecha Arribo</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c291a1b3-1758-4d16-8d70-80603f911792">
+          <AttributeID>Hora Etd</AttributeID>
+          <Name>Hora Etd</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5f4ad539-f9d9-490f-88e1-b53f82c595c7">
+          <AttributeID>Destino</AttributeID>
+          <Name>Destino</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="7e6946ee-cf5d-4f69-a090-3d462191f1c5">
+          <AttributeID>Sin Hora Etd</AttributeID>
+          <Name>Sin Hora Etd</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="848063f2-3777-4730-a504-a2b9baada38c">
+      <ID>Matricula</ID>
+      <Name>Matricula</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="fd890e2b-5c66-4fb8-bf6c-73effbf9ddab">
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="17dd79f5-60ba-4de1-b970-4644e358f7f9">
+            <TableID>dbo_fpl</TableID>
+            <ColumnID>matricula</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="c4e6e371-83a1-485b-9b7c-4c5c22490f87">
+        <DataType>WChar</DataType>
+        <DataSize>30</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="b420ad61-1fc0-4928-a27c-d266a383ae4f">
+          <TableID>dbo_fpl</TableID>
+          <ColumnID>matricula</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="29ba2e64-ef1c-4c23-abe9-024af730c545">
+      <ID>Tipo Vuelo</ID>
+      <Name>Tipo Vuelo</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3c3b2e24-d67f-44a2-a639-ec41e8be231e">
+          <DataType>WChar</DataType>
+          <DataSize>2</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3c2abaf8-1f2a-4d53-bffd-61e8509f01ab">
+            <TableID>dbo_fpl</TableID>
+            <ColumnID>tipo_vuelo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="84ce8450-eb14-4500-b1dd-0267f26e5905">
+        <DataType>WChar</DataType>
+        <DataSize>2</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="fbaff683-066d-4569-8b45-1d357c7d85af">
+          <TableID>dbo_fpl</TableID>
+          <ColumnID>tipo_vuelo</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="fba6db69-58f2-4533-8d6b-4b595b1518fc">
+      <ID>Tipo Aeronave</ID>
+      <Name>Tipo Aeronave</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="06a4d702-2701-4dee-9050-19cebe0a3cf4">
+          <DataType>WChar</DataType>
+          <DataSize>12</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="73bb75d3-107a-4638-a30f-14366477e903">
+            <TableID>dbo_fpl</TableID>
+            <ColumnID>tipo_aeronave</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="fefdafe4-2217-41a0-a89c-99e7d420d5a2">
+        <DataType>WChar</DataType>
+        <DataSize>12</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="e5506802-e0b0-47c6-9017-7f718ccbd596">
+          <TableID>dbo_fpl</TableID>
+          <ColumnID>tipo_aeronave</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b3294828-6949-4e38-86e7-e557f026f1fe">
+      <ID>Salida</ID>
+      <Name>Salida</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="026cddee-572d-4bb4-b087-7f679fda6947">
+          <DataType>WChar</DataType>
+          <DataSize>8</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="eacf10b5-443a-424f-83d0-715a65a8ba82">
+            <TableID>dbo_fpl</TableID>
+            <ColumnID>salida</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="f24a08ea-4a37-4808-9281-d6f44172d943">
+        <DataType>WChar</DataType>
+        <DataSize>8</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="261153fe-68fc-46d8-8732-769599bfdfc6">
+          <TableID>dbo_fpl</TableID>
+          <ColumnID>salida</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e3fe7685-bf9c-4a02-88fe-b2e92b854a42">
+      <ID>Fecha Etd</ID>
+      <Name>Fecha Etd</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2902152f-0400-410f-9e09-5e6a84946a2b">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3ec4da11-eb56-46db-b673-816d57ee79c6">
+            <TableID>dbo_fpl</TableID>
+            <ColumnID>fecha_etd</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="b25fbe46-2a0e-4f69-b0e1-c0d04b1a4a0f">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="39b81df9-f7de-4244-b6cc-68e50bba4c0b">
+          <TableID>dbo_fpl</TableID>
+          <ColumnID>fecha_etd</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4d7e2c38-c21c-4008-a587-a23fef7c0b74">
+      <ID>Fecha Arribo</ID>
+      <Name>Fecha Arribo</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="53bcff67-6062-42fc-88b5-85a914b2e2b2">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="af524e42-1cfe-4f13-b956-1ce648013d25">
+            <TableID>dbo_fpl</TableID>
+            <ColumnID>fecha_arribo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="eacc6427-a505-4ffb-84ca-93d590808bf5">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="a9e6116d-7672-4ed9-8cb1-033dffa497db">
+          <TableID>dbo_fpl</TableID>
+          <ColumnID>fecha_arribo</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9628ebb1-8cb1-4c3c-907e-138842fe673e">
+      <ID>Hora Etd</ID>
+      <Name>Hora Etd</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9cd07186-2a01-46df-a002-4da56efac054">
+          <DataType>WChar</DataType>
+          <DataSize>8</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4f44a07a-719e-4818-8ac4-ea8b76da1c6b">
+            <TableID>dbo_fpl</TableID>
+            <ColumnID>hora_etd</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="5826a672-1ef0-494d-b9d0-a9c4c57dba7b">
+        <DataType>WChar</DataType>
+        <DataSize>8</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="34d23fd5-1217-4499-8fd3-4a01a0a8c838">
+          <TableID>dbo_fpl</TableID>
+          <ColumnID>hora_etd</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ca121595-37cc-42ae-98ae-e939076261f6">
+      <ID>Destino</ID>
+      <Name>Destino</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="de3c7f84-526b-46f8-b1c3-e4afc17becdb">
+          <DataType>WChar</DataType>
+          <DataSize>8</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9364429f-2a0e-490d-86af-175b0f27351d">
+            <TableID>dbo_fpl</TableID>
+            <ColumnID>destino</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="b3694f5f-b531-4ca6-8f39-368589734087">
+        <DataType>WChar</DataType>
+        <DataSize>8</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="7bbfc374-f152-44cb-ba3e-90e2b7956cf9">
+          <TableID>dbo_fpl</TableID>
+          <ColumnID>destino</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="482acf22-1158-487a-9c55-fb9f2c9083ed">
+      <ID>Sin Hora Etd</ID>
+      <Name>Sin Hora Etd</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="58222860-963e-4c76-8746-ed7c1521c0f1">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="64e25f8b-4c03-4642-a39c-7d4dbe399dc1">
+            <TableID>dbo_fpl</TableID>
+            <ColumnID>sin_hora_etd</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="f7a49141-528b-4ebd-8751-9ebf34cbdb83">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="911cd288-2335-4ad2-ae55-fe502016d674">
+          <TableID>dbo_fpl</TableID>
+          <ColumnID>sin_hora_etd</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ProactiveCaching dwd:design-time-name="778d5fd4-c767-4787-a760-828e5749b3f3">
+    <SilenceInterval>-PT1S</SilenceInterval>
+    <Latency>-PT1S</Latency>
+    <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+    <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+    <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="214da8b1-6316-42c5-960b-a95e3d02ed76" />
+  </ProactiveCaching>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

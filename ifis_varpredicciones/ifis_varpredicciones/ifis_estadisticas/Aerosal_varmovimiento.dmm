@@ -1,0 +1,234 @@
+﻿<MiningStructure xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="b08dd4f1-6029-403c-b37f-4a65752614e5" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>MOVIMIENTO AERONAVE</ID>
+  <Name>Aerosal_varmovimiento</Name>
+  <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>MDXFilterComponent</Name>
+      <Value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;Filter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/SQLServer/reporting/QuerySpecification"&gt;&lt;FilterItems xmlns="http://schemas.microsoft.com/AnalysisServices/QueryDefinition" /&gt;&lt;/Filter&gt;</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T05:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="CubeDimensionBinding" dwd:design-time-name="6a7b9fba-be46-4f47-9937-d83cb098b708">
+    <DataSourceID>.</DataSourceID>
+    <CubeID>i FIS_estadistica</CubeID>
+    <CubeDimensionID>Vista Cabecera Dta</CubeDimensionID>
+    <Filter></Filter>
+  </Source>
+  <Columns>
+    <Column xsi:type="TableMiningStructureColumn" dwd:design-time-name="8cbd8722-e239-4771-973d-f11c34fcc76c">
+      <ID>VAR_ESTUDIO</ID>
+      <Name>VAR_ESTUDIO</Name>
+      <SourceMeasureGroup dwd:design-time-name="0fe49779-cc8e-429e-8405-ee75bf699c8d">
+        <DataSourceID>.</DataSourceID>
+        <CubeID>i FIS_estadistica</CubeID>
+        <MeasureGroupID>Vista Detalle Dta</MeasureGroupID>
+        <RefreshInterval>PT1S</RefreshInterval>
+      </SourceMeasureGroup>
+      <Columns>
+        <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="876b0558-c614-423f-9bb9-69e1f8bf36b7">
+          <ID>MES_NOMBRE</ID>
+          <Name>MES_NOMBRE</Name>
+          <IsKey>true</IsKey>
+          <Type>Text</Type>
+          <Source xsi:type="CubeAttributeBinding" dwd:design-time-name="7ae2f24e-c0b0-47a5-9678-b1524818ebf7">
+            <CubeID>i FIS_estadistica</CubeID>
+            <CubeDimensionID>DIMTIME</CubeDimensionID>
+            <AttributeID>MONTHNAME</AttributeID>
+            <Type>All</Type>
+          </Source>
+          <Content>Key Time</Content>
+        </Column>
+      </Columns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="c2394b6b-a2d5-47b9-80c0-3246268aa315">
+      <ID>AERODROMO_SALIDA</ID>
+      <Name>AERODROMO_SALIDA</Name>
+      <IsKey>true</IsKey>
+      <Type>Text</Type>
+      <Source xsi:type="CubeAttributeBinding" dwd:design-time-name="6d420d8c-5d91-4bc4-ade8-7adc00c35c97">
+        <CubeID>i FIS_estadistica</CubeID>
+        <CubeDimensionID>Vista Cabecera Dta</CubeDimensionID>
+        <AttributeID>Aerodrome</AttributeID>
+        <Type>All</Type>
+      </Source>
+      <Content>Key</Content>
+    </Column>
+    <Column xsi:type="TableMiningStructureColumn" dwd:design-time-name="b07fed21-5ef9-4f2d-bfbe-8d97c4aea6e1">
+      <ID>VAR_MOVIMIENTO</ID>
+      <Name>VAR_MOVIMIENTO</Name>
+      <SourceMeasureGroup dwd:design-time-name="d8fdbece-6857-474d-8684-269dfe2587fa">
+        <DataSourceID>.</DataSourceID>
+        <CubeID>i FIS_estadistica</CubeID>
+        <MeasureGroupID>Vista Cabecera Dta</MeasureGroupID>
+        <RefreshInterval>PT1S</RefreshInterval>
+      </SourceMeasureGroup>
+      <Columns>
+        <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="06e7302c-bd8b-487f-8e24-b3a51cb77cec">
+          <ID>Tripulacion</ID>
+          <Name>Tripulacion</Name>
+          <Type>Long</Type>
+          <Source xsi:type="MeasureBinding" dwd:design-time-name="bec2d480-700d-499d-8b9d-00758d00c5af">
+            <MeasureID>Tripulacion</MeasureID>
+          </Source>
+          <Content>Continuous</Content>
+        </Column>
+        <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="5cb127aa-741e-49c4-a370-59c1a11adb63">
+          <ID>Nrutas</ID>
+          <Name>Nrutas</Name>
+          <Type>Long</Type>
+          <Source xsi:type="MeasureBinding" dwd:design-time-name="e02883a3-0a93-47c0-aab3-0b01915e5d4d">
+            <MeasureID>Nrutas</MeasureID>
+          </Source>
+          <Content>Continuous</Content>
+        </Column>
+        <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="7f582e1c-f705-4b15-b187-df5a40ba21dd">
+          <ID>Capacidad Carga</ID>
+          <Name>Capacidad Carga</Name>
+          <Type>Long</Type>
+          <Source xsi:type="MeasureBinding" dwd:design-time-name="9b4b19b1-7760-471e-bd17-4ec4a20b9a61">
+            <MeasureID>Capacidad Carga</MeasureID>
+          </Source>
+          <Content>Continuous</Content>
+        </Column>
+        <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="7ac82fdc-a872-4acb-b269-e35d3a280633">
+          <ID>Asientos Ofrecidos</ID>
+          <Name>Asientos Ofrecidos</Name>
+          <Type>Long</Type>
+          <Source xsi:type="MeasureBinding" dwd:design-time-name="3df4aded-72ad-42fb-9d20-d3933cb5f6f3">
+            <MeasureID>Asientos Ofrecidos</MeasureID>
+          </Source>
+          <Content>Continuous</Content>
+        </Column>
+        <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="b59574be-f89b-4625-b4f4-58e87c7e1d9e">
+          <ID>Cantidad_movimientos</ID>
+          <Name>Cantidad_movimientos</Name>
+          <Type>Long</Type>
+          <Source xsi:type="MeasureBinding" dwd:design-time-name="18b2f88a-2eab-4e5b-af57-1f6847cdb623">
+            <MeasureID>Vista Cabecera Dta Count</MeasureID>
+          </Source>
+          <Content>Continuous</Content>
+        </Column>
+        <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="8fbf7412-4be4-496b-92ad-3169f307d553">
+          <ID>FECHA</ID>
+          <Name>FECHA</Name>
+          <IsKey>true</IsKey>
+          <Type>Date</Type>
+          <Source xsi:type="CubeAttributeBinding" dwd:design-time-name="f51f543b-72ce-45d8-acc3-4f3d9c18239f">
+            <CubeID>i FIS_estadistica</CubeID>
+            <CubeDimensionID>DIMTIME</CubeDimensionID>
+            <AttributeID>FECHA</AttributeID>
+            <Type>All</Type>
+          </Source>
+          <Content>Key Time</Content>
+        </Column>
+      </Columns>
+    </Column>
+  </Columns>
+  <MiningModels>
+    <MiningModel dwd:design-time-name="697173dc-e1ad-4675-8d19-93eb6522f7ee">
+      <ID>MOVIMIENTO AERONAVE</ID>
+      <Name>MOVIMIENTO AERONAVE</Name>
+      <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T05:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Algorithm>Microsoft_Time_Series</Algorithm>
+      <AlgorithmParameters>
+        <AlgorithmParameter>
+          <Name>MISSING_VALUE_SUBSTITUTION</Name>
+          <Value xsi:type="xsd:string">Mean</Value>
+        </AlgorithmParameter>
+      </AlgorithmParameters>
+      <Columns>
+        <Column dwd:design-time-name="c5da60cc-4e8a-4183-871c-984aa833733d">
+          <ID>AERODROMO_SALIDA</ID>
+          <Name>AERODROMO_SALIDA</Name>
+          <SourceColumnID>AERODROMO_SALIDA</SourceColumnID>
+          <Usage>Key</Usage>
+        </Column>
+        <Column dwd:design-time-name="9d6e29c6-e241-41ee-bddd-9c495e6d900c">
+          <ID>VAR_MOVIMIENTO</ID>
+          <Name>VAR_MOVIMIENTO</Name>
+          <SourceColumnID>VAR_MOVIMIENTO</SourceColumnID>
+          <Columns>
+            <Column dwd:design-time-name="f4ec8378-7769-4988-85d5-364ae070b993">
+              <ID>FECHA</ID>
+              <Name>FECHA</Name>
+              <SourceColumnID>FECHA</SourceColumnID>
+              <Usage>Key</Usage>
+            </Column>
+            <Column dwd:design-time-name="4066884b-815a-4bf0-ad2a-e031e657db56">
+              <ID>Cantidad_movimientos</ID>
+              <Name>Cantidad_movimientos</Name>
+              <SourceColumnID>Cantidad_movimientos</SourceColumnID>
+              <Usage>Predict</Usage>
+            </Column>
+            <Column dwd:design-time-name="9c66599b-1962-4220-b4c7-598272ee7290">
+              <ID>Asientos Ofrecidos</ID>
+              <Name>Asientos Ofrecidos</Name>
+              <SourceColumnID>Asientos Ofrecidos</SourceColumnID>
+              <Usage>Predict</Usage>
+            </Column>
+            <Column dwd:design-time-name="24fb11f2-a60a-4eed-afd2-8f902323ff45">
+              <ID>Capacidad Carga</ID>
+              <Name>Capacidad Carga</Name>
+              <SourceColumnID>Capacidad Carga</SourceColumnID>
+              <Usage>Predict</Usage>
+            </Column>
+            <Column dwd:design-time-name="9d6f8101-ffc1-443f-935e-92c33762df5d">
+              <ID>Nrutas</ID>
+              <Name>Nrutas</Name>
+              <SourceColumnID>Nrutas</SourceColumnID>
+              <Usage>Predict</Usage>
+            </Column>
+            <Column dwd:design-time-name="d662d4d8-c69a-4997-9643-2fb6b0f42c62">
+              <ID>Tripulacion</ID>
+              <Name>Tripulacion</Name>
+              <SourceColumnID>Tripulacion</SourceColumnID>
+              <Usage>Predict</Usage>
+            </Column>
+          </Columns>
+        </Column>
+      </Columns>
+      <AllowDrillThrough>true</AllowDrillThrough>
+    </MiningModel>
+  </MiningModels>
+</MiningStructure>

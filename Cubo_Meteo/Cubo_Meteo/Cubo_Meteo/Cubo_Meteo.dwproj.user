@@ -1,0 +1,39 @@
+<AnalysisServicesUserConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <UserIDs>
+          <ConfigurationSetting>
+            <Id>Meteo Dgac</Id>
+            <Name>Meteo Dgac</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAc7SdCw/w2UakD/7RTo22GwAAAAAWAAAATQBlAHQAZQBvACAARABnAGEAYwAAAANmAADAAAAAEAAAAEGoO1Z+G8gSLLgToVsFGDYAAAAABIAAAKAAAAAQAAAAsw9/0a0WJFsBk9S/k9esSTAAAABrYnQdxzzHL1QfpW4drEm3VFb88kOxKrNeASJdU7q4c96f7vQ6RHgyf9czu3RGZ14UAAAAyXpRjNDuBNnYYRjvbtBVFCVK6mA=</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>i FIS</Id>
+            <Name>i FIS</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAc7SdCw/w2UakD/7RTo22GwAAAAAMAAAAaQAgAEYASQBTAAAAA2YAAMAAAAAQAAAA5K3QHjmCUONXGv+vpa5r7wAAAAAEgAAAoAAAABAAAACySCVpoEbUK46UNwVT3rmzMAAAAMf/+2oiVKbRWSWafFkakeeviNkCWdYqvae//PHFXwaKxwS88EjVf3hmmoFptkAwCBQAAADLva4UvFw6jdK3y7LsGm8zuVRRTA==</Value>
+          </ConfigurationSetting>
+        </UserIDs>
+        <UserPasswords>
+          <ConfigurationSetting>
+            <Id>Meteo Dgac</Id>
+            <Name>Meteo Dgac</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAc7SdCw/w2UakD/7RTo22GwAAAAAWAAAATQBlAHQAZQBvACAARABnAGEAYwAAAANmAADAAAAAEAAAAIZZa5yKFLscIpgXB/8E08EAAAAABIAAAKAAAAAQAAAACLfO1ecvjksZsMbvl9AKMSAAAABfjeHtMT7pbkhbLssbCcDS1S7hgS9QYIwAG5xfTTlsJRQAAADNV0Ig97mlzoy2EAHoWOtbkzE4XQ==</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>i FIS</Id>
+            <Name>i FIS</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAc7SdCw/w2UakD/7RTo22GwAAAAAMAAAAaQAgAEYASQBTAAAAA2YAAMAAAAAQAAAAQTaVmnjCk5Gkw4rFzo9rlwAAAAAEgAAAoAAAABAAAABAXQt9fAJ0EnYV0fDWT3EnIAAAAC8J4jQqjrSCP+YMC8OmGXUD5r48xaz3y30cMYoFjZn4FAAAAGyrybmiZiY47UZSp1nweumvg1Ov</Value>
+          </ConfigurationSetting>
+        </UserPasswords>
+        <TargetServer>win-sqlserv-01</TargetServer>
+        <TargetDatabase>Cubo_Meteo</TargetDatabase>
+        <StartObject>
+          <ObjectId></ObjectId>
+          <ObjectType>Current</ObjectType>
+        </StartObject>
+      </Options>
+    </Configuration>
+  </Configurations>
+</AnalysisServicesUserConfiguration>

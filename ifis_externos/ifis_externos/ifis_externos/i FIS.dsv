@@ -1,0 +1,191 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="94a70835-6f4e-4d53-883f-e85324434845" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>i FIS</ID>
+  <Name>i FIS</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>i FIS</DataSourceID>
+  <Schema>
+    <xs:schema id="i_x0020_FIS" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="i_x0020_FIS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="a948574f-5666-4427-b1ff-42f96f0f0c58">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_Aerodrome" msprop:design-time-name="1fb4ab43-2152-4bfa-8502-0b10728a22d2" msprop:DbTableName="Aerodrome" msprop:FriendlyName="Aerodrome" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="id" msprop:design-time-name="98896443-324e-469c-b2fd-67c0dcd360c2" msprop:DbColumnName="id" msprop:FriendlyName="id" type="xs:int" />
+                  <xs:element name="designador_oaci" msprop:design-time-name="55e95015-f8f4-48a5-a825-893307188c0e" msprop:DbColumnName="designador_oaci" msprop:FriendlyName="designador_oaci" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="8" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="designador_iata" msprop:design-time-name="4461c0b8-ae5c-4b4c-8c5b-355b3557c897" msprop:DbColumnName="designador_iata" msprop:FriendlyName="designador_iata" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="8" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="aerodromo" msprop:design-time-name="c78678eb-3794-49bc-b554-92226bf413e3" msprop:DbColumnName="aerodromo" msprop:FriendlyName="aerodromo" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="lugar_id" msprop:design-time-name="ec28acc7-809e-4f5f-84e6-9662503f1449" msprop:DbColumnName="lugar_id" msprop:FriendlyName="lugar_id" type="xs:int" minOccurs="0" />
+                  <xs:element name="latitud" msprop:design-time-name="60d867ff-3132-4c5c-b896-011ecd9ad890" msprop:DbColumnName="latitud" msprop:FriendlyName="latitud" type="xs:double" minOccurs="0" />
+                  <xs:element name="longitud" msprop:design-time-name="2528853e-f460-45f7-802d-649d7d4ef97f" msprop:DbColumnName="longitud" msprop:FriendlyName="longitud" type="xs:double" minOccurs="0" />
+                  <xs:element name="direcciones_aftn" msprop:design-time-name="8a86527f-f45b-4388-a83f-b86eaaf4c855" msprop:DbColumnName="direcciones_aftn" msprop:FriendlyName="direcciones_aftn" type="xs:string" minOccurs="0" />
+                  <xs:element name="elevacion" msprop:design-time-name="52adc012-7a49-46ee-b901-a4a3d0cbd98c" msprop:DbColumnName="elevacion" msprop:FriendlyName="elevacion" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="largo" msprop:design-time-name="5b5d1dae-b416-4528-b2bc-95c057eca5cf" msprop:DbColumnName="largo" msprop:FriendlyName="largo" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="iluminacion" msprop:design-time-name="1fe01b4a-8443-44dd-8e88-abfe067a22d8" msprop:DbColumnName="iluminacion" msprop:FriendlyName="iluminacion" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="5" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="publico" msprop:design-time-name="75bfa2b3-e390-4a69-90d6-8592f6eea46e" msprop:DbColumnName="publico" msprop:FriendlyName="publico" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="5" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="aerodromo_tipo_id" msprop:design-time-name="07402d96-71f4-4fbc-a019-a6f4abd6dc3c" msprop:DbColumnName="aerodromo_tipo_id" msprop:FriendlyName="aerodromo_tipo_id" type="xs:int" minOccurs="0" />
+                  <xs:element name="fir_id" msprop:design-time-name="35bb13c7-9396-4ae3-ab03-03628d62870e" msprop:DbColumnName="fir_id" msprop:FriendlyName="fir_id" type="xs:int" minOccurs="0" />
+                  <xs:element name="procedimiento_publicado" msprop:design-time-name="daf8b80c-aeb9-4d65-84b1-d36187560965" msprop:DbColumnName="procedimiento_publicado" msprop:FriendlyName="procedimiento_publicado" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="5" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="met" msprop:design-time-name="2740f28c-5ec5-41e2-abd5-6755e1549718" msprop:DbColumnName="met" msprop:FriendlyName="met" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="5" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="pais_id" msprop:design-time-name="76881fd7-fc70-405d-96c8-fa7fecb05864" msprop:DbColumnName="pais_id" msprop:FriendlyName="pais_id" type="xs:int" minOccurs="0" />
+                  <xs:element name="iluminacion_othr" msprop:design-time-name="a3c16061-7b8a-42b9-9a5d-bd3fedc43dc2" msprop:DbColumnName="iluminacion_othr" msprop:FriendlyName="iluminacion_othr" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="horas_operacion" msprop:design-time-name="4ea380be-0c36-4ff1-b8ce-3de9dd93bdc1" msprop:DbColumnName="horas_operacion" msprop:FriendlyName="horas_operacion" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="observaciones" msprop:design-time-name="988b93c0-7412-450f-967f-d9630cc0f4b1" msprop:DbColumnName="observaciones" msprop:FriendlyName="observaciones" type="xs:string" minOccurs="0" />
+                  <xs:element name="modulo_prediccion" msprop:design-time-name="04ad3b54-85a1-4505-a406-9c339361aaae" msprop:DbColumnName="modulo_prediccion" msprop:FriendlyName="modulo_prediccion" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="5" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="luz" msprop:design-time-name="a7989886-3d9e-4f4f-b28a-63771c669bb8" msprop:DbColumnName="luz" msprop:FriendlyName="luz" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="5" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ils" msprop:design-time-name="a1af9874-8498-4706-b7a4-f7561ada2f1f" msprop:DbColumnName="ils" msprop:FriendlyName="ils" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="5" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="punto" msprop:design-time-name="68a9535d-b6ed-4799-b299-480902283294" msprop:DbColumnName="punto" msprop:FriendlyName="punto" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="40" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="slug" msprop:design-time-name="058900c4-9f43-4989-b112-b8b545268612" msprop:DbColumnName="slug" msprop:FriendlyName="slug" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="direcciones_aftn_salida" msprop:design-time-name="2cbe98d2-7723-4a42-a8d4-f9d579b39e0f" msprop:DbColumnName="direcciones_aftn_salida" msprop:FriendlyName="direcciones_aftn_salida" type="xs:string" minOccurs="0" />
+                  <xs:element name="direcciones_aftn_destino" msprop:design-time-name="77da684b-7493-430c-8a2c-191d38bade50" msprop:DbColumnName="direcciones_aftn_destino" msprop:FriendlyName="direcciones_aftn_destino" type="xs:string" minOccurs="0" />
+                  <xs:element name="direcciones_aftn_alternativa" msprop:design-time-name="ec94a87f-359f-41b4-ad2b-cc1c49022507" msprop:DbColumnName="direcciones_aftn_alternativa" msprop:FriendlyName="direcciones_aftn_alternativa" type="xs:string" minOccurs="0" />
+                  <xs:element name="verificable" msprop:design-time-name="cb415441-fb51-4f6d-8477-2bda3f2ef185" msprop:DbColumnName="verificable" msprop:FriendlyName="verificable" type="xs:boolean" minOccurs="0" />
+                  <xs:element name="lat" msprop:design-time-name="b91414a5-7da2-4d35-9e2f-1550dcfe729e" msprop:DbColumnName="lat" msprop:FriendlyName="lat" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="lon" msprop:design-time-name="d3cb17e6-b1bd-4bba-aaed-2996d209d39a" msprop:DbColumnName="lon" msprop:FriendlyName="lon" type="xs:decimal" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Aerodrome" />
+          <xs:field xpath="id" />
+        </xs:unique>
+      </xs:element>
+    </xs:schema>
+    <i_x0020_FIS xmlns="" />
+  </Schema>
+</DataSourceView>

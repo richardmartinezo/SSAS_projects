@@ -1,0 +1,96 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>ifis_notams</Database>
+    <Server>win-sqlserv-01</Server>
+    <ConnectionString>DataSource=win-sqlserv-01;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>FarHcjETryilWJPhh7iJ8isahEw=28/07/2014 10:07:1028/07/2014 10:06:19</TimeStamp>
+        <ID>
+          <String>IFIS DGAC</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>ICZM/WlDmPBvo5Iqltl8qEM3/og=31/07/2014 15:20:4628/07/2014 12:54:30</TimeStamp>
+        <ID>
+          <String>i FIS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>WXmZwum2w5qZshsBAn/vY0+aLJI=01/08/2014 14:43:4531/07/2014 15:19:03</TimeStamp>
+        <ID>
+          <String>i FIS_notams_validos</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>XD3zfvi2YJ6ry9Xcaei4cWUj374=31/07/2014 14:53:4228/07/2014 22:41:30</TimeStamp>
+        <ID>
+          <String>DIMTIME</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>SaoUeNesDqqH+d+12+HxlEfgyHs=31/07/2014 15:08:1728/07/2014 22:41:30</TimeStamp>
+        <ID>
+          <String>Vista Notams</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>NXYvTk5dD4rIGiZXik0E0Mc3wig=31/07/2014 15:22:4031/07/2014 15:19:52</TimeStamp>
+        <ID>
+          <String>DIMTIME 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Gv8Icm660ZVUJJuraH5KeLFEt7E=31/07/2014 15:23:5531/07/2014 15:19:52</TimeStamp>
+        <ID>
+          <String>Vista Notams 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>MR+Kl0FW0MERbvd3hXDS7w6t0oE=31/07/2014 15:01:2528/07/2014 22:41:30jdfu9x7eFHxHTFpuRj+e7kpe4+c=28/07/2014 22:41:3028/07/2014 22:41:30</TimeStamp>
+        <ID>
+          <String>i FIS_notams</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>hfEkV/SLsDml0KklBFkmthdyG40=01/08/2014 14:22:2731/07/2014 15:19:528Givk5XDlABk5Xzmr7RfYeiX84Y=31/07/2014 15:19:5231/07/2014 15:19:52</TimeStamp>
+        <ID>
+          <String>i FIS_notams_validos</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>GkshwBooEeJLXTHg0NRDwG5BCsk=28/07/2014 10:02:2028/07/2014 10:02:19</TimeStamp>
+      <ID>
+        <String>ifis_notams</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2014-08-01T19:51:03.35Z</LastDeployed>
+</DeploymentSnapshot>

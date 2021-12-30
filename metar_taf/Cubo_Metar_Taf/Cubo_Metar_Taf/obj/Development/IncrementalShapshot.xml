@@ -1,0 +1,117 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Cubo_Metar_Taf</Database>
+    <Server>win-sqlserv-01</Server>
+    <ConnectionString>DataSource=win-sqlserv-01;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>ikkgy3XwS12tD82Mt111mrkTZvY=14/09/2017 11:51:2112/09/2017 10:29:40</TimeStamp>
+        <ID>
+          <String>i FI Spruebas</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>jbBfYN+as+KHwkOUMb58qy4B9pE=14/09/2017 11:51:4814/09/2017 8:55:36</TimeStamp>
+        <ID>
+          <String>i FIS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>cOuOHL1zxGl0t/LC/4qguc2FFc0=14/09/2017 11:59:3314/09/2017 11:59:33</TimeStamp>
+        <ID>
+          <String>i FIS Nativo</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>Kjh1UAYulKHJv2u9HBkoW2Zg1FE=14/09/2017 11:41:2312/09/2017 10:30:01</TimeStamp>
+        <ID>
+          <String>i FI Spruebas</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>oG8ILeXImvKsBolLmUrsck9bFg4=14/09/2017 12:14:4614/09/2017 11:40:04</TimeStamp>
+        <ID>
+          <String>i FI Spruebas 2</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>TPrXqFoYus/At06RdxdHHvdOYcM=10/10/2017 9:37:5114/09/2017 9:02:07</TimeStamp>
+        <ID>
+          <String>Metar Ifis</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>YgkZnsFdm3FSrYfmOjSdqS19TIY=14/09/2017 9:07:4914/09/2017 9:07:49</TimeStamp>
+        <ID>
+          <String>DIMTIME</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>teQmtMbDOCwOurWGH2F7xwTeWsM=14/09/2017 11:43:4614/09/2017 11:41:10</TimeStamp>
+        <ID>
+          <String>Taf</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>7wNm3z1j2+4tCZ0vjBchlc7kC9w=14/09/2017 12:15:0314/09/2017 12:10:17</TimeStamp>
+        <ID>
+          <String>DIMTIME Nativo</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>LQyBFhcmApq5YmuTpgizW9a9+S8=10/10/2017 9:37:5014/09/2017 9:02:07xbTy1ug+/XzbhitrdsPrdbZ7KL8=14/09/2017 11:46:3414/09/2017 9:02:07</TimeStamp>
+        <ID>
+          <String>i FI Spruebas</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>3/X1Tc0ghD+DvVTvLB0IV3Q1R90=14/09/2017 12:14:5214/09/2017 11:41:10xSH2ZR+utCWBxw0GLKwe4VEVevU=14/09/2017 11:41:1014/09/2017 11:41:10</TimeStamp>
+        <ID>
+          <String>i FI Spruebas 2</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Role</Type>
+        <TimeStamp>GlMyKRKhcRBLl8gEO9xl+6VnnIA=12/09/2017 10:34:2112/09/2017 10:33:37</TimeStamp>
+        <ID>
+          <String>Role</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>g7A4EM0nW8wcLHh8HLp5Fm+L5ns=12/09/2017 10:32:3612/09/2017 10:28:56</TimeStamp>
+      <ID>
+        <String>Cubo_Metar_Taf</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2017-10-10T14:38:13.793333Z</LastDeployed>
+</DeploymentSnapshot>

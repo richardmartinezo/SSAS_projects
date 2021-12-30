@@ -1,0 +1,1124 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="fa817b41-3426-48e9-9af1-ae3399345bbc" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>i FIS_estadistica 1</ID>
+  <Name>i FIS_estadistica 1</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="40dc046e-4f38-43ee-844e-a37e41a18f2f">
+      <ID>DIMTIME</ID>
+      <Name>DIMTIME</Name>
+      <DimensionID>DIMTIME</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="edcf6e43-18a9-45d1-bc8f-d2f6a6071c1a">
+          <AttributeID>FECHA</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6b386870-2b2e-4b60-a407-ef631d845b57">
+          <AttributeID>FECHAHORA</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e61b39c8-273d-4dc0-84f1-c703e488dab2">
+          <AttributeID>ANIO</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7cfe3235-dc31-46f7-8e28-5601cf16f916">
+          <AttributeID>TRIMESTRE</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9a8fa414-bfd2-4e9f-a778-7fa2e18e50c9">
+          <AttributeID>YEARTRIMESTRE</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="efa8b71c-a426-4159-9517-f73835c7b09a">
+          <AttributeID>QUARTER</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="72622cfb-af1a-4848-b5a0-d60ca176c443">
+          <AttributeID>YEARQUARTER</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fc4b6528-6bed-4158-b212-b6d5278a4059">
+          <AttributeID>MES</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="22223131-a805-4093-85a5-9359fe611c2c">
+          <AttributeID>YEARMONTH</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f2970ec0-7128-4277-97e4-4525c343a06b">
+          <AttributeID>MONTHNAME</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cb13a28d-ad6e-44a7-a3f9-01fe5669dfe9">
+          <AttributeID>SHORTMONTHNAME</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d7156e42-9208-42b5-b718-c03e42900954">
+          <AttributeID>WEEK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f7cab11c-1acb-4000-9226-1aaf156627bf">
+          <AttributeID>DAYINYEAR</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="40c813cb-6c2d-4ddf-bc6a-caa118f4d63c">
+          <AttributeID>DAYINMONTH</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b9876bd9-1998-419e-b051-2b61ac8d64c2">
+          <AttributeID>DAYNAME</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="47de13c4-77a4-4116-8786-a5d2cb51c105">
+          <AttributeID>SHORTDAYNAME</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="961504e7-a1db-4088-8974-e0287c3a911c">
+          <AttributeID>LASTDAYINMONTH</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d3926baa-bd2f-46f5-8fb5-e5ced76ae4da">
+          <AttributeID>MONTHYEAR</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="9cc2bbe4-4e9a-466b-bcb4-521e5f28cc9f">
+      <ID>DIMTIME 1</ID>
+      <Name>DIMTIME 1</Name>
+      <DimensionID>DIMTIME 1</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="f71978af-2fc1-43d9-b10b-deb1965232b8">
+          <AttributeID>FECHA</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="c411dd2a-3938-4a8a-b157-ea005f445a32">
+      <ID>Vista Cabecera Dta</ID>
+      <Name>Vista Cabecera Dta</Name>
+      <DimensionID>Vista Cabecera Dta</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="7e1514b9-38c1-4305-b55b-68ccfe8af4a1">
+          <AttributeID>Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8988b9af-8271-4c3a-80cb-b24152b30e0d">
+          <AttributeID>Fecha Arribo Sh</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a8b04399-edfc-40d4-b341-04cb72a0fdb9">
+          <AttributeID>Aerodrome</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="153df958-d180-44e6-9948-ac9c3a781980">
+          <AttributeID>Aerodrome2</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cca62ea9-28b7-4854-8780-bd065843c10d">
+          <AttributeID>Callsign</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="15155b3c-a5d3-4b8d-a0bb-732cd52410b3">
+          <AttributeID>Type</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c83b685f-2cfb-4041-b102-6fb6073e51fc">
+          <AttributeID>Nacionality</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="79f850b6-a837-417e-9bb3-bb8bcec08876">
+          <AttributeID>Aircraft</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a7a84ad3-cd31-4810-916d-0f794f6ad697">
+          <AttributeID>Registry</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cf0ff48f-9d1d-4a69-bda9-69b869721af9">
+          <AttributeID>Destino</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b042e959-b3e9-4696-826b-240cd0963a1d">
+          <AttributeID>Ruta Aerea</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="21439f82-b760-4a58-b106-b1c4f245fe30">
+          <AttributeID>Nrutas</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6d3c1aea-e5c9-43cc-86f4-64ef60a7dd78">
+          <AttributeID>Tipo Transporte</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="21d90778-7e28-4561-a013-15813a877cd5">
+          <AttributeID>Tipo Servicio</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="546a2b42-e7c9-43ee-ac54-b03dfafc81b1">
+          <AttributeID>Ruta Oaci</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8b6a7d07-f1fd-455c-a1a9-1c2a29d46f90">
+          <AttributeID>Ruta Iata</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d8fc33cb-719d-4c1b-a2a3-53f00740103d">
+          <AttributeID>Ruta Pais</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d080f76b-66d9-4d0a-a418-4a19f34038de">
+          <AttributeID>Ruta Arpto</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b2997398-ac15-43c0-8d5b-0c80b5e04c3a">
+          <AttributeID>Ruta Ciudad</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="2b2466f7-d24c-4fef-934e-b90bf62d97ed">
+      <ID>Aerodrome</ID>
+      <Name>Aerodrome</Name>
+      <DimensionID>Vista Aeropuertos</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="025ee802-cc21-475e-bfe9-1c5657bf37a7">
+          <AttributeID>PUNTORUTA OACI</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="814f9afc-7a0c-4210-b355-f993add40277">
+          <AttributeID>PUNTORUTA IATA</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f538ef12-b83d-4e07-9f83-732b8edc1d25">
+          <AttributeID>CIUDAD</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="80fb1e11-206c-416a-868e-567c15b8adc2">
+          <AttributeID>PAIS</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b335d2af-8194-4f42-be46-acc0f50ac2bb">
+          <AttributeID>AEROPUERTO</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="663acd75-4174-468d-b678-12c92f18fbbf">
+          <AttributeID>Latitud</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="67e937d0-9c47-45ff-b766-e310aa44253b">
+          <AttributeID>Longitud</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5d376db3-de01-4cdc-bea8-34bc14935403">
+          <AttributeID>Aerodromo</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="ad23a389-3e95-404c-a484-b40554e6e9ea">
+      <ID>Aerodrome2</ID>
+      <Name>Aerodrome2</Name>
+      <DimensionID>Vista Aeropuertos</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="236c11bf-58eb-4684-9f6e-4f8e8b298f88">
+          <AttributeID>PUNTORUTA OACI</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b60b77d4-1ab1-4641-847e-3bad0de95613">
+          <AttributeID>PUNTORUTA IATA</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c0dbfe92-4fc0-4caa-89c3-9b16abcd252d">
+          <AttributeID>CIUDAD</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7edba5b7-a607-48eb-a1cf-b89dc1b7ab52">
+          <AttributeID>PAIS</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6be5cd2c-7db4-4224-b489-4a062581b0b6">
+          <AttributeID>AEROPUERTO</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9a81d403-658f-427a-a676-4fd567f33282">
+          <AttributeID>Latitud</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="62725f50-1485-4295-948e-98e45217c5c8">
+          <AttributeID>Longitud</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="139d6851-505e-4a6d-8db0-f9d6e57a677c">
+          <AttributeID>Aerodromo</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="b54a87c3-4095-4a69-9670-2f5d8bb8881d">
+      <ID>Vista Detalle Dta</ID>
+      <Name>Vista Detalle Dta</Name>
+      <DimensionID>Vista Detalle Dta</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="692589f8-fdc6-46e8-a60c-8f55ad56548a">
+          <AttributeID>Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="351afa37-d916-44e0-a867-02ec3cce9369">
+          <AttributeID>Id Ruta</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="078b1d2e-b1dc-4c1a-b8fe-6196d299273d">
+          <AttributeID>Id Compania</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6b6decd1-3e8d-4b73-a807-d8d91eb192ef">
+          <AttributeID>Id Puntorealdes</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b5151501-b913-49bc-88cd-2387d3b9e543">
+          <AttributeID>Detalle Ruta Iata</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b80ed86f-afcf-457e-b45f-c15fe3d85c88">
+          <AttributeID>Detalle Ruta Ciudad</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2b7fc0c8-090b-47db-9bf3-669f29f36cd4">
+          <AttributeID>Detalle Ruta Pais</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1f391c69-da1a-4f86-a2d6-baabf4c05568">
+          <AttributeID>Detalle Ruta Aeropuerto</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="944126cb-afec-4141-89f0-7459fd81f8f1">
+          <AttributeID>Detalle Punto Iata</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7dadd37b-32c0-4a0c-af67-989437d67aef">
+          <AttributeID>Detalle Punto Ciudad</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="730a89ec-7d82-49fe-a9b8-d7a9fbf8036e">
+          <AttributeID>Detalle Punto Pais</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0a0ed2de-99da-4c29-b3e3-be9b25fbc01e">
+          <AttributeID>Detalle Punto Aeropuerto</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="dc9bbb88-743d-482f-87f4-8ad17897511c">
+      <ID>Id Operation - AERODROMO SALIDA</ID>
+      <Name>Id Operation - AERODROMO SALIDA</Name>
+      <DimensionID>Vista Aeropuertos</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="991a36d0-6c47-4e12-815e-7183bb895196">
+          <AttributeID>PUNTORUTA OACI</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2fcd4868-3fcb-4927-b3e3-bfbca887aa0a">
+          <AttributeID>PUNTORUTA IATA</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cf4c0e60-c176-4ddf-8b52-90edcbdbcb0e">
+          <AttributeID>CIUDAD</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6c14283f-50f9-4e51-bc09-6fc1eedf5699">
+          <AttributeID>PAIS</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="814c4025-9c48-4466-b743-e7795076530e">
+          <AttributeID>AEROPUERTO</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c3bc0277-c439-4d02-89d6-3a89214f572f">
+          <AttributeID>Latitud</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="194938fb-2f39-46db-ba41-e8fb8f046ce5">
+          <AttributeID>Longitud</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8666be01-2e3e-4b1c-a648-06995a12a039">
+          <AttributeID>Aerodromo</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="40c57b62-4444-4150-8cd6-0196d453a042">
+      <ID>Id Operation - AERODROMO DESTINO</ID>
+      <Name>Id Operation - AERODROMO DESTINO</Name>
+      <DimensionID>Vista Aeropuertos</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="3133104e-a070-4d58-bbbe-6bdbc7c5fe37">
+          <AttributeID>PUNTORUTA OACI</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4bdfe6b2-e2d0-4cbe-926a-8bc25df3fdf7">
+          <AttributeID>PUNTORUTA IATA</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="80f0f4a5-a400-4d3d-9eef-5eb158159ac0">
+          <AttributeID>CIUDAD</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="76635d92-8b9d-424b-862b-01b960b8d1c7">
+          <AttributeID>PAIS</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8a42920c-09ed-428f-8cf6-062ef9b45ee0">
+          <AttributeID>AEROPUERTO</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0b9e1570-c5ee-4a21-b8be-207103b5d1e1">
+          <AttributeID>Latitud</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="aa00e34b-2868-484e-a758-a14e3a165eb1">
+          <AttributeID>Longitud</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="05babc81-9054-4b78-a0ee-d7f7827ceda7">
+          <AttributeID>Aerodromo</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="ce4227c3-9746-4f69-ad59-83437c42658c">
+      <ID>Compania</ID>
+      <Name>Compania</Name>
+      <DimensionID>Compania</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="724c62e9-c433-4e1e-9e7b-c504c177b1c3">
+          <AttributeID>OID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="103df666-2866-4a67-b15d-cb30f728ec8e">
+          <AttributeID>NOMBRE</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="297b7f02-3169-4227-9e6c-485ec19b8334">
+          <AttributeID>CODIGO OACI</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="8bc0431e-005e-4eb7-a624-596614af5b40">
+      <ID>DIMTIME</ID>
+      <Name>DIMTIME</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="1ea74868-104c-4bcd-a2db-e3cc99c5a2bf">
+          <ID>DATAKEY</ID>
+          <Name>DATAKEY</Name>
+          <Source dwd:design-time-name="07211783-99d2-4a7c-ae89-15bf618603bb">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="9eb91dcc-d068-45de-8430-6875db70ec47">
+              <TableID>dbo_DIMTIME</TableID>
+              <ColumnID>DATAKEY</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="23a6bf12-ca88-4c95-9b00-648bb4595a95">
+          <ID>ANIO</ID>
+          <Name>ANIO</Name>
+          <Source dwd:design-time-name="53d5fda7-7dbe-47ce-9d30-6f13fc584fdf">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="228bca32-61d3-49e0-b60c-7a6ff4601aab">
+              <TableID>dbo_DIMTIME</TableID>
+              <ColumnID>ANIO</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="294ebc36-dff2-48fb-9885-041d1e2f018e">
+          <ID>TRIMESTRE</ID>
+          <Name>TRIMESTRE</Name>
+          <Source dwd:design-time-name="358d3e2a-9d82-4d53-ba90-3e6971ce6e7a">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="971dd8b4-8dc4-45a6-852d-bc0abf5a6029">
+              <TableID>dbo_DIMTIME</TableID>
+              <ColumnID>TRIMESTRE</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="8753b160-6072-4d0e-9622-41bebc985677">
+          <ID>QUARTER</ID>
+          <Name>QUARTER</Name>
+          <Source dwd:design-time-name="8f1cee77-eb85-442b-9120-2908b9bda15c">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="02c41cac-f4e2-4133-a95f-d4d0ed2fdd42">
+              <TableID>dbo_DIMTIME</TableID>
+              <ColumnID>QUARTER</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="2a0b044f-17dd-4db7-8eff-9bd49ac093fa">
+          <ID>MES</ID>
+          <Name>MES</Name>
+          <Source dwd:design-time-name="8f4aef0c-9c6b-4875-8fdc-51f8fde124f7">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="4f629957-caa1-4f84-8b81-cff6186b895a">
+              <TableID>dbo_DIMTIME</TableID>
+              <ColumnID>MES</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="e6c6af62-cdc0-4519-b1b2-71d155dc8eee">
+          <ID>YEARMONTH</ID>
+          <Name>YEARMONTH</Name>
+          <Source dwd:design-time-name="d294429c-4279-4b29-a6a9-937b5eb5ff54">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="5c4d5ef9-a7a5-4591-a840-c2dabd7381d1">
+              <TableID>dbo_DIMTIME</TableID>
+              <ColumnID>YEARMONTH</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="7a28df2c-a494-4495-96a0-567419c7e03e">
+          <ID>WEEK</ID>
+          <Name>WEEK</Name>
+          <Source dwd:design-time-name="94c98c54-3dac-4588-a46f-662023059ddf">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="73ccbd4f-a11e-4eb3-b49b-a02d587fc77d">
+              <TableID>dbo_DIMTIME</TableID>
+              <ColumnID>WEEK</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="51acc4d1-aa72-43d2-929d-48316be9b547">
+          <ID>DAYINYEAR</ID>
+          <Name>DAYINYEAR</Name>
+          <Source dwd:design-time-name="2331755c-b3ef-414d-9946-100561f110f8">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="25ce4a22-323d-4636-81c5-60b1719fe431">
+              <TableID>dbo_DIMTIME</TableID>
+              <ColumnID>DAYINYEAR</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="f76caebe-e6ef-479d-8674-7388257459c0">
+          <ID>DAYINMONTH</ID>
+          <Name>DAYINMONTH</Name>
+          <Source dwd:design-time-name="177f4746-a3cf-40e7-9b73-e56c172cdadf">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="a9941c40-eb61-44e3-bc4d-dee0cb36a80c">
+              <TableID>dbo_DIMTIME</TableID>
+              <ColumnID>DAYINMONTH</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="e75c476d-2996-48ff-ab1f-18b5d6ea3738">
+          <ID>HOLIDAY</ID>
+          <Name>HOLIDAY</Name>
+          <Source dwd:design-time-name="f46a3104-40ed-4101-858d-1be909a9ada6">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="5fbccc63-6743-4081-adc9-ab62e06455f1">
+              <TableID>dbo_DIMTIME</TableID>
+              <ColumnID>HOLIDAY</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="cf697e20-8d72-4940-ab52-8bc643f23a84">
+          <ID>DIMTIME Count</ID>
+          <Name>DIMTIME Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="0088cccb-6425-4c30-84c7-b01adb834cf6">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="db59e791-f378-454b-97bf-db9df6c7f1da">
+              <TableID>dbo_DIMTIME</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="0203d619-6574-42b0-8a24-90077235da2e">
+          <CubeDimensionID>DIMTIME</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="f93738c5-3b24-4ba8-aadf-8c177ea043a8">
+              <AttributeID>FECHA</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="f90385f7-6d5e-44f7-ae33-872106707fa2">
+                  <DataType>Date</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3fb0163e-bcd3-4a00-938c-e7fb4cb2228f">
+                    <TableID>dbo_DIMTIME</TableID>
+                    <ColumnID>FECHA</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5a1e263e-7383-4c12-9566-1dede6539d4b">
+          <CubeDimensionID>DIMTIME 1</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="c5b1a180-f410-4f91-8876-169519f4f35a">
+              <AttributeID>FECHA</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="939a4bad-e8b2-4146-b146-642352644280">
+                  <DataType>Date</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="bcb6684f-682d-49b3-a85b-09b53b6c5b13">
+                    <TableID>dbo_DIMTIME</TableID>
+                    <ColumnID>FECHA</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="7146185e-2923-4290-a4ad-89dd6b1cdfc1">
+      <ID>Vista Cabecera Dta</ID>
+      <Name>Vista Cabecera Dta</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="7b5da40e-d4a5-4032-8081-0cab41899b13">
+          <ID>State</ID>
+          <Name>State</Name>
+          <Source dwd:design-time-name="23859116-9669-4d4f-ba7d-3ad16e42daa3">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="6d8faefc-efa0-4ae6-8daf-af99120da87b">
+              <TableID>dbo_vista_cabecera_dta</TableID>
+              <ColumnID>state</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="c8094dc4-0a1c-425f-b610-7495bf2f57bc">
+          <ID>Operation Number</ID>
+          <Name>Operation Number</Name>
+          <Source dwd:design-time-name="3cedd2dc-98f4-495d-9505-4c305a923ab2">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="6311b9ea-45fc-4bf4-80ce-f21bb30c9150">
+              <TableID>dbo_vista_cabecera_dta</TableID>
+              <ColumnID>operation_number</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="5c9c59b2-a7d1-4a07-8bc8-9fad7af4e149">
+          <ID>Fpl Id</ID>
+          <Name>Fpl Id</Name>
+          <Source dwd:design-time-name="46a74d6b-3ba0-4277-86b5-4b5a91283a2a">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="6b2f03cd-b068-4dc4-97b6-7047782ea55b">
+              <TableID>dbo_vista_cabecera_dta</TableID>
+              <ColumnID>fpl_id</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="30b092bf-c892-4888-a157-e8ed43355951">
+          <ID>Asientos Ofrecidos</ID>
+          <Name>Asientos Ofrecidos</Name>
+          <Source dwd:design-time-name="131548d5-3122-40f4-9ed8-fc607d8c2279">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="e7a54e36-45ae-4d0c-ac62-fa21001bb646">
+              <TableID>dbo_vista_cabecera_dta</TableID>
+              <ColumnID>asientos_ofrecidos</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="3cb22795-fa31-4339-9658-488d1d68e8f1">
+          <ID>Capacidad Carga</ID>
+          <Name>Capacidad Carga</Name>
+          <Source dwd:design-time-name="c6c1af7a-d7b0-4055-a50c-e2b490b050ec">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="5aef1353-a265-45f4-8128-b310a8f5e886">
+              <TableID>dbo_vista_cabecera_dta</TableID>
+              <ColumnID>capacidad_carga</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="b8b00337-cd12-4081-aec0-4c104703fc4d">
+          <ID>Tripulacion</ID>
+          <Name>Tripulacion</Name>
+          <Source dwd:design-time-name="228548f4-6b23-473a-8ba0-ef8704bdfb45">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b189aa76-be76-4923-8e03-fc86a5bd7d28">
+              <TableID>dbo_vista_cabecera_dta</TableID>
+              <ColumnID>tripulacion</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="5c90229d-4307-4846-92e4-63fb4a04b12b">
+          <ID>Servicio Id</ID>
+          <Name>Servicio Id</Name>
+          <Source dwd:design-time-name="6dd6360d-c1e4-4051-aa11-b90a30cc1fd8">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="3635d903-0bd3-4ba4-a833-b2c201a990ca">
+              <TableID>dbo_vista_cabecera_dta</TableID>
+              <ColumnID>servicio_id</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="65dcbe2b-971b-4f78-9ea4-b3c2ee2a5613">
+          <ID>Transporta Id</ID>
+          <Name>Transporta Id</Name>
+          <Source dwd:design-time-name="85a391ce-51fc-48f1-94a6-d0b09d33a9d0">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="7d3ab453-78b9-44a8-a0ba-cae87c5cb01b">
+              <TableID>dbo_vista_cabecera_dta</TableID>
+              <ColumnID>transporta_id</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="87ef35a3-533c-41e6-ba4f-cf7a3acf6335">
+          <ID>Estado Id</ID>
+          <Name>Estado Id</Name>
+          <Source dwd:design-time-name="ad2f5897-312e-4076-8884-ae4f12bde88c">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="ce41f771-cd86-41c3-8dbd-71d1cc2391d2">
+              <TableID>dbo_vista_cabecera_dta</TableID>
+              <ColumnID>estado_id</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="f2c1efb5-fe7b-4ff2-ad76-52f519aa8c0b">
+          <ID>Nrutas</ID>
+          <Name>Nrutas</Name>
+          <Source dwd:design-time-name="6699bda6-ccfb-41a2-b557-0cdc504c3d57">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b86947b4-6e02-4e3e-84ef-bbc650955258">
+              <TableID>dbo_vista_cabecera_dta</TableID>
+              <ColumnID>nrutas</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="8dd1d7b7-6672-41de-b7dc-ae285ad79a90">
+          <ID>Operation Row</ID>
+          <Name>Operation Row</Name>
+          <Source dwd:design-time-name="1a3f66a0-3bc3-4966-a2d9-ccbda242337e">
+            <DataType>BigInt</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="08352088-ce19-4652-8693-63302e453ace">
+              <TableID>dbo_vista_cabecera_dta</TableID>
+              <ColumnID>operation_row</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="e30a030d-1356-4132-a88a-d3cd9ead0fc0">
+          <ID>Vista Cabecera Dta Count</ID>
+          <Name>Vista Cabecera Dta Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="b067cac7-ace6-48dc-89c3-13dc8c090fbb">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="57027bba-1409-4310-a1f4-71f348387d25">
+              <TableID>dbo_vista_cabecera_dta</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="0421c52f-7868-44f7-b604-5ef649526821">
+          <CubeDimensionID>Vista Cabecera Dta</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="820d1775-e230-4b17-acad-3c5da5c705b0">
+              <AttributeID>Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="f75008ac-2398-4ff4-8212-441e3ebc2e1e">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="11b7a0b9-f4aa-4996-a693-b3bb0586f83d">
+                    <TableID>dbo_vista_cabecera_dta</TableID>
+                    <ColumnID>id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="2de6ffda-9c48-4efc-88fb-53ed479977cb">
+          <CubeDimensionID>DIMTIME</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="5d46eb3c-807b-4fa7-967a-3b0633b0d19c">
+              <AttributeID>FECHA</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="bcceb5bd-07cf-4b0e-adee-1c54ee74f345">
+                  <DataType>Date</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0b7b45e0-3149-41fc-81a9-da3318291e2d">
+                    <TableID>dbo_vista_cabecera_dta</TableID>
+                    <ColumnID>fecha_arribo_sh</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f87ce789-5231-435a-a8cb-cef487f763c4">
+          <CubeDimensionID>Aerodrome</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="47079785-2a7e-4857-8035-93ccbb3383bc">
+              <AttributeID>PUNTORUTA OACI</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="d9ab80ac-4f6e-43d6-8aa2-25edfaffe191">
+                  <DataType>WChar</DataType>
+                  <DataSize>100</DataSize>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5f8b9519-388d-48bc-98f3-8d41340fbfad">
+                    <TableID>dbo_vista_cabecera_dta</TableID>
+                    <ColumnID>aerodrome</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="459a80a1-6c53-4500-9ff2-7cc84b21c1d7">
+          <CubeDimensionID>Aerodrome2</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="b207d37e-0dbe-45c0-ac02-28508d6de543">
+              <AttributeID>PUNTORUTA OACI</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="b60ccc34-0dd4-42df-8f84-30612529fbe0">
+                  <DataType>WChar</DataType>
+                  <DataSize>100</DataSize>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b5c2a494-f14e-4701-a2df-f9acd8b4dcb7">
+                    <TableID>dbo_vista_cabecera_dta</TableID>
+                    <ColumnID>aerodrome2</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c74b3a0a-83de-4878-a763-749fe719e547">
+          <CubeDimensionID>Compania</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="cba161df-a3aa-4809-9d6f-4eec3e45e7ae">
+              <AttributeID>CODIGO OACI</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c9624754-7fe3-4ca0-8519-a82afb8a6d36">
+                  <DataType>WChar</DataType>
+                  <DataSize>5</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d7265732-9a7b-4f02-965c-c648d206060d">
+                    <TableID>dbo_vista_cabecera_dta</TableID>
+                    <ColumnID>company</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="210b56bd-31c0-4571-b2fe-a67f8f099ec0">
+          <CubeDimensionID>DIMTIME 1</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="a3bcd89a-2981-4441-a7fc-d537634db740">
+              <AttributeID>FECHA</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Vista Cabecera Dta</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>Fecha Arribo Sh</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="4dad50ff-26c0-4221-b849-3d84c12f437c">
+      <ID>Vista Detalle Dta</ID>
+      <Name>Vista Detalle Dta</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="453afcf0-925e-4acc-813f-31ee7f3c5f5f">
+          <ID>Pax FF</ID>
+          <Name>Pax FF</Name>
+          <Source dwd:design-time-name="19d52a73-c3dd-40b0-98fa-b70ddafe50de">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="fd0a030d-3954-43ae-8aea-a63531326b77">
+              <TableID>dbo_Vista_detalle_Dta</TableID>
+              <ColumnID>Pax_FF</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="fc7b7486-0d95-4fe5-966c-29bb74cc86de">
+          <ID>Pax HF</ID>
+          <Name>Pax HF</Name>
+          <Source dwd:design-time-name="76fc7c03-320d-4682-a3d4-43b48e12ad99">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="43190421-962c-4123-8546-5c5aee718b62">
+              <TableID>dbo_Vista_detalle_Dta</TableID>
+              <ColumnID>Pax_HF</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="12d572ac-8ecb-4397-80b3-3b05f4c40c08">
+          <ID>Pax INF</ID>
+          <Name>Pax INF</Name>
+          <Source dwd:design-time-name="ba93abcf-dfdf-4f6f-8a63-34972c9fdbeb">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="5adb511e-0eff-48c9-87e3-2461b517b05a">
+              <TableID>dbo_Vista_detalle_Dta</TableID>
+              <ColumnID>Pax_INF</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="f0168941-d246-4e04-b9d0-0f9c9f135ed9">
+          <ID>Pax Pcd</ID>
+          <Name>Pax Pcd</Name>
+          <Source dwd:design-time-name="da31b1f0-55d0-40d9-80ed-e9dff6257111">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="c8c0099d-d744-40cf-b11f-29bd0f7cdc5d">
+              <TableID>dbo_Vista_detalle_Dta</TableID>
+              <ColumnID>Pax_pcd</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="4566a4f8-926f-4f00-932e-e460e923b775">
+          <ID>Pax 3era</ID>
+          <Name>Pax 3era</Name>
+          <Source dwd:design-time-name="12533e75-4668-4e78-aae4-8f29553c113c">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="4c83019f-892c-4a9a-9027-613d210844c7">
+              <TableID>dbo_Vista_detalle_Dta</TableID>
+              <ColumnID>Pax_3era</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="da20ed97-1f38-41bd-bc5a-75be1ea2b070">
+          <ID>Pax Trs</ID>
+          <Name>Pax Trs</Name>
+          <Source dwd:design-time-name="ef89259c-9546-4f75-9d1c-83fa67fda378">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="eda78972-921e-41a8-adfa-6527444a8030">
+              <TableID>dbo_Vista_detalle_Dta</TableID>
+              <ColumnID>Pax_trs</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="8638cb43-9104-403a-96d7-34b1193602b5">
+          <ID>Pax Gps</ID>
+          <Name>Pax Gps</Name>
+          <Source dwd:design-time-name="8e0d282d-8d6f-4b15-a9a9-cd746dc3c004">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="9cf7cb9b-8f25-423a-ac8e-1285437ccfe9">
+              <TableID>dbo_Vista_detalle_Dta</TableID>
+              <ColumnID>Pax_gps</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="cc7f32a6-407b-424f-949e-25842208b62e">
+          <ID>Pax Trs 24</ID>
+          <Name>Pax Trs 24</Name>
+          <Source dwd:design-time-name="3934096f-c588-4bbf-b604-24cd11ccb63c">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="7e685e8c-f5ae-42cf-8f06-8db4b0dc771c">
+              <TableID>dbo_Vista_detalle_Dta</TableID>
+              <ColumnID>Pax_trs_24</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="93a69833-501d-464b-ad9f-fc66cf0b31c2">
+          <ID>Pax Trf</ID>
+          <Name>Pax Trf</Name>
+          <Source dwd:design-time-name="3d5e7df8-1675-4077-aeca-5440b3ad0ee3">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="0dc9fe97-70c0-4c36-af11-e23261f6700d">
+              <TableID>dbo_Vista_detalle_Dta</TableID>
+              <ColumnID>Pax_trf</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="810f3256-c929-496f-8e8c-a47c90395ac5">
+          <ID>Pax Nad</ID>
+          <Name>Pax Nad</Name>
+          <Source dwd:design-time-name="d1975db3-d0e9-4111-aaef-072ac87f6f51">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="e9dc94a5-0cfb-42d6-a8ff-391e87aad8a8">
+              <TableID>dbo_Vista_detalle_Dta</TableID>
+              <ColumnID>Pax_nad</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="4a612265-d5bb-4f0d-9621-872a0f2310bf">
+          <ID>Pax Cia</ID>
+          <Name>Pax Cia</Name>
+          <Source dwd:design-time-name="8508ad1d-0f6d-4a88-877b-cf687d6fd74d">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="6b8fe14f-ec40-4d4b-8b84-78ec99c715fb">
+              <TableID>dbo_Vista_detalle_Dta</TableID>
+              <ColumnID>Pax_cia</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="912cf7c9-f9d4-4320-b94e-97f984da2c1b">
+          <ID>Pax Ec</ID>
+          <Name>Pax Ec</Name>
+          <Source dwd:design-time-name="5174ace7-a652-44fb-8678-1f5afdf01a3e">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="182404bb-4ce4-4d4a-8318-6d1d8d7c3890">
+              <TableID>dbo_Vista_detalle_Dta</TableID>
+              <ColumnID>Pax_ec</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="ea65692d-dc14-42ac-bd48-ed0096d44866">
+          <ID>CG Pe</ID>
+          <Name>CG Pe</Name>
+          <Source dwd:design-time-name="efd4451e-ac7f-469d-80fe-81a05228f5eb">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="8ab36850-c35d-4096-a447-0aaffa153a19">
+              <TableID>dbo_Vista_detalle_Dta</TableID>
+              <ColumnID>CG_pe</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="0bde0842-e846-4643-af78-8e8837295d4b">
+          <ID>CG Se</ID>
+          <Name>CG Se</Name>
+          <Source dwd:design-time-name="b336e271-fd55-49ca-b27f-5d288068efe9">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="2dcafc2d-fb83-4ec9-9073-0936050ab634">
+              <TableID>dbo_Vista_detalle_Dta</TableID>
+              <ColumnID>CG_se</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="8c2c3ddc-3605-4784-b259-afceb2d2f8c4">
+          <ID>CG Fl</ID>
+          <Name>CG Fl</Name>
+          <Source dwd:design-time-name="6b5d9c34-d9dd-4f7f-82da-8325a859e9a7">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="24152030-41af-4c4c-af6e-a51b911ec213">
+              <TableID>dbo_Vista_detalle_Dta</TableID>
+              <ColumnID>CG_fl</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="d15df310-0312-4213-b0c6-10b864a5da8d">
+          <ID>CG Cor</ID>
+          <Name>CG Cor</Name>
+          <Source dwd:design-time-name="90d044c1-e50a-4a48-854c-3705e7a742f0">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="c938a41f-b9d3-4ead-81b5-1ac9f137f164">
+              <TableID>dbo_Vista_detalle_Dta</TableID>
+              <ColumnID>CG_cor</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="48698b60-3010-4dd6-8afe-370363e95cae">
+          <ID>CG Equ</ID>
+          <Name>CG Equ</Name>
+          <Source dwd:design-time-name="787be583-ba7a-4fd9-9c19-1f2f4f554719">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="8a1b0616-1c35-4bc7-b2e7-706e2f00bc00">
+              <TableID>dbo_Vista_detalle_Dta</TableID>
+              <ColumnID>CG_equ</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="a4da22b3-c49e-4289-b426-e1a4ad2198dd">
+          <ID>Total Pax</ID>
+          <Name>Total Pax</Name>
+          <Source dwd:design-time-name="8b3b7526-b341-4802-bde2-24c8ceec6f15">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="e0625dd1-7236-49f8-b783-f6e763f5e69e">
+              <TableID>dbo_Vista_detalle_Dta</TableID>
+              <ColumnID>Total_pax</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="efce8f44-e647-4761-b67d-238685b15fea">
+          <ID>Total CG</ID>
+          <Name>Total CG</Name>
+          <Source dwd:design-time-name="98ed4eb0-fb97-44eb-ad10-548858b4f22f">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="39590936-8302-48dc-bfdd-9078adf07c32">
+              <TableID>dbo_Vista_detalle_Dta</TableID>
+              <ColumnID>Total_CG</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="d7f1e917-d8fc-468c-b4b0-0d87e5e181b6">
+          <ID>Vista Detalle Dta Count</ID>
+          <Name>Vista Detalle Dta Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="2c8ecf97-cf27-4ad2-9fa8-a396ef3f1fdd">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="fc23cc4d-1279-4230-8b2e-3a95907bbc8b">
+              <TableID>dbo_Vista_detalle_Dta</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="2378ccfe-97e1-4c15-9772-802d7186afe6">
+          <CubeDimensionID>Vista Detalle Dta</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="cab6fa0a-bd7c-4848-92a1-66c857985e24">
+              <AttributeID>Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="fbc60f76-8cc8-479e-8e19-21c47c62f826">
+                  <DataType>BigInt</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f72e50f8-7c22-4afa-abd0-440c9e61a3b3">
+                    <TableID>dbo_Vista_detalle_Dta</TableID>
+                    <ColumnID>id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="0f933951-da06-4f1c-9248-178a1bb4a7af">
+          <CubeDimensionID>Vista Cabecera Dta</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="9d9b81d6-4288-427d-a90d-8e715773278a">
+              <AttributeID>Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="3009b314-0a48-46ab-978f-c4eead2603d2">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="34b4282e-0c19-4cfb-a9da-e5078cd69246">
+                    <TableID>dbo_Vista_detalle_Dta</TableID>
+                    <ColumnID>id_operation</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="7eea400e-55b3-4c49-bf1c-a4c8e06da916">
+          <CubeDimensionID>DIMTIME</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="debad884-def9-4bc4-b6ed-78d7f5368092">
+              <AttributeID>FECHA</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Vista Cabecera Dta</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>Fecha Arribo Sh</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="dbbe2b3b-b9a5-488e-a4d0-0545b9d92774">
+          <CubeDimensionID>DIMTIME 1</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="9ea26ed6-97e1-4876-95ef-1edfdb0f7937">
+              <AttributeID>FECHA</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Vista Cabecera Dta</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>Fecha Arribo Sh</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="30164ad8-56ee-4a6f-a590-6c49b8834ce3">
+          <CubeDimensionID>Id Operation - AERODROMO SALIDA</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="2c92e3b2-ad17-4df8-a79f-3b00a71096bf">
+              <AttributeID>PUNTORUTA OACI</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Vista Cabecera Dta</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>Aerodrome</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="03a06e6b-763a-4a5f-8068-3784a79b9e5e">
+          <CubeDimensionID>Id Operation - AERODROMO DESTINO</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="5a981a4c-615e-452c-a556-7aea054993e0">
+              <AttributeID>PUNTORUTA OACI</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Vista Cabecera Dta</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>Aerodrome2</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="668c4d2e-23a3-4db2-8160-41ffec320cd0">
+    <DataSourceViewID>i FIS_estdistica</DataSourceViewID>
+  </Source>
+</Cube>

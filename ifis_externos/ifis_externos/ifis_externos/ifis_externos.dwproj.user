@@ -1,0 +1,57 @@
+<AnalysisServicesUserConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <UserIDs>
+          <ConfigurationSetting>
+            <Id>i FIS</Id>
+            <Name>i FIS</Name>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>WIN-SQLSERV-01a</Id>
+            <Name>WIN-SQLSERV-01a</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA6eZeUYJm6Ua+shbLo4FhmgAAAAAgAAAAVwBJAE4ALQBTAFEATABTAEUAUgBWAC0AMAAxAGEAAAADZgAAwAAAABAAAABCcLe/u4vPSJajlepJhOMAAAAAAASAAACgAAAAEAAAAEe5EYSnqvnW/9nJmk4e3wAYAAAA8Q1yTM41fI/LTDXx/YDx7Pw/NgvlRKmPFAAAAEc64b9AsuWrXhWUTuMsQbENlxH2</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>DataIFIS</Id>
+            <Name>DataIFIS</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA6eZeUYJm6Ua+shbLo4FhmgAAAAASAAAARABhAHQAYQBJAEYASQBTAAAAA2YAAMAAAAAQAAAAZF2L9n1D1zreT8pOoCywYQAAAAAEgAAAoAAAABAAAAC1/t0NYNLV48t1eWx4C57mGAAAAL1/KOyvp/IVDzgUNE4I2X9ALzM5SN2GDBQAAAA6WxZEE/CVIu7+yS27dla3UagItg==</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>WIN-SQLSERV-01</Id>
+            <Name>WIN-SQLSERV-01</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEWKjFazjbky8OrkRiQAsGwAAAAAeAAAAVwBJAE4ALQBTAFEATABTAEUAUgBWAC0AMAAxAAAAA2YAAMAAAAAQAAAAhE46aeGsEk2wBw0z146gxQAAAAAEgAAAoAAAABAAAABJ60k7OgXZG7O+h7/v1FnQGAAAAOW/Nv7nDhnx+c2pzInPBkkpD8KKFXAY5hQAAAAg2KLpmOx25pTzOIBC9ix+afr/sw==</Value>
+          </ConfigurationSetting>
+        </UserIDs>
+        <UserPasswords>
+          <ConfigurationSetting>
+            <Id>i FIS</Id>
+            <Name>i FIS</Name>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>WIN-SQLSERV-01a</Id>
+            <Name>WIN-SQLSERV-01a</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA6eZeUYJm6Ua+shbLo4FhmgAAAAAgAAAAVwBJAE4ALQBTAFEATABTAEUAUgBWAC0AMAAxAGEAAAADZgAAwAAAABAAAADbeVoq6pUBGilPcs1hxYhhAAAAAASAAACgAAAAEAAAAB7y+sGXmUSv103/fJPPZpMYAAAA0+6HsTfj66N55MXQBe24KQsgF1ABjpzqFAAAAMj2MLk0oK9f87WbrSncfpKNG/Jt</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>DataIFIS</Id>
+            <Name>DataIFIS</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA6eZeUYJm6Ua+shbLo4FhmgAAAAASAAAARABhAHQAYQBJAEYASQBTAAAAA2YAAMAAAAAQAAAAuHFmFEQx4auDBB45+k4aZwAAAAAEgAAAoAAAABAAAAC8b+BPLM1Bmm3ML5vHUJFNGAAAAEPVAmc1sUAL1qGKs9oPQYgB26nrJgS70RQAAAAEkJQbgXICvO5YVbMTvLURh8UtuA==</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>WIN-SQLSERV-01</Id>
+            <Name>WIN-SQLSERV-01</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEWKjFazjbky8OrkRiQAsGwAAAAAeAAAAVwBJAE4ALQBTAFEATABTAEUAUgBWAC0AMAAxAAAAA2YAAMAAAAAQAAAASuZXnWDbUSQABeD6rVVqewAAAAAEgAAAoAAAABAAAABdB5hIpmNnkQH6syi3ZgDrGAAAAOpF1MhYibevksP9Nmhz5NYmooChMkc+2xQAAACozbu2h4Hc/g8wjRJML4VlA5hC3w==</Value>
+          </ConfigurationSetting>
+        </UserPasswords>
+        <TargetServer>win-sqlserv-01</TargetServer>
+        <TargetDatabase>ifis_externos</TargetDatabase>
+        <StartObject>
+          <ObjectId></ObjectId>
+          <ObjectType>Current</ObjectType>
+        </StartObject>
+      </Options>
+    </Configuration>
+  </Configurations>
+</AnalysisServicesUserConfiguration>

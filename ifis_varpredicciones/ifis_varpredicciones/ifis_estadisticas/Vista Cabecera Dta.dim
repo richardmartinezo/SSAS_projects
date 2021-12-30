@@ -1,0 +1,619 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="c51f618d-3fe3-44da-95ca-4228a218900e" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Vista Cabecera Dta</ID>
+  <Name>Vista Cabecera Dta</Name>
+  <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4412" scrolltop="-7647" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="6853" y="13891" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="vista_cabecera_dta_filtro_fechas" left="-3658" top="-4498" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3545" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000d90d000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_vista_cabecera_dta" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-4412</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-7647</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-3658</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-4498</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="173">
+            <Shape Id="Id" Expanded="true">
+              <Attributes>
+                <Attribute Id="Id" />
+                <Attribute Id="Aerodrome2" />
+                <Attribute Id="Aerodrome" />
+                <Attribute Id="Company" />
+                <Attribute Id="Destino" />
+                <Attribute Id="Fecha Modifica" />
+                <Attribute Id="Fecha Arribo Sh" />
+                <Attribute Id="Registry" />
+                <Attribute Id="Nacionality" />
+                <Attribute Id="Nombre Cia" />
+                <Attribute Id="Nrutas" />
+                <Attribute Id="Callsign" />
+                <Attribute Id="Ruta Aerea" />
+                <Attribute Id="Ruta Arpto" />
+                <Attribute Id="Ruta Ciudad" />
+                <Attribute Id="Ruta Iata" />
+                <Attribute Id="Ruta Oaci" />
+                <Attribute Id="Ruta Pais" />
+                <Attribute Id="Aircraft" />
+                <Attribute Id="Type" />
+                <Attribute Id="Tipo Servicio" />
+                <Attribute Id="Tipo Transporte" />
+                <Attribute Id="Usuario Modifica" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T05:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="eddd63d2-cc2b-4189-a29f-01f77c3913d8">
+    <DataSourceViewID>i FIS_estdistica</DataSourceViewID>
+  </Source>
+  <UnknownMember>Hidden</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="6c03b2cd-ba26-4ff4-9cb2-472a46e2f55e">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <DimensionPermissions>
+    <DimensionPermission dwd:design-time-name="f7d5ca74-6d2b-456d-aee0-856aa2feb787">
+      <ID>DimensionPermission</ID>
+      <Name>DimensionPermission</Name>
+      <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
+      <RoleID>Role</RoleID>
+      <Read>Allowed</Read>
+      <AttributePermissions>
+        <AttributePermission dwd:design-time-name="e3edfa29-ddeb-41ac-a96f-1b27507343de">
+          <AttributeID>Company</AttributeID>
+          <AllowedSet>{[Vista Cabecera Dta].[COMPANIA].&amp;[TAE]}</AllowedSet>
+        </AttributePermission>
+      </AttributePermissions>
+    </DimensionPermission>
+    <DimensionPermission dwd:design-time-name="80e2e42f-36db-479b-adfc-e0d6b07efe47">
+      <ID>DimensionPermission 1</ID>
+      <Name>DimensionPermission 1</Name>
+      <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
+      <RoleID>Role 1</RoleID>
+      <Process>true</Process>
+      <ReadDefinition>Allowed</ReadDefinition>
+      <Read>Allowed</Read>
+      <AttributePermissions>
+        <AttributePermission dwd:design-time-name="a9dac1de-a1e3-4531-962e-64be39a2e24b">
+          <AttributeID>Company</AttributeID>
+          <AllowedSet>[Vista Cabecera Dta].[COMPANIA].&amp;[TAE]</AllowedSet>
+        </AttributePermission>
+      </AttributePermissions>
+    </DimensionPermission>
+  </DimensionPermissions>
+  <Attributes>
+    <Attribute dwd:design-time-name="398f9937-e270-447c-a975-e5753caf1957">
+      <ID>Id</ID>
+      <Name>Id</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="81b6a6d3-9e06-4604-b44c-bff234af7626">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="99f52300-a7db-4bff-84ad-1efa52c44be8">
+            <TableID>dbo_vista_cabecera_dta</TableID>
+            <ColumnID>id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="ad350dfc-2924-4271-9ab9-175a8ec64851">
+          <AttributeID>Fecha Arribo Sh</AttributeID>
+          <Name>FECHA_ARRIBO</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="101e451a-7919-4839-921a-89c0dc84348f">
+          <AttributeID>Aerodrome</AttributeID>
+          <Name>AERODROMO_SALIDA</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="285d4200-793b-47c0-85d3-9cf23c0a0691">
+          <AttributeID>Aerodrome2</AttributeID>
+          <Name>AERODROMO_DESTINO</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="7f4aae35-9d78-4395-ae49-a43562dead8a">
+          <AttributeID>Callsign</AttributeID>
+          <Name>NUM_VUELO</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a50bcac5-7aa9-40cd-ad50-c8657519b224">
+          <AttributeID>Type</AttributeID>
+          <Name>TIPO_OPERACION</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="fdcab63f-9902-4252-b215-926efd17149e">
+          <AttributeID>Nacionality</AttributeID>
+          <Name>NACIONALIDAD</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="458ebdd6-032b-4452-92ac-d6dd9957cccb">
+          <AttributeID>Aircraft</AttributeID>
+          <Name>TIPO_AERONAVE</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="31004a66-90c7-4b94-984e-856857678679">
+          <AttributeID>Registry</AttributeID>
+          <Name>MATRICULA_AERONAVE</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="2b741543-9ef1-4fd8-9a00-fc05d070b6f7">
+          <AttributeID>Destino</AttributeID>
+          <Name>DESTINO</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8ef96c7d-a0eb-4c56-a803-a7a0e9fa3c1b">
+          <AttributeID>Ruta Aerea</AttributeID>
+          <Name>RUTA_AEREA</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="2eb49309-6748-412d-99d2-44662e33f368">
+          <AttributeID>Nrutas</AttributeID>
+          <Name>NUM_RUTAS</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a1ff3dac-a327-4351-ac1e-14a1f9e2cdda">
+          <AttributeID>Tipo Transporte</AttributeID>
+          <Name>TIPO_TRANSPORTE</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="4760fa95-e1df-45da-9af4-98fcf56a09bb">
+          <AttributeID>Tipo Servicio</AttributeID>
+          <Name>TIPO_SERVICIO</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="37bf44f4-e50e-4388-806e-950d9802add7">
+          <AttributeID>Ruta Oaci</AttributeID>
+          <Name>RUTA_OACI</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e96c51b1-f748-4bfc-ba5a-e2b4b0433030">
+          <AttributeID>Ruta Iata</AttributeID>
+          <Name>RUTA_IATA</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a0867f98-559e-4e19-9e58-c587ed56fb1b">
+          <AttributeID>Ruta Pais</AttributeID>
+          <Name>RUTA_PAIS</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8a33340f-03e5-49cd-8a05-63db7e19d975">
+          <AttributeID>Ruta Arpto</AttributeID>
+          <Name>RUTA_ARPTO</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="41913c4f-bf56-445d-aed5-742f3f9d48cb">
+          <AttributeID>Ruta Ciudad</AttributeID>
+          <Name>RUTA_CIUDAD</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b5c9fc83-38c4-4cc0-92b6-f9630b706163">
+          <AttributeID>Company</AttributeID>
+          <Name>COMPANIA</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="59783216-ef1c-45f0-823b-575ca748c615">
+          <AttributeID>Nombre Cia</AttributeID>
+          <Name>NOMBRE_COMPANIA</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="54772ea2-66f3-4f88-8c5c-d497c7ca3b1c">
+          <AttributeID>Fecha Modifica</AttributeID>
+          <Name>FECHA MODIFICA</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="985f5e00-0c1f-4207-b3a1-1005f6f205d8">
+          <AttributeID>Usuario Modifica</AttributeID>
+          <Name>USUARIO MODIFICA</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="26ab945d-0181-4c16-9bc4-8b57cd3f02a8">
+      <ID>Fecha Arribo Sh</ID>
+      <Name>FECHA_ARRIBO</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9c5eb319-f6bc-4373-9bc7-ec8374ac7a58">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="dfcdaad9-e7e5-4471-a903-a605d14a7d75">
+            <TableID>dbo_vista_cabecera_dta</TableID>
+            <ColumnID>fecha_arribo_sh</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a9f8e043-ea4f-4823-8515-2b2361dcf937">
+      <ID>Aerodrome</ID>
+      <Name>AERODROMO_SALIDA</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="14401def-f235-4024-9d16-6de42248c08f">
+          <DataType>WChar</DataType>
+          <DataSize>8</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="05b68fc6-b9d3-4865-bbc6-2922be599b37">
+            <TableID>dbo_vista_cabecera_dta</TableID>
+            <ColumnID>aerodrome</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f145a9ee-b232-4493-a9ad-36eadb378e35">
+      <ID>Aerodrome2</ID>
+      <Name>AERODROMO_DESTINO</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="51c8d71e-a500-4203-aff0-49a2c633a47c">
+          <DataType>WChar</DataType>
+          <DataSize>8</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d85ba625-cd91-4155-ac55-c800d8b5f5ae">
+            <TableID>dbo_vista_cabecera_dta</TableID>
+            <ColumnID>aerodrome2</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="fc7fb3b7-5321-413c-83e2-e3dac1f1ee33">
+      <ID>Callsign</ID>
+      <Name>NUM_VUELO</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c8e406b3-edfb-46fc-a436-210369373700">
+          <DataType>WChar</DataType>
+          <DataSize>40</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="18920e2e-aa74-4669-8e79-00ca3264b55e">
+            <TableID>dbo_vista_cabecera_dta</TableID>
+            <ColumnID>callsign</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="7dc99ecf-605c-4fd3-93b8-f71e88b2dc38">
+      <ID>Type</ID>
+      <Name>TIPO_OPERACION</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5379ef42-a65d-43de-83d7-810388d81d3f">
+          <DataType>WChar</DataType>
+          <DataSize>2</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8dbe5acb-e8ce-468f-8c42-1c3ed1d8592b">
+            <TableID>dbo_vista_cabecera_dta</TableID>
+            <ColumnID>type</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a9957e9d-4aaa-49a8-af08-fdc502e4e575">
+      <ID>Nacionality</ID>
+      <Name>NACIONALIDAD</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d3c5486d-c53f-460d-94f1-ebfbf5299d53">
+          <DataType>WChar</DataType>
+          <DataSize>2</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="fe7e864e-ba65-4911-bc68-80f5cb8bad19">
+            <TableID>dbo_vista_cabecera_dta</TableID>
+            <ColumnID>nacionality</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5a723d01-02a6-4df0-b245-75b4c6c5291b">
+      <ID>Aircraft</ID>
+      <Name>TIPO_AERONAVE</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b0e6aa5a-a26b-4aa3-988d-d106dae436eb">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1feb9e85-d157-44f5-81ae-1d338974e104">
+            <TableID>dbo_vista_cabecera_dta</TableID>
+            <ColumnID>aircraft</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f4b3a3a9-e835-4a13-a9b1-86076420376e">
+      <ID>Registry</ID>
+      <Name>MATRICULA_AERONAVE</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f8bbb670-2113-4741-9a8e-0a4083fcf0a4">
+          <DataType>WChar</DataType>
+          <DataSize>40</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e4d012d5-1743-4952-8cdc-98d43360937b">
+            <TableID>dbo_vista_cabecera_dta</TableID>
+            <ColumnID>registry</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b3792d8c-61ce-4160-a054-f4ff6514949f">
+      <ID>Destino</ID>
+      <Name>DESTINO</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0b50e96e-f3f5-4ab2-b360-fafd82a14b8e">
+          <DataType>WChar</DataType>
+          <DataSize>8</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="21acc112-d816-42f7-80e9-77815f7051b6">
+            <TableID>dbo_vista_cabecera_dta</TableID>
+            <ColumnID>destino</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4813b6d6-da04-4798-9da5-acc9ca285b50">
+      <ID>Ruta Aerea</ID>
+      <Name>RUTA_AEREA</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="af7f53d3-0dc8-4e83-8791-794514308147">
+          <DataType>WChar</DataType>
+          <DataSize>300</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c75784e2-1a92-40d4-a4fb-d8a1609bfede">
+            <TableID>dbo_vista_cabecera_dta</TableID>
+            <ColumnID>ruta_aerea</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2dda2557-01c3-4d30-9ab7-edc9119bd0bb">
+      <ID>Nrutas</ID>
+      <Name>NUM_RUTAS</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="594c6cd4-853e-4237-b902-d429f05295b5">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7af29cb2-77dc-4ab9-9e85-52453a5ff244">
+            <TableID>dbo_vista_cabecera_dta</TableID>
+            <ColumnID>nrutas</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3afb02a9-2b7a-40c4-88ba-957111e129da">
+      <ID>Tipo Transporte</ID>
+      <Name>TIPO_TRANSPORTE</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5527dcc7-1618-4d48-ba42-430a1769c894">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f2712bc4-0c3b-4c15-a8cb-966049a77ec0">
+            <TableID>dbo_vista_cabecera_dta</TableID>
+            <ColumnID>tipo_transporte</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="29243233-e8c5-4e83-85dc-6fbb55c3f605">
+      <ID>Tipo Servicio</ID>
+      <Name>TIPO_SERVICIO</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b9d804df-b889-4d89-adef-a4cfe280c80a">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="115c320c-5ada-49c8-8c26-94c1c300ecc9">
+            <TableID>dbo_vista_cabecera_dta</TableID>
+            <ColumnID>tipo_servicio</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="cac44914-ad5a-434e-b4fe-ed02b05b6236">
+      <ID>Ruta Oaci</ID>
+      <Name>RUTA_OACI</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ac1cb286-99d6-401b-8e7b-caf21fd10aee">
+          <DataType>WChar</DataType>
+          <DataSize>400</DataSize>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="60f5cf2e-55ef-4745-8b21-5fe7e4969572">
+            <TableID>dbo_vista_cabecera_dta</TableID>
+            <ColumnID>ruta_oaci</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5b61d966-4c33-4b2d-ae68-c9ec11e7e7ac">
+      <ID>Ruta Iata</ID>
+      <Name>RUTA_IATA</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="baf71d50-27d5-4bbd-9580-bf301e402022">
+          <DataType>WChar</DataType>
+          <DataSize>400</DataSize>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c9fde25e-4e0e-4398-b01b-4134eb748517">
+            <TableID>dbo_vista_cabecera_dta</TableID>
+            <ColumnID>ruta_iata</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4f7e743e-3b52-4c24-b713-3fed272cc16d">
+      <ID>Ruta Pais</ID>
+      <Name>RUTA_PAIS</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ec0e68bf-5141-4e94-b68a-92343f17a301">
+          <DataType>WChar</DataType>
+          <DataSize>400</DataSize>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="be9a609b-8f54-4f5d-af43-bf0bb452f987">
+            <TableID>dbo_vista_cabecera_dta</TableID>
+            <ColumnID>ruta_pais</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d2b93435-2973-41ca-8175-a3b8268ad7a3">
+      <ID>Ruta Arpto</ID>
+      <Name>RUTA_ARPTO</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="05a28e51-ae6a-4660-a282-11ac3521db74">
+          <DataType>WChar</DataType>
+          <DataSize>400</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="65cd526e-0d2b-400a-b070-1871180fcb22">
+            <TableID>dbo_vista_cabecera_dta</TableID>
+            <ColumnID>ruta_arpto</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="cb4f2bf4-afc5-4f40-bc95-fbd25c0a14d1">
+      <ID>Ruta Ciudad</ID>
+      <Name>RUTA_CIUDAD</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9b6a7c8a-a1ec-4a8a-a8ef-cf646fc8b3b7">
+          <DataType>WChar</DataType>
+          <DataSize>400</DataSize>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e1f58423-7398-4364-b283-5dca78892f84">
+            <TableID>dbo_vista_cabecera_dta</TableID>
+            <ColumnID>ruta_ciudad</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="679e027a-c0e9-45b8-852d-f7ac4a84f7cd">
+      <ID>Company</ID>
+      <Name>COMPANIA</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f5412982-d3c1-4042-9a19-edfd83a24a38">
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c191d173-e060-4d8e-9e45-d264502c931f">
+            <TableID>dbo_vista_cabecera_dta</TableID>
+            <ColumnID>company</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="cb543772-ed3d-48d9-8462-c05adad236c2">
+      <ID>Nombre Cia</ID>
+      <Name>NOMBRE_COMPANIA</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e90d359a-acae-4e2e-931f-997266f8e200">
+          <DataType>WChar</DataType>
+          <DataSize>129</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c9df9d1f-7a9d-45eb-ba46-c906866d82cb">
+            <TableID>dbo_vista_cabecera_dta</TableID>
+            <ColumnID>Nombre_cia</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="31440689-eea5-4bd3-9283-24f0418e7f94">
+      <ID>Fecha Modifica</ID>
+      <Name>FECHA MODIFICA</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2c8259e4-59db-4578-90fe-cca340b54fed">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="fe66628b-2f39-450f-bb38-8004caf55962">
+            <TableID>dbo_vista_cabecera_dta</TableID>
+            <ColumnID>fecha_modifica</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="07382d26-e2dd-48e0-8361-26e2861bde98">
+      <ID>Usuario Modifica</ID>
+      <Name>USUARIO MODIFICA</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d037b3c8-3bf4-47fa-8b1c-30da5b35d692">
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="32542401-7fa2-4721-b6d3-5450f083a4f5">
+            <TableID>dbo_vista_cabecera_dta</TableID>
+            <ColumnID>usuario_modifica</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

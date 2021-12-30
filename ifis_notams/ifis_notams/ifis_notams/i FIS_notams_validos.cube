@@ -1,0 +1,240 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="e5314ac4-4dae-4758-8b16-0ed9489bbf2f" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>i FIS_notams_validos</ID>
+  <Name>i FIS_notams_validos</Name>
+  <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="8" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-8156" scrolltop="-3479" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="20082" y="11959" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Vista_notams" left="-1171" top="370" logicalid="4" controlid="1" masterid="0" hint1="0" hint2="0" width="3731" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000930e000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Vista_notams" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DIMTIME" left="3935" top="-1441" logicalid="5" controlid="2" masterid="0" hint1="0" hint2="0" width="3810" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000e20e000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DIMTIME" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="2260" top="110" logicalid="6" controlid="3" masterid="0" hint1="0" hint2="0" width="1975" height="860" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Vista_notams-DIMTIME]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="20" destattachpoint="15" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="3935" y="509" />
+              <point x="3248" y="509" />
+              <point x="3248" y="670" />
+              <point x="2560" y="670" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-8156</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-3479</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-1171</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-1441</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T05:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="05e16430-6eb6-4ef4-bd53-7937b25cb352">
+      <ID>Vista Notams 1</ID>
+      <Name>Vista Notams 1</Name>
+      <DimensionID>Vista Notams 1</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="cd4bdc09-941b-481e-8e02-31d58d3209d0">
+          <AttributeID>Vistaid</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8e475a54-a8d9-4da2-b920-734f996c15df">
+          <AttributeID>Fecha Inicio Utc Sh</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0bc248ee-a205-4f35-9309-f738577d5b21">
+          <AttributeID>Codigo Not 1</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e6c57e6d-8e4a-4efc-8165-6d53d2b39155">
+          <AttributeID>Codigo Not 2</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="995f646b-a846-4c84-8180-dfdb914ba85f">
+          <AttributeID>Fecha Inicio Utc</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6069352c-445b-4d3b-8314-6d8392dde1dd">
+          <AttributeID>Fecha Fin Utc</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="84d1e7eb-e950-452c-b0eb-6a98c17cc7ee">
+          <AttributeID>Area Influencia</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="138daf5b-3336-4523-900d-405c9e4d11e4">
+          <AttributeID>Casilla E</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ccb5be92-72cb-45f2-a1aa-cbdb3c1ad27e">
+          <AttributeID>Casilla A</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="24eccd6d-d453-4512-8235-12f15afca461">
+      <ID>DIMTIME validos</ID>
+      <Name>DIMTIME validos</Name>
+      <DimensionID>DIMTIME 1</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="f0df382f-6de7-4656-941c-ddadade45e7b">
+          <AttributeID>FECHA</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="68420d70-8154-43fe-81c0-70a40aa2b665">
+          <AttributeID>ANIO</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6ca23fe9-2f46-4165-b0b9-23776d99bf25">
+          <AttributeID>MES</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="72facdd1-ad01-438d-a4bd-319c6190c42c">
+          <AttributeID>WEEK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="49e1416c-fe9e-4f92-804c-32b7f92e6fba">
+          <AttributeID>Diamesorden</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="38e0e2ae-b246-4eca-b51a-f6a3644eadc8">
+          <AttributeID>MONTHYEAR</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7aaf54da-6afe-434c-a4e0-00bcbed72ef7">
+          <AttributeID>YEARMONTH</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="02b5d879-970e-42cf-9d42-22519ee48aa4">
+          <AttributeID>TRIMESTRE</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9d38ac21-9525-4d5d-9330-a78226548c96">
+          <AttributeID>DATAKEY</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="4ea4521e-d98f-4aa7-9030-6b750acb7c0a">
+      <ID>Vista Notams</ID>
+      <Name>Vista Notams</Name>
+      <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T05:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="3e2d6c94-13ef-4eca-959d-6ff9de8ccfbe">
+          <ID>Recuento Vista Notams</ID>
+          <Name>Recuento Vista Notams</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="53fba72d-a459-4832-adae-65ec610f8963">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="5c6cfa3d-22a1-4b11-af91-5098900dd963">
+              <TableID>dbo_Vista_notams</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="cfd8e272-bafb-45f5-9763-645dfc3daf27">
+          <CubeDimensionID>Vista Notams 1</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="a533cec3-5144-48b1-beb0-697d512edf52">
+              <AttributeID>Vistaid</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="afcbbdc3-9b2d-4337-90b0-737f7ff39fbf">
+                  <DataType>BigInt</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f7d41d5c-90e4-4d2b-a317-fec458ff3098">
+                    <TableID>dbo_Vista_notams</TableID>
+                    <ColumnID>vistaid</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="75d91905-343e-4f23-9f5f-a51b42611636">
+          <CubeDimensionID>DIMTIME validos</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="e08d8b17-4792-4bd5-9a02-6aafcaf640c9">
+              <AttributeID>FECHA</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="2305d92f-91e5-4d30-831a-f63461b33c40">
+                  <DataType>Date</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4ba51dc6-0cf9-4ea7-bab3-f53b99e1cd27">
+                    <TableID>dbo_Vista_notams</TableID>
+                    <ColumnID>fecha_inicio_utc_sh</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="c6e90444-c59a-4a97-9dbb-1e6f10c33316">
+    <DataSourceViewID>i FIS_notams_validos</DataSourceViewID>
+  </Source>
+</Cube>
